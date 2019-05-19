@@ -1,0 +1,1980 @@
+<project>
+    <version>6</version>
+    <parameters>
+        <manager_enabled type="bool">0</manager_enabled>
+        <scenes type="jsvalue">&quot;&quot;&#x0A;</scenes>
+        <color_palette type="jsvalue">&quot;&quot;&#x0A;</color_palette>
+        <manager_ON type="bool">1</manager_ON>
+        <current_scene type="jsvalue">&quot;&quot;&#x0A;</current_scene>
+        <current_scene_id type="string"></current_scene_id>
+    </parameters>
+    <workspaces>
+        <workspace>
+            <name>root</name>
+            <items>
+                <item>content:main.py</item>
+                <item>fixture:AdalgisaFront1</item>
+                <item>fixture:AdalgisaFront2</item>
+                <item>fixture:AdalgisaFront3</item>
+                <item>fixture:AdalgisaFront4</item>
+                <item>fixture:AdalgisaFront5</item>
+                <item>fixture:AdalgisaFront6</item>
+                <item>fixture:AdalgisaFront7</item>
+                <item>fixture:AdalgisaFront8</item>
+                <item>fixture:AdalgisaFront9</item>
+                <item>fixture:AdalgisaFront10</item>
+                <item>fixture:AdalgisaFront11</item>
+                <item>fixture:AdalgisaFront12</item>
+                <item>fixture:AdalgisaFront13</item>
+                <item>fixture:AdalgisaFront14</item>
+                <item>fixture:AdalgisaBack1</item>
+                <item>fixture:AdalgisaBack2</item>
+                <item>fixture:AdalgisaBack3</item>
+                <item>fixture:AdalgisaBack4</item>
+                <item>fixture:AdalgisaBack5</item>
+                <item>fixture:AdalgisaBack6</item>
+                <item>fixture:AdalgisaBack7</item>
+                <item>fixture:AdalgisaBack8</item>
+                <item>fixture:AdalgisaBack9</item>
+                <item>fixture:AdalgisaBack10</item>
+                <item>fixture:AdalgisaBack11</item>
+                <item>fixture:AdalgisaBack12</item>
+                <item>fixture:AdalgisaBack13</item>
+                <item>fixture:AdalgisaBack14</item>
+                <item>fixture:AdalgisaLegRight</item>
+                <item>fixture:AdalgisaLegRight 0</item>
+                <item>fixture:AdalgisaLegRight 1</item>
+                <item>fixture:AdalgisaLegRight 2</item>
+                <item>fixture:AdalgisaLegRight 3</item>
+                <item>fixture:AdalgisaLegRight 4</item>
+                <item>fixture:AdalgisaLegRight 5</item>
+                <item>fixture:AdalgisaLegRight 6</item>
+                <item>fixture:AdalgisaLegRight 7</item>
+                <item>fixture:AdalgisaLegRight 8</item>
+                <item>fixture:AdalgisaLegRight 9</item>
+                <item>fixture:AdalgisaLegRight 10</item>
+                <item>fixture:AdalgisaLegRight 11</item>
+                <item>fixture:AdalgisaLegRight 12</item>
+                <item>fixture:AdalgisaLegRight 13</item>
+                <item>fixture:AdalgisaLegRight 14</item>
+                <item>fixture:AdalgisaLegRight 15</item>
+                <item>fixture:AdalgisaLegRight 16</item>
+                <item>fixture:AdalgisaLegRight 17</item>
+                <item>fixture:AdalgisaLegRight 18</item>
+                <item>fixture:AdalgisaLegRight 19</item>
+                <item>fixture:AdalgisaLegRight 20</item>
+                <item>fixture:AdalgisaLegLeft</item>
+                <item>fixture:AdalgisaLegLeft 0</item>
+                <item>fixture:AdalgisaLegLeft 1</item>
+                <item>fixture:AdalgisaLegLeft 2</item>
+                <item>fixture:AdalgisaLegLeft 3</item>
+                <item>fixture:AdalgisaLegLeft 4</item>
+                <item>fixture:AdalgisaLegLeft 5</item>
+                <item>fixture:AdalgisaLegLeft 6</item>
+                <item>fixture:AdalgisaLegLeft 7</item>
+                <item>fixture:AdalgisaLegLeft 8</item>
+                <item>fixture:AdalgisaLegLeft 9</item>
+                <item>fixture:AdalgisaLegLeft 10</item>
+                <item>fixture:AdalgisaLegLeft 11</item>
+                <item>fixture:AdalgisaLegLeft 12</item>
+                <item>fixture:AdalgisaLegLeft 13</item>
+                <item>fixture:AdalgisaLegLeft 14</item>
+                <item>fixture:AdalgisaLegLeft 15</item>
+                <item>fixture:AdalgisaLegLeft 16</item>
+                <item>fixture:AdalgisaLegLeft 17</item>
+                <item>fixture:AdalgisaLegLeft 18</item>
+                <item>fixture:AdalgisaLegLeft 19</item>
+                <item>fixture:AdalgisaLegLeft 20</item>
+            </items>
+            <parameters>
+                <is_3D type="bool">0</is_3D>
+            </parameters>
+        </workspace>
+    </workspaces>
+    <fixtures>
+        <fixture>
+            <name>AdalgisaFront1</name>
+            <type>JS</type>
+            <num_lights>26</num_lights>
+            <positions>-0.873311 1.71952 0,-0.863311 1.71952 0,-0.853311 1.71952 0,-0.843311 1.71952 0,-0.833311 1.71952 0,-0.823311 1.71952 0,-0.813311 1.71952 0,-0.803311 1.71952 0,-0.793311 1.71952 0,-0.783311 1.71952 0,-0.773311 1.71952 0,-0.763311 1.71952 0,-0.753311 1.71952 0,-0.743311 1.71952 0,-0.733311 1.71952 0,-0.723311 1.71952 0,-0.713311 1.71952 0,-0.703311 1.71952 0,-0.693311 1.71952 0,-0.683311 1.71952 0,-0.673311 1.71952 0,-0.663311 1.71952 0,-0.653311 1.71952 0,-0.643311 1.71952 0,-0.633311 1.71952 0,-0.623311 1.71952 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.125,0,0,-0.1150000020861626,0,0,-0.1049999967217445,0,0,-0.0949999988079071,0,0,-0.08500000089406967,0,0,-0.07500000298023224,0,0,-0.06499999761581421,0,0,-0.05499999970197678,0,0,-0.04500000178813934,0,0,-0.03500000014901161,0,0,-0.02500000037252903,0,0,-0.01499999966472387,0,0,-0.004999999888241291,0,0,0.004999999888241291,0,0,0.01499999966472387,0,0,0.02500000037252903,0,0,0.03500000014901161,0,0,0.04500000178813934,0,0,0.05499999970197678,0,0,0.06499999761581421,0,0,0.07500000298023224,0,0,0.08500000089406967,0,0,0.0949999988079071,0,0,0.1049999967217445,0,0,0.1150000020861626,0,0,0.125,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:26}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.748311,  1.71952,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaFront2</name>
+            <type>JS</type>
+            <num_lights>26</num_lights>
+            <positions>-0.623312 1.69082 0,-0.633312 1.69079 0,-0.643312 1.69075 0,-0.653312 1.69072 0,-0.663311 1.69068 0,-0.673311 1.69065 0,-0.683311 1.69061 0,-0.693311 1.69058 0,-0.703311 1.69054 0,-0.713311 1.6905 0,-0.723311 1.69047 0,-0.733311 1.69043 0,-0.743311 1.6904 0,-0.753311 1.69036 0,-0.763311 1.69033 0,-0.773311 1.69029 0,-0.783311 1.69026 0,-0.793311 1.69022 0,-0.803311 1.69018 0,-0.813311 1.69015 0,-0.823311 1.69011 0,-0.83331 1.69008 0,-0.84331 1.69004 0,-0.85331 1.69001 0,-0.86331 1.68997 0,-0.87331 1.68994 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.125,0,0,-0.1150000020861626,0,0,-0.1049999967217445,0,0,-0.0949999988079071,0,0,-0.08500000089406967,0,0,-0.07500000298023224,0,0,-0.06499999761581421,0,0,-0.05499999970197678,0,0,-0.04500000178813934,0,0,-0.03500000014901161,0,0,-0.02500000037252903,0,0,-0.01499999966472387,0,0,-0.004999999888241291,0,0,0.004999999888241291,0,0,0.01499999966472387,0,0,0.02500000037252903,0,0,0.03500000014901161,0,0,0.04500000178813934,0,0,0.05499999970197678,0,0,0.06499999761581421,0,0,0.07500000298023224,0,0,0.08500000089406967,0,0,0.0949999988079071,0,0,0.1049999967217445,0,0,0.1150000020861626,0,0,0.125,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:26}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999994, -0.0035572,        0,        0&#x0A;0.0035572, -0.999994,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.748311,  1.69038,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaFront3</name>
+            <type>JS</type>
+            <num_lights>25</num_lights>
+            <positions>-0.868311 1.65632 0,-0.858311 1.65632 0,-0.848311 1.65632 0,-0.838311 1.65632 0,-0.828311 1.65632 0,-0.818311 1.65632 0,-0.808311 1.65632 0,-0.798311 1.65632 0,-0.788311 1.65632 0,-0.778311 1.65632 0,-0.768311 1.65632 0,-0.758311 1.65632 0,-0.748311 1.65632 0,-0.738311 1.65632 0,-0.728311 1.65632 0,-0.718311 1.65632 0,-0.708311 1.65632 0,-0.698311 1.65632 0,-0.688311 1.65632 0,-0.678311 1.65632 0,-0.668311 1.65632 0,-0.658311 1.65632 0,-0.648311 1.65632 0,-0.638311 1.65632 0,-0.628311 1.65632 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.119999997317791,0,0,-0.1099999994039536,0,0,-0.09999999403953552,0,0,-0.08999999612569809,0,0,-0.07999999821186066,0,0,-0.07000000029802322,0,0,-0.05999999865889549,0,0,-0.04999999701976776,0,0,-0.03999999910593033,0,0,-0.0299999974668026,0,0,-0.01999999769032001,0,0,-0.009999996982514858,0,0,2.682209121473988e-09,0,0,0.01000000257045031,0,0,0.02000000327825546,0,0,0.03000000305473804,0,0,0.04000000283122063,0,0,0.05000000447034836,0,0,0.06000000238418579,0,0,0.07000000029802322,0,0,0.08000000566244125,0,0,0.09000000357627869,0,0,0.1000000014901161,0,0,0.1099999994039536,0,0,0.1200000047683716,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:25}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.748311,  1.65632,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaFront4</name>
+            <type>JS</type>
+            <num_lights>24</num_lights>
+            <positions>-0.633312 1.62574 0,-0.643312 1.6257 0,-0.653312 1.62567 0,-0.663311 1.62563 0,-0.673311 1.6256 0,-0.683311 1.62556 0,-0.693311 1.62553 0,-0.703311 1.62549 0,-0.713311 1.62545 0,-0.723311 1.62542 0,-0.733311 1.62538 0,-0.743311 1.62535 0,-0.753311 1.62531 0,-0.763311 1.62528 0,-0.773311 1.62524 0,-0.783311 1.62521 0,-0.793311 1.62517 0,-0.803311 1.62513 0,-0.813311 1.6251 0,-0.82331 1.62506 0,-0.83331 1.62503 0,-0.84331 1.62499 0,-0.85331 1.62496 0,-0.86331 1.62492 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.1150000020861626,0,0,-0.1050000041723251,0,0,-0.0949999988079071,0,0,-0.08500000089406967,0,0,-0.07500000298023224,0,0,-0.06500000506639481,0,0,-0.05500000342726707,0,0,-0.04500000178813934,0,0,-0.03500000387430191,0,0,-0.02500000223517418,0,0,-0.0150000024586916,0,0,-0.005000002216547728,0,0,0.004999998025596142,0,0,0.01499999780207872,0,0,0.02499999850988388,0,0,0.03499999642372131,0,0,0.04499999806284904,0,0,0.05499999970197678,0,0,0.06499999761581421,0,0,0.07499999552965164,0,0,0.08500000089406967,0,0,0.0949999988079071,0,0,0.1049999967217445,0,0,0.114999994635582,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:24}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999994, -0.0035572,        0,        0&#x0A;0.0035572, -0.999994,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.748311,  1.62533,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaFront5</name>
+            <type>JS</type>
+            <num_lights>23</num_lights>
+            <positions>-0.858311 1.59286 0,-0.848311 1.59286 0,-0.838311 1.59286 0,-0.828311 1.59286 0,-0.818311 1.59286 0,-0.808311 1.59286 0,-0.798311 1.59286 0,-0.788311 1.59286 0,-0.778311 1.59286 0,-0.768311 1.59286 0,-0.758311 1.59286 0,-0.748311 1.59286 0,-0.738311 1.59286 0,-0.728311 1.59286 0,-0.718311 1.59286 0,-0.708311 1.59286 0,-0.698311 1.59286 0,-0.688311 1.59286 0,-0.678311 1.59286 0,-0.668311 1.59286 0,-0.658311 1.59286 0,-0.648311 1.59286 0,-0.638311 1.59286 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.1099999994039536,0,0,-0.1000000014901161,0,0,-0.08999999612569809,0,0,-0.07999999821186066,0,0,-0.07000000029802322,0,0,-0.05999999865889549,0,0,-0.05000000074505806,0,0,-0.03999999910593033,0,0,-0.02999999932944775,0,0,-0.01999999955296516,0,0,-0.009999999776482582,0,0,5.9604643443123e-10,0,0,0.01000000070780516,0,0,0.02000000141561031,0,0,0.0300000011920929,0,0,0.03999999910593033,0,0,0.05000000074505806,0,0,0.06000000238418579,0,0,0.07000000029802322,0,0,0.07999999821186066,0,0,0.09000000357627869,0,0,0.1000000014901161,0,0,0.1099999994039536,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:23}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.748311,  1.59286,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaFront6</name>
+            <type>JS</type>
+            <num_lights>20</num_lights>
+            <positions>-0.653312 1.55904 0,-0.663311 1.559 0,-0.673311 1.55897 0,-0.683311 1.55893 0,-0.693311 1.5589 0,-0.703311 1.55886 0,-0.713311 1.55882 0,-0.723311 1.55879 0,-0.733311 1.55875 0,-0.743311 1.55872 0,-0.753311 1.55868 0,-0.763311 1.55865 0,-0.773311 1.55861 0,-0.783311 1.55858 0,-0.793311 1.55854 0,-0.803311 1.5585 0,-0.813311 1.55847 0,-0.823311 1.55843 0,-0.83331 1.5584 0,-0.84331 1.55836 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.0949999988079071,0,0,-0.08500000089406967,0,0,-0.07499999552965164,0,0,-0.06499999761581421,0,0,-0.05499999970197678,0,0,-0.04499999806284904,0,0,-0.03500000014901161,0,0,-0.02499999850988388,0,0,-0.0149999987334013,0,0,-0.004999998956918716,0,0,0.005000001285225153,0,0,0.01500000152736902,0,0,0.02500000037252903,0,0,0.03500000014901161,0,0,0.04500000178813934,0,0,0.05499999970197678,0,0,0.06499999761581421,0,0,0.07500000298023224,0,0,0.08500000089406967,0,0,0.0949999988079071,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:20}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999994, -0.0035572,        0,        0&#x0A;0.0035572, -0.999994,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.748311,   1.5587,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaFront7</name>
+            <type>JS</type>
+            <num_lights>19</num_lights>
+            <positions>-0.838311 1.52622 0,-0.828311 1.52622 0,-0.818311 1.52622 0,-0.808311 1.52622 0,-0.798311 1.52622 0,-0.788311 1.52622 0,-0.778311 1.52622 0,-0.768311 1.52622 0,-0.758311 1.52622 0,-0.748311 1.52622 0,-0.738311 1.52622 0,-0.728311 1.52622 0,-0.718311 1.52622 0,-0.708311 1.52622 0,-0.698311 1.52622 0,-0.688311 1.52622 0,-0.678311 1.52622 0,-0.668311 1.52622 0,-0.658311 1.52622 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.09000000357627869,0,0,-0.08000000566244125,0,0,-0.07000000029802322,0,0,-0.06000000238418579,0,0,-0.05000000447034836,0,0,-0.04000000283122063,0,0,-0.03000000305473804,0,0,-0.02000000327825546,0,0,-0.01000000350177288,0,0,-3.57627860658738e-09,0,0,0.009999996051192284,0,0,0.01999999582767487,0,0,0.02999999560415745,0,0,0.03999999538064003,0,0,0.04999999701976776,0,0,0.05999999493360519,0,0,0.06999999284744263,0,0,0.07999999821186066,0,0,0.08999999612569809,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:19}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.748311,  1.52622,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaFront8</name>
+            <type>JS</type>
+            <num_lights>20</num_lights>
+            <positions>-0.653312 1.49478 0,-0.663311 1.49474 0,-0.673311 1.49471 0,-0.683311 1.49467 0,-0.693311 1.49464 0,-0.703311 1.4946 0,-0.713311 1.49456 0,-0.723311 1.49453 0,-0.733311 1.49449 0,-0.743311 1.49446 0,-0.753311 1.49442 0,-0.763311 1.49439 0,-0.773311 1.49435 0,-0.783311 1.49432 0,-0.793311 1.49428 0,-0.803311 1.49424 0,-0.813311 1.49421 0,-0.823311 1.49417 0,-0.83331 1.49414 0,-0.84331 1.4941 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.0949999988079071,0,0,-0.08500000089406967,0,0,-0.07499999552965164,0,0,-0.06499999761581421,0,0,-0.05499999970197678,0,0,-0.04499999806284904,0,0,-0.03500000014901161,0,0,-0.02499999850988388,0,0,-0.0149999987334013,0,0,-0.004999998956918716,0,0,0.005000001285225153,0,0,0.01500000152736902,0,0,0.02500000037252903,0,0,0.03500000014901161,0,0,0.04500000178813934,0,0,0.05499999970197678,0,0,0.06499999761581421,0,0,0.07500000298023224,0,0,0.08500000089406967,0,0,0.0949999988079071,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:20}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999994, -0.0035572,        0,        0&#x0A;0.0035572, -0.999994,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.748311,  1.49444,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaFront9</name>
+            <type>JS</type>
+            <num_lights>22</num_lights>
+            <positions>-0.853311 1.46276 0,-0.843311 1.46276 0,-0.833311 1.46276 0,-0.823311 1.46276 0,-0.813311 1.46276 0,-0.803311 1.46276 0,-0.793311 1.46276 0,-0.783311 1.46276 0,-0.773311 1.46276 0,-0.763311 1.46276 0,-0.753311 1.46276 0,-0.743311 1.46276 0,-0.733311 1.46276 0,-0.723311 1.46276 0,-0.713311 1.46276 0,-0.703311 1.46276 0,-0.693311 1.46276 0,-0.683311 1.46276 0,-0.673311 1.46276 0,-0.663311 1.46276 0,-0.653311 1.46276 0,-0.643311 1.46276 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.1049999967217445,0,0,-0.0949999988079071,0,0,-0.08499999344348907,0,0,-0.07499999552965164,0,0,-0.06499999761581421,0,0,-0.05499999597668648,0,0,-0.04499999806284904,0,0,-0.03499999642372131,0,0,-0.02499999664723873,0,0,-0.01499999687075615,0,0,-0.00499999662861228,0,0,0.005000003147870302,0,0,0.01500000339001417,0,0,0.02500000409781933,0,0,0.03500000387430191,0,0,0.04500000178813934,0,0,0.05500000342726707,0,0,0.06500000506639481,0,0,0.07500000298023224,0,0,0.08500000089406967,0,0,0.0950000062584877,0,0,0.1050000041723251,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:22}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.748311,  1.46276,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaFront10</name>
+            <type>JS</type>
+            <num_lights>25</num_lights>
+            <positions>-0.628312 1.43299 0,-0.638312 1.43295 0,-0.648312 1.43292 0,-0.658312 1.43288 0,-0.668311 1.43284 0,-0.678311 1.43281 0,-0.688311 1.43277 0,-0.698311 1.43274 0,-0.708311 1.4327 0,-0.718311 1.43267 0,-0.728311 1.43263 0,-0.738311 1.4326 0,-0.748311 1.43256 0,-0.758311 1.43252 0,-0.768311 1.43249 0,-0.778311 1.43245 0,-0.788311 1.43242 0,-0.798311 1.43238 0,-0.808311 1.43235 0,-0.818311 1.43231 0,-0.82831 1.43228 0,-0.83831 1.43224 0,-0.84831 1.4322 0,-0.85831 1.43217 0,-0.86831 1.43213 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.119999997317791,0,0,-0.1099999994039536,0,0,-0.09999999403953552,0,0,-0.08999999612569809,0,0,-0.07999999821186066,0,0,-0.07000000029802322,0,0,-0.05999999865889549,0,0,-0.04999999701976776,0,0,-0.03999999910593033,0,0,-0.0299999974668026,0,0,-0.01999999769032001,0,0,-0.009999996982514858,0,0,2.682209121473988e-09,0,0,0.01000000257045031,0,0,0.02000000327825546,0,0,0.03000000305473804,0,0,0.04000000283122063,0,0,0.05000000447034836,0,0,0.06000000238418579,0,0,0.07000000029802322,0,0,0.08000000566244125,0,0,0.09000000357627869,0,0,0.1000000014901161,0,0,0.1099999994039536,0,0,0.1200000047683716,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:25}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999994, -0.0035572,        0,        0&#x0A;0.0035572, -0.999994,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.748311,  1.43256,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaFront11</name>
+            <type>JS</type>
+            <num_lights>27</num_lights>
+            <positions>-0.878311 1.3993 0,-0.868311 1.3993 0,-0.858311 1.3993 0,-0.848311 1.3993 0,-0.838311 1.3993 0,-0.828311 1.3993 0,-0.818311 1.3993 0,-0.808311 1.3993 0,-0.798311 1.3993 0,-0.788311 1.3993 0,-0.778311 1.3993 0,-0.768311 1.3993 0,-0.758311 1.3993 0,-0.748311 1.3993 0,-0.738311 1.3993 0,-0.728311 1.3993 0,-0.718311 1.3993 0,-0.708311 1.3993 0,-0.698311 1.3993 0,-0.688311 1.3993 0,-0.678311 1.3993 0,-0.668311 1.3993 0,-0.658311 1.3993 0,-0.648311 1.3993 0,-0.638311 1.3993 0,-0.628311 1.3993 0,-0.618311 1.3993 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.1299999952316284,0,0,-0.119999997317791,0,0,-0.109999991953373,0,0,-0.09999999403953552,0,0,-0.08999999612569809,0,0,-0.07999999821186066,0,0,-0.06999999284744263,0,0,-0.05999999493360519,0,0,-0.04999999701976776,0,0,-0.03999999538064003,0,0,-0.02999999560415745,0,0,-0.01999999582767487,0,0,-0.009999995119869709,0,0,4.76837147544984e-09,0,0,0.01000000443309546,0,0,0.02000000514090061,0,0,0.03000000491738319,0,0,0.04000000655651093,0,0,0.05000000447034836,0,0,0.06000000610947609,0,0,0.07000000774860382,0,0,0.08000000566244125,0,0,0.09000000357627869,0,0,0.1000000014901161,0,0,0.1100000068545341,0,0,0.1200000047683716,0,0,0.1300000101327896,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:27}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.748311,   1.3993,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaFront12</name>
+            <type>JS</type>
+            <num_lights>28</num_lights>
+            <positions>-0.613312 1.3672 0,-0.623312 1.36716 0,-0.633312 1.36713 0,-0.643312 1.36709 0,-0.653312 1.36706 0,-0.663311 1.36702 0,-0.673311 1.36699 0,-0.683311 1.36695 0,-0.693311 1.36692 0,-0.703311 1.36688 0,-0.713311 1.36684 0,-0.723311 1.36681 0,-0.733311 1.36677 0,-0.743311 1.36674 0,-0.753311 1.3667 0,-0.763311 1.36667 0,-0.773311 1.36663 0,-0.783311 1.3666 0,-0.793311 1.36656 0,-0.803311 1.36652 0,-0.813311 1.36649 0,-0.82331 1.36645 0,-0.83331 1.36642 0,-0.84331 1.36638 0,-0.85331 1.36635 0,-0.86331 1.36631 0,-0.87331 1.36628 0,-0.88331 1.36624 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.135000005364418,0,0,-0.125,0,0,-0.1150000020861626,0,0,-0.1050000041723251,0,0,-0.0950000062584877,0,0,-0.08500000834465027,0,0,-0.07500000298023224,0,0,-0.06500000506639481,0,0,-0.05500000715255737,0,0,-0.04500000551342964,0,0,-0.03500000387430191,0,0,-0.02500000596046448,0,0,-0.01500000525265932,0,0,-0.005000005476176739,0,0,0.004999994765967131,0,0,0.014999995008111,0,0,0.02499999478459358,0,0,0.03499999642372131,0,0,0.04499999433755875,0,0,0.05499999597668648,0,0,0.06499999761581421,0,0,0.07499999552965164,0,0,0.08499999344348907,0,0,0.09499999135732651,0,0,0.1049999967217445,0,0,0.114999994635582,0,0,0.1249999925494194,0,0,0.1349999904632568,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:28}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999994, -0.0035572,        0,        0&#x0A;0.0035572, -0.999994,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.748311,  1.36672,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaFront13</name>
+            <type>JS</type>
+            <num_lights>29</num_lights>
+            <positions>-0.888311 1.33266 0,-0.878311 1.33266 0,-0.868311 1.33266 0,-0.858311 1.33266 0,-0.848311 1.33266 0,-0.838311 1.33266 0,-0.828311 1.33266 0,-0.818311 1.33266 0,-0.808311 1.33266 0,-0.798311 1.33266 0,-0.788311 1.33266 0,-0.778311 1.33266 0,-0.768311 1.33266 0,-0.758311 1.33266 0,-0.748311 1.33266 0,-0.738311 1.33266 0,-0.728311 1.33266 0,-0.718311 1.33266 0,-0.708311 1.33266 0,-0.698311 1.33266 0,-0.688311 1.33266 0,-0.678311 1.33266 0,-0.668311 1.33266 0,-0.658311 1.33266 0,-0.648311 1.33266 0,-0.638311 1.33266 0,-0.628311 1.33266 0,-0.618311 1.33266 0,-0.608311 1.33266 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.1400000005960464,0,0,-0.1299999952316284,0,0,-0.119999997317791,0,0,-0.1099999994039536,0,0,-0.1000000014901161,0,0,-0.09000000357627869,0,0,-0.07999999821186066,0,0,-0.07000000029802322,0,0,-0.06000000238418579,0,0,-0.05000000074505806,0,0,-0.03999999910593033,0,0,-0.0300000011920929,0,0,-0.02000000141561031,0,0,-0.01000000070780516,0,0,-5.9604643443123e-10,0,0,0.009999999776482582,0,0,0.01999999955296516,0,0,0.02999999932944775,0,0,0.03999999910593033,0,0,0.05000000074505806,0,0,0.05999999865889549,0,0,0.07000000029802322,0,0,0.07999999821186066,0,0,0.08999999612569809,0,0,0.1000000014901161,0,0,0.1099999994039536,0,0,0.119999997317791,0,0,0.1299999952316284,0,0,0.1400000005960464,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:29}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.748311,  1.33266,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaFront14</name>
+            <type>JS</type>
+            <num_lights>29</num_lights>
+            <positions>-0.608312 1.30059 0,-0.618312 1.30055 0,-0.628312 1.30052 0,-0.638312 1.30048 0,-0.648312 1.30045 0,-0.658312 1.30041 0,-0.668311 1.30037 0,-0.678311 1.30034 0,-0.688311 1.3003 0,-0.698311 1.30027 0,-0.708311 1.30023 0,-0.718311 1.3002 0,-0.728311 1.30016 0,-0.738311 1.30013 0,-0.748311 1.30009 0,-0.758311 1.30005 0,-0.768311 1.30002 0,-0.778311 1.29998 0,-0.788311 1.29995 0,-0.798311 1.29991 0,-0.808311 1.29988 0,-0.818311 1.29984 0,-0.82831 1.29981 0,-0.83831 1.29977 0,-0.84831 1.29973 0,-0.85831 1.2997 0,-0.86831 1.29966 0,-0.87831 1.29963 0,-0.88831 1.29959 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.1400000005960464,0,0,-0.1299999952316284,0,0,-0.119999997317791,0,0,-0.1099999994039536,0,0,-0.1000000014901161,0,0,-0.09000000357627869,0,0,-0.07999999821186066,0,0,-0.07000000029802322,0,0,-0.06000000238418579,0,0,-0.05000000074505806,0,0,-0.03999999910593033,0,0,-0.0300000011920929,0,0,-0.02000000141561031,0,0,-0.01000000070780516,0,0,-5.9604643443123e-10,0,0,0.009999999776482582,0,0,0.01999999955296516,0,0,0.02999999932944775,0,0,0.03999999910593033,0,0,0.05000000074505806,0,0,0.05999999865889549,0,0,0.07000000029802322,0,0,0.07999999821186066,0,0,0.08999999612569809,0,0,0.1000000014901161,0,0,0.1099999994039536,0,0,0.119999997317791,0,0,0.1299999952316284,0,0,0.1400000005960464,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:29}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999994, -0.0035572,        0,        0&#x0A;0.0035572, -0.999994,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.748311,  1.30009,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaBack1</name>
+            <type>JS</type>
+            <num_lights>25</num_lights>
+            <positions>-0.868556 1.79776 0,-0.858558 1.79793 0,-0.848559 1.79811 0,-0.838561 1.79829 0,-0.828562 1.79846 0,-0.818564 1.79864 0,-0.808566 1.79882 0,-0.798567 1.799 0,-0.788569 1.79917 0,-0.77857 1.79935 0,-0.768572 1.79953 0,-0.758573 1.7997 0,-0.748575 1.79988 0,-0.738577 1.80006 0,-0.728578 1.80023 0,-0.71858 1.80041 0,-0.708581 1.80059 0,-0.698583 1.80076 0,-0.688584 1.80094 0,-0.678586 1.80112 0,-0.668587 1.8013 0,-0.658589 1.80147 0,-0.648591 1.80165 0,-0.638592 1.80183 0,-0.628594 1.802 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.119999997317791,0,0,-0.1099999994039536,0,0,-0.09999999403953552,0,0,-0.08999999612569809,0,0,-0.07999999821186066,0,0,-0.07000000029802322,0,0,-0.05999999865889549,0,0,-0.04999999701976776,0,0,-0.03999999910593033,0,0,-0.0299999974668026,0,0,-0.01999999769032001,0,0,-0.009999996982514858,0,0,2.682209121473988e-09,0,0,0.01000000257045031,0,0,0.02000000327825546,0,0,0.03000000305473804,0,0,0.04000000283122063,0,0,0.05000000447034836,0,0,0.06000000238418579,0,0,0.07000000029802322,0,0,0.08000000566244125,0,0,0.09000000357627869,0,0,0.1000000014901161,0,0,0.1099999994039536,0,0,0.1200000047683716,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:25}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">0.999844, 0.0176935,        0,        0&#x0A;-0.0176935, 0.999844,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.748575,  1.79988,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaBack2</name>
+            <type>JS</type>
+            <num_lights>24</num_lights>
+            <positions>-0.63401 1.83154 0,-0.644009 1.83139 0,-0.654009 1.83125 0,-0.664007 1.83111 0,-0.674007 1.83097 0,-0.684005 1.83083 0,-0.694004 1.83069 0,-0.704004 1.83055 0,-0.714002 1.8304 0,-0.724002 1.83026 0,-0.734001 1.83012 0,-0.743999 1.82998 0,-0.753999 1.82984 0,-0.763997 1.8297 0,-0.773996 1.82956 0,-0.783996 1.82942 0,-0.793994 1.82927 0,-0.803994 1.82913 0,-0.813993 1.82899 0,-0.823991 1.82885 0,-0.833991 1.82871 0,-0.843989 1.82857 0,-0.853988 1.82843 0,-0.863988 1.82828 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.1150000020861626,0,0,-0.1050000041723251,0,0,-0.0949999988079071,0,0,-0.08500000089406967,0,0,-0.07500000298023224,0,0,-0.06500000506639481,0,0,-0.05500000342726707,0,0,-0.04500000178813934,0,0,-0.03500000387430191,0,0,-0.02500000223517418,0,0,-0.0150000024586916,0,0,-0.005000002216547728,0,0,0.004999998025596142,0,0,0.01499999780207872,0,0,0.02499999850988388,0,0,0.03499999642372131,0,0,0.04499999806284904,0,0,0.05499999970197678,0,0,0.06499999761581421,0,0,0.07499999552965164,0,0,0.08500000089406967,0,0,0.0949999988079071,0,0,0.1049999967217445,0,0,0.114999994635582,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:24}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4"> -0.9999, -0.0141368,        0,        0&#x0A;0.0141368,  -0.9999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.748999,  1.82991,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaBack3</name>
+            <type>JS</type>
+            <num_lights>23</num_lights>
+            <positions>-0.859451 1.86113 0,-0.849452 1.86131 0,-0.839454 1.86149 0,-0.829456 1.86166 0,-0.819457 1.86184 0,-0.809459 1.86202 0,-0.79946 1.8622 0,-0.789462 1.86237 0,-0.779463 1.86255 0,-0.769465 1.86273 0,-0.759466 1.8629 0,-0.749468 1.86308 0,-0.73947 1.86326 0,-0.729471 1.86343 0,-0.719473 1.86361 0,-0.709474 1.86379 0,-0.699476 1.86396 0,-0.689477 1.86414 0,-0.679479 1.86432 0,-0.669481 1.8645 0,-0.659482 1.86467 0,-0.649484 1.86485 0,-0.639485 1.86503 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.1099999994039536,0,0,-0.1000000014901161,0,0,-0.08999999612569809,0,0,-0.07999999821186066,0,0,-0.07000000029802322,0,0,-0.05999999865889549,0,0,-0.05000000074505806,0,0,-0.03999999910593033,0,0,-0.02999999932944775,0,0,-0.01999999955296516,0,0,-0.009999999776482582,0,0,5.9604643443123e-10,0,0,0.01000000070780516,0,0,0.02000000141561031,0,0,0.0300000011920929,0,0,0.03999999910593033,0,0,0.05000000074505806,0,0,0.06000000238418579,0,0,0.07000000029802322,0,0,0.07999999821186066,0,0,0.09000000357627869,0,0,0.1000000014901161,0,0,0.1099999994039536,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:23}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">0.999844, 0.0176935,        0,        0&#x0A;-0.0176935, 0.999844,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.749468,  1.86308,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaBack4</name>
+            <type>JS</type>
+            <num_lights>23</num_lights>
+            <positions>-0.639929 1.89647 0,-0.649928 1.89632 0,-0.659927 1.89618 0,-0.669926 1.89604 0,-0.679925 1.8959 0,-0.689924 1.89576 0,-0.699923 1.89562 0,-0.709922 1.89548 0,-0.719921 1.89533 0,-0.72992 1.89519 0,-0.739919 1.89505 0,-0.749918 1.89491 0,-0.759917 1.89477 0,-0.769916 1.89463 0,-0.779915 1.89449 0,-0.789914 1.89434 0,-0.799913 1.8942 0,-0.809912 1.89406 0,-0.819911 1.89392 0,-0.82991 1.89378 0,-0.839909 1.89364 0,-0.849908 1.8935 0,-0.859907 1.89335 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.1099999994039536,0,0,-0.1000000014901161,0,0,-0.08999999612569809,0,0,-0.07999999821186066,0,0,-0.07000000029802322,0,0,-0.05999999865889549,0,0,-0.05000000074505806,0,0,-0.03999999910593033,0,0,-0.02999999932944775,0,0,-0.01999999955296516,0,0,-0.009999999776482582,0,0,5.9604643443123e-10,0,0,0.01000000070780516,0,0,0.02000000141561031,0,0,0.0300000011920929,0,0,0.03999999910593033,0,0,0.05000000074505806,0,0,0.06000000238418579,0,0,0.07000000029802322,0,0,0.07999999821186066,0,0,0.09000000357627869,0,0,0.1000000014901161,0,0,0.1099999994039536,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:23}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4"> -0.9999, -0.0141368,        0,        0&#x0A;0.0141368,  -0.9999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.749918,  1.89491,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaBack5</name>
+            <type>JS</type>
+            <num_lights>22</num_lights>
+            <positions>-0.85535 1.92472 0,-0.845351 1.9249 0,-0.835353 1.92508 0,-0.825354 1.92525 0,-0.815356 1.92543 0,-0.805357 1.92561 0,-0.795359 1.92578 0,-0.785361 1.92596 0,-0.775362 1.92614 0,-0.765364 1.92631 0,-0.755365 1.92649 0,-0.745367 1.92667 0,-0.735368 1.92685 0,-0.72537 1.92702 0,-0.715371 1.9272 0,-0.705373 1.92738 0,-0.695375 1.92755 0,-0.685376 1.92773 0,-0.675378 1.92791 0,-0.665379 1.92808 0,-0.655381 1.92826 0,-0.645382 1.92844 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.1049999967217445,0,0,-0.0949999988079071,0,0,-0.08499999344348907,0,0,-0.07499999552965164,0,0,-0.06499999761581421,0,0,-0.05499999597668648,0,0,-0.04499999806284904,0,0,-0.03499999642372131,0,0,-0.02499999664723873,0,0,-0.01499999687075615,0,0,-0.00499999662861228,0,0,0.005000003147870302,0,0,0.01500000339001417,0,0,0.02500000409781933,0,0,0.03500000387430191,0,0,0.04500000178813934,0,0,0.05500000342726707,0,0,0.06500000506639481,0,0,0.07500000298023224,0,0,0.08500000089406967,0,0,0.0950000062584877,0,0,0.1050000041723251,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:22}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">0.999844, 0.0176935,        0,        0&#x0A;-0.0176935, 0.999844,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.750366,  1.92658,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaBack6</name>
+            <type>JS</type>
+            <num_lights>21</num_lights>
+            <positions>-0.650869 1.96287 0,-0.660868 1.96273 0,-0.670867 1.96259 0,-0.680866 1.96245 0,-0.690865 1.96231 0,-0.700864 1.96217 0,-0.710863 1.96203 0,-0.720862 1.96188 0,-0.730861 1.96174 0,-0.74086 1.9616 0,-0.750859 1.96146 0,-0.760858 1.96132 0,-0.770857 1.96118 0,-0.780856 1.96104 0,-0.790855 1.96089 0,-0.800854 1.96075 0,-0.810853 1.96061 0,-0.820852 1.96047 0,-0.830851 1.96033 0,-0.84085 1.96019 0,-0.850849 1.96005 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.1000000014901161,0,0,-0.09000000357627869,0,0,-0.07999999821186066,0,0,-0.07000000029802322,0,0,-0.06000000238418579,0,0,-0.05000000074505806,0,0,-0.04000000283122063,0,0,-0.0300000011920929,0,0,-0.02000000141561031,0,0,-0.01000000163912773,0,0,-1.490116141589226e-09,0,0,0.009999998845160007,0,0,0.01999999769032001,0,0,0.02999999932944775,0,0,0.03999999910593033,0,0,0.04999999701976776,0,0,0.05999999865889549,0,0,0.07000000029802322,0,0,0.07999999821186066,0,0,0.08999999612569809,0,0,0.1000000014901161,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:21}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4"> -0.9999, -0.0141368,        0,        0&#x0A;0.0141368,  -0.9999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.750859,  1.96146,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaBack7</name>
+            <type>JS</type>
+            <num_lights>21</num_lights>
+            <positions>-0.851292 1.99145 0,-0.841294 1.99163 0,-0.831296 1.9918 0,-0.821297 1.99198 0,-0.811299 1.99216 0,-0.8013 1.99234 0,-0.791302 1.99251 0,-0.781303 1.99269 0,-0.771305 1.99287 0,-0.761306 1.99304 0,-0.751308 1.99322 0,-0.74131 1.9934 0,-0.731311 1.99357 0,-0.721313 1.99375 0,-0.711314 1.99393 0,-0.701316 1.9941 0,-0.691317 1.99428 0,-0.681319 1.99446 0,-0.67132 1.99464 0,-0.661322 1.99481 0,-0.651324 1.99499 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.1000000014901161,0,0,-0.09000000357627869,0,0,-0.07999999821186066,0,0,-0.07000000029802322,0,0,-0.06000000238418579,0,0,-0.05000000074505806,0,0,-0.04000000283122063,0,0,-0.0300000011920929,0,0,-0.02000000141561031,0,0,-0.01000000163912773,0,0,-1.490116141589226e-09,0,0,0.009999998845160007,0,0,0.01999999769032001,0,0,0.02999999932944775,0,0,0.03999999910593033,0,0,0.04999999701976776,0,0,0.05999999865889549,0,0,0.07000000029802322,0,0,0.07999999821186066,0,0,0.08999999612569809,0,0,0.1000000014901161,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:21}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">0.999844, 0.0176935,        0,        0&#x0A;-0.0176935, 0.999844,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.751308,  1.99322,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaBack8</name>
+            <type>JS</type>
+            <num_lights>22</num_lights>
+            <positions>-0.646779 2.0272 0,-0.656778 2.02706 0,-0.666776 2.02692 0,-0.676776 2.02678 0,-0.686774 2.02664 0,-0.696774 2.0265 0,-0.706773 2.02636 0,-0.716771 2.02621 0,-0.726771 2.02607 0,-0.736769 2.02593 0,-0.746768 2.02579 0,-0.756768 2.02565 0,-0.766766 2.02551 0,-0.776766 2.02537 0,-0.786765 2.02523 0,-0.796763 2.02508 0,-0.806763 2.02494 0,-0.816761 2.0248 0,-0.82676 2.02466 0,-0.83676 2.02452 0,-0.846758 2.02438 0,-0.856758 2.02424 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.1049999967217445,0,0,-0.0949999988079071,0,0,-0.08499999344348907,0,0,-0.07499999552965164,0,0,-0.06499999761581421,0,0,-0.05499999597668648,0,0,-0.04499999806284904,0,0,-0.03499999642372131,0,0,-0.02499999664723873,0,0,-0.01499999687075615,0,0,-0.00499999662861228,0,0,0.005000003147870302,0,0,0.01500000339001417,0,0,0.02500000409781933,0,0,0.03500000387430191,0,0,0.04500000178813934,0,0,0.05500000342726707,0,0,0.06500000506639481,0,0,0.07500000298023224,0,0,0.08500000089406967,0,0,0.0950000062584877,0,0,0.1050000041723251,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:22}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4"> -0.9999, -0.0141368,        0,        0&#x0A;0.0141368,  -0.9999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.751768,  2.02572,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaBack9</name>
+            <type>JS</type>
+            <num_lights>24</num_lights>
+            <positions>-0.867187 2.05461 0,-0.857189 2.05478 0,-0.84719 2.05496 0,-0.837192 2.05514 0,-0.827193 2.05531 0,-0.817195 2.05549 0,-0.807196 2.05567 0,-0.797198 2.05584 0,-0.7872 2.05602 0,-0.777201 2.0562 0,-0.767203 2.05637 0,-0.757204 2.05655 0,-0.747206 2.05673 0,-0.737207 2.05691 0,-0.727209 2.05708 0,-0.71721 2.05726 0,-0.707212 2.05744 0,-0.697214 2.05761 0,-0.687215 2.05779 0,-0.677217 2.05797 0,-0.667218 2.05814 0,-0.65722 2.05832 0,-0.647221 2.0585 0,-0.637223 2.05867 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.1150000020861626,0,0,-0.1050000041723251,0,0,-0.0949999988079071,0,0,-0.08500000089406967,0,0,-0.07500000298023224,0,0,-0.06500000506639481,0,0,-0.05500000342726707,0,0,-0.04500000178813934,0,0,-0.03500000387430191,0,0,-0.02500000223517418,0,0,-0.0150000024586916,0,0,-0.005000002216547728,0,0,0.004999998025596142,0,0,0.01499999780207872,0,0,0.02499999850988388,0,0,0.03499999642372131,0,0,0.04499999806284904,0,0,0.05499999970197678,0,0,0.06499999761581421,0,0,0.07499999552965164,0,0,0.08500000089406967,0,0,0.0949999988079071,0,0,0.1049999967217445,0,0,0.114999994635582,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:24}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">0.999844, 0.0176935,        0,        0&#x0A;-0.0176935, 0.999844,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.752205,  2.05664,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaBack10</name>
+            <type>JS</type>
+            <num_lights>25</num_lights>
+            <positions>-0.632656 2.08938 0,-0.642655 2.08924 0,-0.652654 2.08909 0,-0.662653 2.08895 0,-0.672652 2.08881 0,-0.682651 2.08867 0,-0.69265 2.08853 0,-0.702649 2.08839 0,-0.712648 2.08825 0,-0.722647 2.0881 0,-0.732646 2.08796 0,-0.742645 2.08782 0,-0.752644 2.08768 0,-0.762643 2.08754 0,-0.772642 2.0874 0,-0.782641 2.08726 0,-0.79264 2.08711 0,-0.802639 2.08697 0,-0.812638 2.08683 0,-0.822637 2.08669 0,-0.832636 2.08655 0,-0.842635 2.08641 0,-0.852634 2.08627 0,-0.862633 2.08613 0,-0.872632 2.08598 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.119999997317791,0,0,-0.1099999994039536,0,0,-0.09999999403953552,0,0,-0.08999999612569809,0,0,-0.07999999821186066,0,0,-0.07000000029802322,0,0,-0.05999999865889549,0,0,-0.04999999701976776,0,0,-0.03999999910593033,0,0,-0.0299999974668026,0,0,-0.01999999769032001,0,0,-0.009999996982514858,0,0,2.682209121473988e-09,0,0,0.01000000257045031,0,0,0.02000000327825546,0,0,0.03000000305473804,0,0,0.04000000283122063,0,0,0.05000000447034836,0,0,0.06000000238418579,0,0,0.07000000029802322,0,0,0.08000000566244125,0,0,0.09000000357627869,0,0,0.1000000014901161,0,0,0.1099999994039536,0,0,0.1200000047683716,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:25}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4"> -0.9999, -0.0141368,        0,        0&#x0A;0.0141368,  -0.9999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.752644,  2.08768,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaBack11</name>
+            <type>JS</type>
+            <num_lights>26</num_lights>
+            <positions>-0.878083 2.11786 0,-0.868084 2.11804 0,-0.858086 2.11821 0,-0.848087 2.11839 0,-0.838089 2.11857 0,-0.82809 2.11874 0,-0.818092 2.11892 0,-0.808093 2.1191 0,-0.798095 2.11927 0,-0.788097 2.11945 0,-0.778098 2.11963 0,-0.7681 2.1198 0,-0.758101 2.11998 0,-0.748103 2.12016 0,-0.738104 2.12034 0,-0.728106 2.12051 0,-0.718107 2.12069 0,-0.708109 2.12087 0,-0.698111 2.12104 0,-0.688112 2.12122 0,-0.678114 2.1214 0,-0.668115 2.12157 0,-0.658117 2.12175 0,-0.648118 2.12193 0,-0.63812 2.1221 0,-0.628121 2.12228 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.125,0,0,-0.1150000020861626,0,0,-0.1049999967217445,0,0,-0.0949999988079071,0,0,-0.08500000089406967,0,0,-0.07500000298023224,0,0,-0.06499999761581421,0,0,-0.05499999970197678,0,0,-0.04500000178813934,0,0,-0.03500000014901161,0,0,-0.02500000037252903,0,0,-0.01499999966472387,0,0,-0.004999999888241291,0,0,0.004999999888241291,0,0,0.01499999966472387,0,0,0.02500000037252903,0,0,0.03500000014901161,0,0,0.04500000178813934,0,0,0.05499999970197678,0,0,0.06499999761581421,0,0,0.07500000298023224,0,0,0.08500000089406967,0,0,0.0949999988079071,0,0,0.1049999967217445,0,0,0.1150000020861626,0,0,0.125,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:26}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">0.999844, 0.0176935,        0,        0&#x0A;-0.0176935, 0.999844,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.753102,  2.12007,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaBack12</name>
+            <type>JS</type>
+            <num_lights>27</num_lights>
+            <positions>-0.623588 2.1554 0,-0.633587 2.15526 0,-0.643586 2.15511 0,-0.653585 2.15497 0,-0.663584 2.15483 0,-0.673583 2.15469 0,-0.683582 2.15455 0,-0.693581 2.15441 0,-0.70358 2.15427 0,-0.713579 2.15413 0,-0.723578 2.15398 0,-0.733577 2.15384 0,-0.743576 2.1537 0,-0.753575 2.15356 0,-0.763574 2.15342 0,-0.773573 2.15328 0,-0.783572 2.15314 0,-0.793571 2.15299 0,-0.80357 2.15285 0,-0.813569 2.15271 0,-0.823568 2.15257 0,-0.833567 2.15243 0,-0.843566 2.15229 0,-0.853565 2.15215 0,-0.863564 2.152 0,-0.873563 2.15186 0,-0.883562 2.15172 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.1299999952316284,0,0,-0.119999997317791,0,0,-0.109999991953373,0,0,-0.09999999403953552,0,0,-0.08999999612569809,0,0,-0.07999999821186066,0,0,-0.06999999284744263,0,0,-0.05999999493360519,0,0,-0.04999999701976776,0,0,-0.03999999538064003,0,0,-0.02999999560415745,0,0,-0.01999999582767487,0,0,-0.009999995119869709,0,0,4.76837147544984e-09,0,0,0.01000000443309546,0,0,0.02000000514090061,0,0,0.03000000491738319,0,0,0.04000000655651093,0,0,0.05000000447034836,0,0,0.06000000610947609,0,0,0.07000000774860382,0,0,0.08000000566244125,0,0,0.09000000357627869,0,0,0.1000000014901161,0,0,0.1100000068545341,0,0,0.1200000047683716,0,0,0.1300000101327896,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:27}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4"> -0.9999, -0.0141368,        0,        0&#x0A;0.0141368,  -0.9999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.753575,  2.15356,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaBack13</name>
+            <type>JS</type>
+            <num_lights>27</num_lights>
+            <positions>-0.884023 2.18439 0,-0.874024 2.18457 0,-0.864026 2.18474 0,-0.854027 2.18492 0,-0.844029 2.1851 0,-0.834031 2.18527 0,-0.824032 2.18545 0,-0.814034 2.18563 0,-0.804035 2.18581 0,-0.794037 2.18598 0,-0.784038 2.18616 0,-0.77404 2.18634 0,-0.764041 2.18651 0,-0.754043 2.18669 0,-0.744045 2.18687 0,-0.734046 2.18704 0,-0.724048 2.18722 0,-0.714049 2.1874 0,-0.704051 2.18757 0,-0.694052 2.18775 0,-0.684054 2.18793 0,-0.674055 2.18811 0,-0.664057 2.18828 0,-0.654059 2.18846 0,-0.64406 2.18864 0,-0.634062 2.18881 0,-0.624063 2.18899 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.1299999952316284,0,0,-0.119999997317791,0,0,-0.109999991953373,0,0,-0.09999999403953552,0,0,-0.08999999612569809,0,0,-0.07999999821186066,0,0,-0.06999999284744263,0,0,-0.05999999493360519,0,0,-0.04999999701976776,0,0,-0.03999999538064003,0,0,-0.02999999560415745,0,0,-0.01999999582767487,0,0,-0.009999995119869709,0,0,4.76837147544984e-09,0,0,0.01000000443309546,0,0,0.02000000514090061,0,0,0.03000000491738319,0,0,0.04000000655651093,0,0,0.05000000447034836,0,0,0.06000000610947609,0,0,0.07000000774860382,0,0,0.08000000566244125,0,0,0.09000000357627869,0,0,0.1000000014901161,0,0,0.1100000068545341,0,0,0.1200000047683716,0,0,0.1300000101327896,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:27}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">0.999844, 0.0176935,        0,        0&#x0A;-0.0176935, 0.999844,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.754043,  2.18669,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaBack14</name>
+            <type>JS</type>
+            <num_lights>28</num_lights>
+            <positions>-0.61953 2.22212 0,-0.62953 2.22198 0,-0.639529 2.22184 0,-0.649528 2.22169 0,-0.659527 2.22155 0,-0.669526 2.22141 0,-0.679525 2.22127 0,-0.689524 2.22113 0,-0.699522 2.22099 0,-0.709522 2.22085 0,-0.719521 2.2207 0,-0.729519 2.22056 0,-0.739519 2.22042 0,-0.749518 2.22028 0,-0.759517 2.22014 0,-0.769516 2.22 0,-0.779514 2.21986 0,-0.789514 2.21972 0,-0.799513 2.21957 0,-0.809512 2.21943 0,-0.819511 2.21929 0,-0.829509 2.21915 0,-0.839509 2.21901 0,-0.849508 2.21887 0,-0.859506 2.21873 0,-0.869506 2.21858 0,-0.879505 2.21844 0,-0.889503 2.2183 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.135000005364418,0,0,-0.125,0,0,-0.1150000020861626,0,0,-0.1050000041723251,0,0,-0.0950000062584877,0,0,-0.08500000834465027,0,0,-0.07500000298023224,0,0,-0.06500000506639481,0,0,-0.05500000715255737,0,0,-0.04500000551342964,0,0,-0.03500000387430191,0,0,-0.02500000596046448,0,0,-0.01500000525265932,0,0,-0.005000005476176739,0,0,0.004999994765967131,0,0,0.014999995008111,0,0,0.02499999478459358,0,0,0.03499999642372131,0,0,0.04499999433755875,0,0,0.05499999597668648,0,0,0.06499999761581421,0,0,0.07499999552965164,0,0,0.08499999344348907,0,0,0.09499999135732651,0,0,0.1049999967217445,0,0,0.114999994635582,0,0,0.1249999925494194,0,0,0.1349999904632568,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.01,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:28}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4"> -0.9999, -0.0141368,        0,        0&#x0A;0.0141368,  -0.9999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.754517,  2.22021,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegRight</name>
+            <type>JS</type>
+            <num_lights>29</num_lights>
+            <positions>-0.898653 1.25619 0,-0.893653 1.25619 0,-0.888653 1.25619 0,-0.883653 1.25619 0,-0.878653 1.25619 0,-0.873653 1.25619 0,-0.868653 1.25619 0,-0.863653 1.25619 0,-0.858653 1.25619 0,-0.853653 1.25619 0,-0.848653 1.25619 0,-0.843653 1.25619 0,-0.838653 1.25619 0,-0.833653 1.25619 0,-0.828653 1.25619 0,-0.823653 1.25619 0,-0.818653 1.25619 0,-0.813653 1.25619 0,-0.808653 1.25619 0,-0.803653 1.25619 0,-0.798653 1.25619 0,-0.793653 1.25619 0,-0.788653 1.25619 0,-0.783653 1.25619 0,-0.778653 1.25619 0,-0.773653 1.25619 0,-0.768653 1.25619 0,-0.763653 1.25619 0,-0.758653 1.25619 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.07000000029802322,0,0,-0.06499999761581421,0,0,-0.05999999865889549,0,0,-0.05499999970197678,0,0,-0.05000000074505806,0,0,-0.04500000178813934,0,0,-0.03999999910593033,0,0,-0.03500000014901161,0,0,-0.0300000011920929,0,0,-0.02500000037252903,0,0,-0.01999999955296516,0,0,-0.01500000059604645,0,0,-0.01000000070780516,0,0,-0.005000000353902578,0,0,-2.98023217215615e-10,0,0,0.004999999888241291,0,0,0.009999999776482582,0,0,0.01499999966472387,0,0,0.01999999955296516,0,0,0.02500000037252903,0,0,0.02999999932944775,0,0,0.03500000014901161,0,0,0.03999999910593033,0,0,0.04499999806284904,0,0,0.05000000074505806,0,0,0.05499999970197678,0,0,0.05999999865889549,0,0,0.06499999761581421,0,0,0.07000000029802322,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:29}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.828653,  1.25619,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegRight 0</name>
+            <type>JS</type>
+            <num_lights>27</num_lights>
+            <positions>-0.763653 1.22291 0,-0.768653 1.2229 0,-0.773653 1.22289 0,-0.778653 1.22289 0,-0.783653 1.22288 0,-0.788653 1.22287 0,-0.793653 1.22287 0,-0.798653 1.22286 0,-0.803653 1.22285 0,-0.808653 1.22285 0,-0.813653 1.22284 0,-0.818653 1.22283 0,-0.823653 1.22283 0,-0.828653 1.22282 0,-0.833653 1.22281 0,-0.838653 1.22281 0,-0.843653 1.2228 0,-0.848653 1.22279 0,-0.853653 1.22279 0,-0.858653 1.22278 0,-0.863653 1.22277 0,-0.868653 1.22277 0,-0.873653 1.22276 0,-0.878653 1.22275 0,-0.883653 1.22275 0,-0.888653 1.22274 0,-0.893653 1.22273 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.06499999761581421,0,0,-0.05999999865889549,0,0,-0.05499999597668648,0,0,-0.04999999701976776,0,0,-0.04499999806284904,0,0,-0.03999999910593033,0,0,-0.03499999642372131,0,0,-0.0299999974668026,0,0,-0.02499999850988388,0,0,-0.01999999769032001,0,0,-0.01499999780207872,0,0,-0.009999997913837433,0,0,-0.004999997559934855,0,0,2.38418573772492e-09,0,0,0.005000002216547728,0,0,0.01000000257045031,0,0,0.0150000024586916,0,0,0.02000000327825546,0,0,0.02500000223517418,0,0,0.03000000305473804,0,0,0.03500000387430191,0,0,0.04000000283122063,0,0,0.04500000178813934,0,0,0.05000000074505806,0,0,0.05500000342726707,0,0,0.06000000238418579,0,0,0.06500000506639481,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:27}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.828653,  1.22282,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegRight 1</name>
+            <type>JS</type>
+            <num_lights>26</num_lights>
+            <positions>-0.891153 1.18718 0,-0.886153 1.18718 0,-0.881153 1.18718 0,-0.876153 1.18718 0,-0.871153 1.18718 0,-0.866153 1.18718 0,-0.861153 1.18718 0,-0.856153 1.18718 0,-0.851153 1.18718 0,-0.846153 1.18718 0,-0.841153 1.18718 0,-0.836153 1.18718 0,-0.831153 1.18718 0,-0.826153 1.18718 0,-0.821153 1.18718 0,-0.816153 1.18718 0,-0.811153 1.18718 0,-0.806153 1.18718 0,-0.801153 1.18718 0,-0.796153 1.18718 0,-0.791153 1.18718 0,-0.786153 1.18718 0,-0.781153 1.18718 0,-0.776153 1.18718 0,-0.771153 1.18718 0,-0.766153 1.18718 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.0625,0,0,-0.05750000104308128,0,0,-0.05249999836087227,0,0,-0.04749999940395355,0,0,-0.04250000044703484,0,0,-0.03750000149011612,0,0,-0.0324999988079071,0,0,-0.02749999985098839,0,0,-0.02250000089406967,0,0,-0.01750000007450581,0,0,-0.01250000018626451,0,0,-0.007499999832361937,0,0,-0.002499999944120646,0,0,0.002499999944120646,0,0,0.007499999832361937,0,0,0.01250000018626451,0,0,0.01750000007450581,0,0,0.02250000089406967,0,0,0.02749999985098839,0,0,0.0324999988079071,0,0,0.03750000149011612,0,0,0.04250000044703484,0,0,0.04749999940395355,0,0,0.05249999836087227,0,0,0.05750000104308128,0,0,0.0625,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:26}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.828653,  1.18718,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegRight 2</name>
+            <type>JS</type>
+            <num_lights>26</num_lights>
+            <positions>-0.766153 1.15389 0,-0.771153 1.15389 0,-0.776153 1.15388 0,-0.781153 1.15387 0,-0.786153 1.15387 0,-0.791153 1.15386 0,-0.796153 1.15385 0,-0.801153 1.15385 0,-0.806153 1.15384 0,-0.811153 1.15383 0,-0.816153 1.15383 0,-0.821153 1.15382 0,-0.826153 1.15381 0,-0.831153 1.15381 0,-0.836153 1.1538 0,-0.841153 1.15379 0,-0.846153 1.15379 0,-0.851153 1.15378 0,-0.856153 1.15377 0,-0.861153 1.15377 0,-0.866153 1.15376 0,-0.871153 1.15375 0,-0.876153 1.15375 0,-0.881153 1.15374 0,-0.886153 1.15373 0,-0.891153 1.15373 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.0625,0,0,-0.05750000104308128,0,0,-0.05249999836087227,0,0,-0.04749999940395355,0,0,-0.04250000044703484,0,0,-0.03750000149011612,0,0,-0.0324999988079071,0,0,-0.02749999985098839,0,0,-0.02250000089406967,0,0,-0.01750000007450581,0,0,-0.01250000018626451,0,0,-0.007499999832361937,0,0,-0.002499999944120646,0,0,0.002499999944120646,0,0,0.007499999832361937,0,0,0.01250000018626451,0,0,0.01750000007450581,0,0,0.02250000089406967,0,0,0.02749999985098839,0,0,0.0324999988079071,0,0,0.03750000149011612,0,0,0.04250000044703484,0,0,0.04749999940395355,0,0,0.05249999836087227,0,0,0.05750000104308128,0,0,0.0625,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:26}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.828653,  1.15381,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegRight 3</name>
+            <type>JS</type>
+            <num_lights>23</num_lights>
+            <positions>-0.883653 1.11698 0,-0.878653 1.11698 0,-0.873653 1.11698 0,-0.868653 1.11698 0,-0.863653 1.11698 0,-0.858653 1.11698 0,-0.853653 1.11698 0,-0.848653 1.11698 0,-0.843653 1.11698 0,-0.838653 1.11698 0,-0.833653 1.11698 0,-0.828653 1.11698 0,-0.823653 1.11698 0,-0.818653 1.11698 0,-0.813653 1.11698 0,-0.808653 1.11698 0,-0.803653 1.11698 0,-0.798653 1.11698 0,-0.793653 1.11698 0,-0.788653 1.11698 0,-0.783653 1.11698 0,-0.778653 1.11698 0,-0.773653 1.11698 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.05499999970197678,0,0,-0.05000000074505806,0,0,-0.04499999806284904,0,0,-0.03999999910593033,0,0,-0.03500000014901161,0,0,-0.02999999932944775,0,0,-0.02500000037252903,0,0,-0.01999999955296516,0,0,-0.01499999966472387,0,0,-0.009999999776482582,0,0,-0.004999999888241291,0,0,2.98023217215615e-10,0,0,0.005000000353902578,0,0,0.01000000070780516,0,0,0.01500000059604645,0,0,0.01999999955296516,0,0,0.02500000037252903,0,0,0.0300000011920929,0,0,0.03500000014901161,0,0,0.03999999910593033,0,0,0.04500000178813934,0,0,0.05000000074505806,0,0,0.05499999970197678,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:23}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.828653,  1.11698,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegRight 4</name>
+            <type>JS</type>
+            <num_lights>23</num_lights>
+            <positions>-0.773653 1.08131 0,-0.778653 1.08131 0,-0.783653 1.0813 0,-0.788653 1.08129 0,-0.793653 1.08129 0,-0.798653 1.08128 0,-0.803653 1.08127 0,-0.808653 1.08127 0,-0.813653 1.08126 0,-0.818653 1.08125 0,-0.823653 1.08125 0,-0.828653 1.08124 0,-0.833653 1.08123 0,-0.838653 1.08123 0,-0.843653 1.08122 0,-0.848653 1.08121 0,-0.853653 1.08121 0,-0.858653 1.0812 0,-0.863653 1.08119 0,-0.868653 1.08119 0,-0.873653 1.08118 0,-0.878653 1.08117 0,-0.883653 1.08117 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.05499999970197678,0,0,-0.05000000074505806,0,0,-0.04499999806284904,0,0,-0.03999999910593033,0,0,-0.03500000014901161,0,0,-0.02999999932944775,0,0,-0.02500000037252903,0,0,-0.01999999955296516,0,0,-0.01499999966472387,0,0,-0.009999999776482582,0,0,-0.004999999888241291,0,0,2.98023217215615e-10,0,0,0.005000000353902578,0,0,0.01000000070780516,0,0,0.01500000059604645,0,0,0.01999999955296516,0,0,0.02500000037252903,0,0,0.0300000011920929,0,0,0.03500000014901161,0,0,0.03999999910593033,0,0,0.04500000178813934,0,0,0.05000000074505806,0,0,0.05499999970197678,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:23}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.828653,  1.08124,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegRight 5</name>
+            <type>JS</type>
+            <num_lights>21</num_lights>
+            <positions>-0.878653 1.0456 0,-0.873653 1.0456 0,-0.868653 1.0456 0,-0.863653 1.0456 0,-0.858653 1.0456 0,-0.853653 1.0456 0,-0.848653 1.0456 0,-0.843653 1.0456 0,-0.838653 1.0456 0,-0.833653 1.0456 0,-0.828653 1.0456 0,-0.823653 1.0456 0,-0.818653 1.0456 0,-0.813653 1.0456 0,-0.808653 1.0456 0,-0.803653 1.0456 0,-0.798653 1.0456 0,-0.793653 1.0456 0,-0.788653 1.0456 0,-0.783653 1.0456 0,-0.778653 1.0456 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.05000000074505806,0,0,-0.04500000178813934,0,0,-0.03999999910593033,0,0,-0.03500000014901161,0,0,-0.0300000011920929,0,0,-0.02500000037252903,0,0,-0.02000000141561031,0,0,-0.01500000059604645,0,0,-0.01000000070780516,0,0,-0.005000000819563866,0,0,-7.450580707946131e-10,0,0,0.004999999422580004,0,0,0.009999998845160007,0,0,0.01499999966472387,0,0,0.01999999955296516,0,0,0.02499999850988388,0,0,0.02999999932944775,0,0,0.03500000014901161,0,0,0.03999999910593033,0,0,0.04499999806284904,0,0,0.05000000074505806,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:21}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.828653,   1.0456,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegRight 6</name>
+            <type>JS</type>
+            <num_lights>20</num_lights>
+            <positions>-0.781153 1.00992 0,-0.786153 1.00992 0,-0.791153 1.00991 0,-0.796153 1.0099 0,-0.801153 1.0099 0,-0.806153 1.00989 0,-0.811153 1.00988 0,-0.816153 1.00988 0,-0.821153 1.00987 0,-0.826153 1.00986 0,-0.831153 1.00986 0,-0.836153 1.00985 0,-0.841153 1.00984 0,-0.846153 1.00984 0,-0.851153 1.00983 0,-0.856153 1.00982 0,-0.861153 1.00982 0,-0.866153 1.00981 0,-0.871153 1.0098 0,-0.876153 1.0098 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.04749999940395355,0,0,-0.04250000044703484,0,0,-0.03749999776482582,0,0,-0.0324999988079071,0,0,-0.02749999985098839,0,0,-0.02249999903142452,0,0,-0.01750000007450581,0,0,-0.01249999925494194,0,0,-0.007499999366700649,0,0,-0.002499999478459358,0,0,0.002500000642612576,0,0,0.007500000763684511,0,0,0.01250000018626451,0,0,0.01750000007450581,0,0,0.02250000089406967,0,0,0.02749999985098839,0,0,0.0324999988079071,0,0,0.03750000149011612,0,0,0.04250000044703484,0,0,0.04749999940395355,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:20}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.828653,  1.00986,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegRight 7</name>
+            <type>JS</type>
+            <num_lights>20</num_lights>
+            <positions>-0.876153 0.976709 0,-0.871153 0.976709 0,-0.866153 0.976709 0,-0.861153 0.976709 0,-0.856153 0.976709 0,-0.851153 0.976709 0,-0.846153 0.976709 0,-0.841153 0.976709 0,-0.836153 0.976709 0,-0.831153 0.976709 0,-0.826153 0.976709 0,-0.821153 0.976709 0,-0.816153 0.976709 0,-0.811153 0.976709 0,-0.806153 0.976709 0,-0.801153 0.976709 0,-0.796153 0.976709 0,-0.791153 0.976709 0,-0.786153 0.976709 0,-0.781153 0.976709 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.04749999940395355,0,0,-0.04250000044703484,0,0,-0.03749999776482582,0,0,-0.0324999988079071,0,0,-0.02749999985098839,0,0,-0.02249999903142452,0,0,-0.01750000007450581,0,0,-0.01249999925494194,0,0,-0.007499999366700649,0,0,-0.002499999478459358,0,0,0.002500000642612576,0,0,0.007500000763684511,0,0,0.01250000018626451,0,0,0.01750000007450581,0,0,0.02250000089406967,0,0,0.02749999985098839,0,0,0.0324999988079071,0,0,0.03750000149011612,0,0,0.04250000044703484,0,0,0.04749999940395355,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:20}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.828653, 0.976709,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegRight 8</name>
+            <type>JS</type>
+            <num_lights>19</num_lights>
+            <positions>-0.783653 0.942375 0,-0.788653 0.942368 0,-0.793653 0.942361 0,-0.798653 0.942355 0,-0.803653 0.942348 0,-0.808653 0.942341 0,-0.813653 0.942334 0,-0.818653 0.942328 0,-0.823653 0.942321 0,-0.828653 0.942314 0,-0.833653 0.942307 0,-0.838653 0.9423 0,-0.843653 0.942294 0,-0.848653 0.942287 0,-0.853653 0.94228 0,-0.858653 0.942273 0,-0.863653 0.942267 0,-0.868653 0.94226 0,-0.873653 0.942253 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.04500000178813934,0,0,-0.04000000283122063,0,0,-0.03500000014901161,0,0,-0.0300000011920929,0,0,-0.02500000223517418,0,0,-0.02000000141561031,0,0,-0.01500000152736902,0,0,-0.01000000163912773,0,0,-0.00500000175088644,0,0,-1.78813930329369e-09,0,0,0.004999998025596142,0,0,0.009999997913837433,0,0,0.01499999780207872,0,0,0.01999999769032001,0,0,0.02499999850988388,0,0,0.0299999974668026,0,0,0.03499999642372131,0,0,0.03999999910593033,0,0,0.04499999806284904,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:19}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.828653, 0.942314,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegRight 9</name>
+            <type>JS</type>
+            <num_lights>8</num_lights>
+            <positions>-0.818653 0.908106 0,-0.813653 0.908106 0,-0.808653 0.908106 0,-0.803653 0.908106 0,-0.798653 0.908106 0,-0.793653 0.908106 0,-0.788653 0.908106 0,-0.783653 0.908106 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.01750000007450581,0,0,-0.01250000018626451,0,0,-0.007500000298023224,0,0,-0.002500000176951289,0,0,0.002499999944120646,0,0,0.007499999832361937,0,0,0.01250000018626451,0,0,0.01750000007450581,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:8}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.801153, 0.908106,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegRight 10</name>
+            <type>JS</type>
+            <num_lights>10</num_lights>
+            <positions>-0.783653 0.879555 0,-0.788653 0.879549 0,-0.793653 0.879542 0,-0.798653 0.879535 0,-0.803653 0.879528 0,-0.808653 0.879522 0,-0.813653 0.879515 0,-0.818653 0.879508 0,-0.823653 0.879501 0,-0.828653 0.879495 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.02250000089406967,0,0,-0.01750000007450581,0,0,-0.01250000111758709,0,0,-0.007500000763684511,0,0,-0.00250000087544322,0,0,0.002499999012798071,0,0,0.007499998901039362,0,0,0.01249999925494194,0,0,0.01749999821186066,0,0,0.02249999903142452,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:10}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.806153, 0.879525,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegRight 11</name>
+            <type>JS</type>
+            <num_lights>18</num_lights>
+            <positions>-0.871153 0.845524 0,-0.866153 0.845524 0,-0.861153 0.845524 0,-0.856153 0.845524 0,-0.851153 0.845524 0,-0.846153 0.845524 0,-0.841153 0.845524 0,-0.836153 0.845524 0,-0.831153 0.845524 0,-0.826153 0.845524 0,-0.821153 0.845524 0,-0.816153 0.845524 0,-0.811153 0.845524 0,-0.806153 0.845524 0,-0.801153 0.845524 0,-0.796153 0.845524 0,-0.791153 0.845524 0,-0.786153 0.845524 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.04250000044703484,0,0,-0.03750000149011612,0,0,-0.0324999988079071,0,0,-0.02749999985098839,0,0,-0.02250000089406967,0,0,-0.01750000007450581,0,0,-0.01250000018626451,0,0,-0.007500000298023224,0,0,-0.002500000409781933,0,0,0.002499999478459358,0,0,0.007499999366700649,0,0,0.01249999925494194,0,0,0.01750000007450581,0,0,0.02249999903142452,0,0,0.02749999985098839,0,0,0.0324999988079071,0,0,0.03749999776482582,0,0,0.04250000044703484,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:18}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.828653, 0.845524,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegRight 12</name>
+            <type>JS</type>
+            <num_lights>19</num_lights>
+            <positions>-0.783653 0.817003 0,-0.788653 0.816996 0,-0.793653 0.816989 0,-0.798653 0.816983 0,-0.803653 0.816976 0,-0.808653 0.816969 0,-0.813653 0.816962 0,-0.818653 0.816956 0,-0.823653 0.816949 0,-0.828653 0.816942 0,-0.833653 0.816935 0,-0.838653 0.816928 0,-0.843653 0.816922 0,-0.848653 0.816915 0,-0.853653 0.816908 0,-0.858653 0.816901 0,-0.863653 0.816895 0,-0.868653 0.816888 0,-0.873653 0.816881 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.04500000178813934,0,0,-0.04000000283122063,0,0,-0.03500000014901161,0,0,-0.0300000011920929,0,0,-0.02500000223517418,0,0,-0.02000000141561031,0,0,-0.01500000152736902,0,0,-0.01000000163912773,0,0,-0.00500000175088644,0,0,-1.78813930329369e-09,0,0,0.004999998025596142,0,0,0.009999997913837433,0,0,0.01499999780207872,0,0,0.01999999769032001,0,0,0.02499999850988388,0,0,0.0299999974668026,0,0,0.03499999642372131,0,0,0.03999999910593033,0,0,0.04499999806284904,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:19}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.828653, 0.816942,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegRight 13</name>
+            <type>JS</type>
+            <num_lights>20</num_lights>
+            <positions>-0.876153 0.787136 0,-0.871153 0.787136 0,-0.866153 0.787136 0,-0.861153 0.787136 0,-0.856153 0.787136 0,-0.851153 0.787136 0,-0.846153 0.787136 0,-0.841153 0.787136 0,-0.836153 0.787136 0,-0.831153 0.787136 0,-0.826153 0.787136 0,-0.821153 0.787136 0,-0.816153 0.787136 0,-0.811153 0.787136 0,-0.806153 0.787136 0,-0.801153 0.787136 0,-0.796153 0.787136 0,-0.791153 0.787136 0,-0.786153 0.787136 0,-0.781153 0.787136 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.04749999940395355,0,0,-0.04250000044703484,0,0,-0.03749999776482582,0,0,-0.0324999988079071,0,0,-0.02749999985098839,0,0,-0.02249999903142452,0,0,-0.01750000007450581,0,0,-0.01249999925494194,0,0,-0.007499999366700649,0,0,-0.002499999478459358,0,0,0.002500000642612576,0,0,0.007500000763684511,0,0,0.01250000018626451,0,0,0.01750000007450581,0,0,0.02250000089406967,0,0,0.02749999985098839,0,0,0.0324999988079071,0,0,0.03750000149011612,0,0,0.04250000044703484,0,0,0.04749999940395355,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:20}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.828653, 0.787136,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegRight 14</name>
+            <type>JS</type>
+            <num_lights>19</num_lights>
+            <positions>-0.783653 0.755819 0,-0.788653 0.755812 0,-0.793653 0.755805 0,-0.798653 0.755799 0,-0.803653 0.755792 0,-0.808653 0.755785 0,-0.813653 0.755778 0,-0.818653 0.755772 0,-0.823653 0.755765 0,-0.828653 0.755758 0,-0.833653 0.755751 0,-0.838653 0.755744 0,-0.843653 0.755738 0,-0.848653 0.755731 0,-0.853653 0.755724 0,-0.858653 0.755717 0,-0.863653 0.755711 0,-0.868653 0.755704 0,-0.873653 0.755697 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.04500000178813934,0,0,-0.04000000283122063,0,0,-0.03500000014901161,0,0,-0.0300000011920929,0,0,-0.02500000223517418,0,0,-0.02000000141561031,0,0,-0.01500000152736902,0,0,-0.01000000163912773,0,0,-0.00500000175088644,0,0,-1.78813930329369e-09,0,0,0.004999998025596142,0,0,0.009999997913837433,0,0,0.01499999780207872,0,0,0.01999999769032001,0,0,0.02499999850988388,0,0,0.0299999974668026,0,0,0.03499999642372131,0,0,0.03999999910593033,0,0,0.04499999806284904,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:19}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.828653, 0.755758,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegRight 15</name>
+            <type>JS</type>
+            <num_lights>17</num_lights>
+            <positions>-0.868653 0.721757 0,-0.863653 0.721757 0,-0.858653 0.721757 0,-0.853653 0.721757 0,-0.848653 0.721757 0,-0.843653 0.721757 0,-0.838653 0.721757 0,-0.833653 0.721757 0,-0.828653 0.721757 0,-0.823653 0.721757 0,-0.818653 0.721757 0,-0.813653 0.721757 0,-0.808653 0.721757 0,-0.803653 0.721757 0,-0.798653 0.721757 0,-0.793653 0.721757 0,-0.788653 0.721757 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.03999999910593033,0,0,-0.03500000014901161,0,0,-0.02999999932944775,0,0,-0.02499999850988388,0,0,-0.01999999955296516,0,0,-0.0149999987334013,0,0,-0.009999998845160007,0,0,-0.004999998956918716,0,0,8.940696516468449e-10,0,0,0.005000000819563866,0,0,0.01000000070780516,0,0,0.01500000059604645,0,0,0.02000000141561031,0,0,0.02500000037252903,0,0,0.0300000011920929,0,0,0.03500000014901161,0,0,0.03999999910593033,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:17}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.828653, 0.721757,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegRight 16</name>
+            <type>JS</type>
+            <num_lights>15</num_lights>
+            <positions>-0.793653 0.691825 0,-0.798653 0.691819 0,-0.803653 0.691812 0,-0.808653 0.691805 0,-0.813653 0.691798 0,-0.818653 0.691792 0,-0.823653 0.691785 0,-0.828653 0.691778 0,-0.833653 0.691771 0,-0.838653 0.691764 0,-0.843653 0.691758 0,-0.848653 0.691751 0,-0.853653 0.691744 0,-0.858653 0.691737 0,-0.863653 0.691731 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.03500000014901161,0,0,-0.02999999932944775,0,0,-0.02500000037252903,0,0,-0.01999999955296516,0,0,-0.01500000059604645,0,0,-0.009999999776482582,0,0,-0.005000000353902578,0,0,-1.490116086078075e-10,0,0,0.004999999888241291,0,0,0.009999999776482582,0,0,0.01499999966472387,0,0,0.01999999955296516,0,0,0.02500000037252903,0,0,0.02999999932944775,0,0,0.03500000014901161,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:15}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.828653, 0.691778,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegRight 17</name>
+            <type>JS</type>
+            <num_lights>14</num_lights>
+            <positions>-0.861153 0.660573 0,-0.856153 0.660573 0,-0.851153 0.660573 0,-0.846153 0.660573 0,-0.841153 0.660573 0,-0.836153 0.660573 0,-0.831153 0.660573 0,-0.826153 0.660573 0,-0.821153 0.660573 0,-0.816153 0.660573 0,-0.811153 0.660573 0,-0.806153 0.660573 0,-0.801153 0.660573 0,-0.796153 0.660573 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.0324999988079071,0,0,-0.02749999798834324,0,0,-0.02249999903142452,0,0,-0.01749999821186066,0,0,-0.01249999925494194,0,0,-0.007499998901039362,0,0,-0.002499998779967427,0,0,0.002500001108273864,0,0,0.007500001229345798,0,0,0.01250000111758709,0,0,0.01750000193715096,0,0,0.02250000089406967,0,0,0.02750000171363354,0,0,0.0325000025331974,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:14}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.828653, 0.660573,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegRight 18</name>
+            <type>JS</type>
+            <num_lights>12</num_lights>
+            <positions>-0.801153 0.632029 0,-0.806153 0.632022 0,-0.811153 0.632016 0,-0.816153 0.632009 0,-0.821153 0.632002 0,-0.826153 0.631995 0,-0.831153 0.631989 0,-0.836153 0.631982 0,-0.841153 0.631975 0,-0.846153 0.631968 0,-0.851153 0.631962 0,-0.856153 0.631955 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.02749999985098839,0,0,-0.02249999903142452,0,0,-0.01750000007450581,0,0,-0.01250000018626451,0,0,-0.007499999832361937,0,0,-0.002499999944120646,0,0,0.002500000176951289,0,0,0.007500000298023224,0,0,0.01250000018626451,0,0,0.01750000007450581,0,0,0.02250000089406967,0,0,0.02749999985098839,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:12}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.828653, 0.631992,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegRight 19</name>
+            <type>JS</type>
+            <num_lights>10</num_lights>
+            <positions>-0.851153 0.603583 0,-0.846153 0.603583 0,-0.841153 0.603583 0,-0.836153 0.603583 0,-0.831153 0.603583 0,-0.826153 0.603583 0,-0.821153 0.603583 0,-0.816153 0.603583 0,-0.811153 0.603583 0,-0.806153 0.603583 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.02250000089406967,0,0,-0.01750000007450581,0,0,-0.01250000111758709,0,0,-0.007500000763684511,0,0,-0.00250000087544322,0,0,0.002499999012798071,0,0,0.007499998901039362,0,0,0.01249999925494194,0,0,0.01749999821186066,0,0,0.02249999903142452,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:10}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.828653, 0.603583,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegRight 20</name>
+            <type>JS</type>
+            <num_lights>10</num_lights>
+            <positions>-0.806153 0.575032 0,-0.811153 0.575026 0,-0.816153 0.575019 0,-0.821153 0.575012 0,-0.826153 0.575005 0,-0.831153 0.574999 0,-0.836153 0.574992 0,-0.841153 0.574985 0,-0.846153 0.574978 0,-0.851153 0.574972 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.02250000089406967,0,0,-0.01750000007450581,0,0,-0.01250000111758709,0,0,-0.007500000763684511,0,0,-0.00250000087544322,0,0,0.002499999012798071,0,0,0.007499998901039362,0,0,0.01249999925494194,0,0,0.01749999821186066,0,0,0.02249999903142452,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:10}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.828653, 0.575002,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegLeft</name>
+            <type>JS</type>
+            <num_lights>29</num_lights>
+            <positions>-0.597852 1.25609 0,-0.602852 1.25609 0,-0.607852 1.25609 0,-0.612852 1.25609 0,-0.617852 1.25609 0,-0.622852 1.25609 0,-0.627852 1.25609 0,-0.632852 1.25609 0,-0.637852 1.25609 0,-0.642852 1.25609 0,-0.647852 1.25609 0,-0.652852 1.25609 0,-0.657852 1.25609 0,-0.662852 1.25609 0,-0.667852 1.25609 0,-0.672852 1.25609 0,-0.677852 1.25609 0,-0.682852 1.25609 0,-0.687852 1.25609 0,-0.692852 1.25609 0,-0.697852 1.25609 0,-0.702852 1.25609 0,-0.707852 1.25609 0,-0.712852 1.25609 0,-0.717852 1.25609 0,-0.722852 1.25609 0,-0.727852 1.25609 0,-0.732852 1.25609 0,-0.737852 1.25609 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.07000000029802322,0,0,0.06499999761581421,0,0,0.05999999865889549,0,0,0.05499999970197678,0,0,0.05000000074505806,0,0,0.04499999806284904,0,0,0.03999999910593033,0,0,0.03500000014901161,0,0,0.02999999932944775,0,0,0.02500000037252903,0,0,0.01999999955296516,0,0,0.01499999966472387,0,0,0.009999999776482582,0,0,0.004999999888241291,0,0,-2.98023217215615e-10,0,0,-0.005000000353902578,0,0,-0.01000000070780516,0,0,-0.01500000059604645,0,0,-0.01999999955296516,0,0,-0.02500000037252903,0,0,-0.0300000011920929,0,0,-0.03500000014901161,0,0,-0.03999999910593033,0,0,-0.04500000178813934,0,0,-0.05000000074505806,0,0,-0.05499999970197678,0,0,-0.05999999865889549,0,0,-0.06499999761581421,0,0,-0.07000000029802322,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:29}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.667852,  1.25609,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegLeft 0</name>
+            <type>JS</type>
+            <num_lights>27</num_lights>
+            <positions>-0.732852 1.22263 0,-0.727852 1.22264 0,-0.722852 1.22265 0,-0.717852 1.22265 0,-0.712852 1.22266 0,-0.707852 1.22267 0,-0.702852 1.22267 0,-0.697852 1.22268 0,-0.692852 1.22269 0,-0.687852 1.22269 0,-0.682852 1.2227 0,-0.677852 1.22271 0,-0.672852 1.22271 0,-0.667852 1.22272 0,-0.662852 1.22273 0,-0.657852 1.22273 0,-0.652852 1.22274 0,-0.647852 1.22275 0,-0.642852 1.22275 0,-0.637852 1.22276 0,-0.632852 1.22277 0,-0.627852 1.22277 0,-0.622852 1.22278 0,-0.617852 1.22279 0,-0.612852 1.22279 0,-0.607852 1.2228 0,-0.602852 1.22281 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.06500000506639481,0,0,0.06000000238418579,0,0,0.05500000342726707,0,0,0.05000000074505806,0,0,0.04500000178813934,0,0,0.04000000283122063,0,0,0.03500000387430191,0,0,0.03000000305473804,0,0,0.02500000223517418,0,0,0.02000000327825546,0,0,0.0150000024586916,0,0,0.01000000257045031,0,0,0.005000002216547728,0,0,2.38418573772492e-09,0,0,-0.004999997559934855,0,0,-0.009999997913837433,0,0,-0.01499999780207872,0,0,-0.01999999769032001,0,0,-0.02499999850988388,0,0,-0.0299999974668026,0,0,-0.03499999642372131,0,0,-0.03999999910593033,0,0,-0.04499999806284904,0,0,-0.04999999701976776,0,0,-0.05499999597668648,0,0,-0.05999999865889549,0,0,-0.06499999761581421,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:27}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.667852,  1.22272,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegLeft 1</name>
+            <type>JS</type>
+            <num_lights>26</num_lights>
+            <positions>-0.605352 1.18708 0,-0.610352 1.18708 0,-0.615352 1.18708 0,-0.620352 1.18708 0,-0.625352 1.18708 0,-0.630352 1.18708 0,-0.635352 1.18708 0,-0.640352 1.18708 0,-0.645352 1.18708 0,-0.650352 1.18708 0,-0.655352 1.18708 0,-0.660352 1.18708 0,-0.665352 1.18708 0,-0.670352 1.18708 0,-0.675352 1.18708 0,-0.680352 1.18708 0,-0.685352 1.18708 0,-0.690352 1.18708 0,-0.695352 1.18708 0,-0.700352 1.18708 0,-0.705352 1.18708 0,-0.710352 1.18708 0,-0.715352 1.18708 0,-0.720352 1.18708 0,-0.725352 1.18708 0,-0.730352 1.18708 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.0625,0,0,0.05750000104308128,0,0,0.05249999836087227,0,0,0.04749999940395355,0,0,0.04250000044703484,0,0,0.03750000149011612,0,0,0.0324999988079071,0,0,0.02749999985098839,0,0,0.02250000089406967,0,0,0.01750000007450581,0,0,0.01250000018626451,0,0,0.007499999832361937,0,0,0.002499999944120646,0,0,-0.002499999944120646,0,0,-0.007499999832361937,0,0,-0.01250000018626451,0,0,-0.01750000007450581,0,0,-0.02250000089406967,0,0,-0.02749999985098839,0,0,-0.0324999988079071,0,0,-0.03750000149011612,0,0,-0.04250000044703484,0,0,-0.04749999940395355,0,0,-0.05249999836087227,0,0,-0.05750000104308128,0,0,-0.0625,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:26}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.667852,  1.18708,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegLeft 2</name>
+            <type>JS</type>
+            <num_lights>25</num_lights>
+            <positions>-0.727852 1.15363 0,-0.722852 1.15364 0,-0.717852 1.15364 0,-0.712852 1.15365 0,-0.707852 1.15366 0,-0.702852 1.15366 0,-0.697852 1.15367 0,-0.692852 1.15368 0,-0.687852 1.15368 0,-0.682852 1.15369 0,-0.677852 1.1537 0,-0.672852 1.1537 0,-0.667852 1.15371 0,-0.662852 1.15372 0,-0.657852 1.15372 0,-0.652852 1.15373 0,-0.647852 1.15374 0,-0.642852 1.15374 0,-0.637852 1.15375 0,-0.632852 1.15376 0,-0.627852 1.15376 0,-0.622852 1.15377 0,-0.617852 1.15378 0,-0.612852 1.15378 0,-0.607852 1.15379 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.06000000238418579,0,0,0.05499999970197678,0,0,0.05000000074505806,0,0,0.04500000178813934,0,0,0.04000000283122063,0,0,0.03500000014901161,0,0,0.0300000011920929,0,0,0.02500000223517418,0,0,0.02000000141561031,0,0,0.01500000152736902,0,0,0.01000000163912773,0,0,0.005000001285225153,0,0,1.341104560736994e-09,0,0,-0.004999998491257429,0,0,-0.009999998845160007,0,0,-0.0149999987334013,0,0,-0.01999999955296516,0,0,-0.02499999850988388,0,0,-0.02999999932944775,0,0,-0.03500000014901161,0,0,-0.03999999910593033,0,0,-0.04499999806284904,0,0,-0.04999999701976776,0,0,-0.05499999970197678,0,0,-0.05999999865889549,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:25}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.667852,  1.15371,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegLeft 3</name>
+            <type>JS</type>
+            <num_lights>23</num_lights>
+            <positions>-0.612852 1.11688 0,-0.617852 1.11688 0,-0.622852 1.11688 0,-0.627852 1.11688 0,-0.632852 1.11688 0,-0.637852 1.11688 0,-0.642852 1.11688 0,-0.647852 1.11688 0,-0.652852 1.11688 0,-0.657852 1.11688 0,-0.662852 1.11688 0,-0.667852 1.11688 0,-0.672852 1.11688 0,-0.677852 1.11688 0,-0.682852 1.11688 0,-0.687852 1.11688 0,-0.692852 1.11688 0,-0.697852 1.11688 0,-0.702852 1.11688 0,-0.707852 1.11688 0,-0.712852 1.11688 0,-0.717852 1.11688 0,-0.722852 1.11688 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.05499999970197678,0,0,0.05000000074505806,0,0,0.04500000178813934,0,0,0.03999999910593033,0,0,0.03500000014901161,0,0,0.0300000011920929,0,0,0.02500000037252903,0,0,0.01999999955296516,0,0,0.01500000059604645,0,0,0.01000000070780516,0,0,0.005000000353902578,0,0,2.98023217215615e-10,0,0,-0.004999999888241291,0,0,-0.009999999776482582,0,0,-0.01499999966472387,0,0,-0.01999999955296516,0,0,-0.02500000037252903,0,0,-0.02999999932944775,0,0,-0.03500000014901161,0,0,-0.03999999910593033,0,0,-0.04499999806284904,0,0,-0.05000000074505806,0,0,-0.05499999970197678,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:23}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.667852,  1.11688,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegLeft 4</name>
+            <type>JS</type>
+            <num_lights>23</num_lights>
+            <positions>-0.722852 1.08107 0,-0.717852 1.08107 0,-0.712852 1.08108 0,-0.707852 1.08109 0,-0.702852 1.08109 0,-0.697852 1.0811 0,-0.692852 1.08111 0,-0.687852 1.08111 0,-0.682852 1.08112 0,-0.677852 1.08113 0,-0.672852 1.08113 0,-0.667852 1.08114 0,-0.662852 1.08115 0,-0.657852 1.08115 0,-0.652852 1.08116 0,-0.647852 1.08117 0,-0.642852 1.08117 0,-0.637852 1.08118 0,-0.632852 1.08119 0,-0.627852 1.08119 0,-0.622852 1.0812 0,-0.617852 1.08121 0,-0.612852 1.08121 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.05499999970197678,0,0,0.05000000074505806,0,0,0.04500000178813934,0,0,0.03999999910593033,0,0,0.03500000014901161,0,0,0.0300000011920929,0,0,0.02500000037252903,0,0,0.01999999955296516,0,0,0.01500000059604645,0,0,0.01000000070780516,0,0,0.005000000353902578,0,0,2.98023217215615e-10,0,0,-0.004999999888241291,0,0,-0.009999999776482582,0,0,-0.01499999966472387,0,0,-0.01999999955296516,0,0,-0.02500000037252903,0,0,-0.02999999932944775,0,0,-0.03500000014901161,0,0,-0.03999999910593033,0,0,-0.04499999806284904,0,0,-0.05000000074505806,0,0,-0.05499999970197678,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:23}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.667852,  1.08114,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegLeft 5</name>
+            <type>JS</type>
+            <num_lights>21</num_lights>
+            <positions>-0.617852 1.0455 0,-0.622852 1.0455 0,-0.627852 1.0455 0,-0.632852 1.0455 0,-0.637852 1.0455 0,-0.642852 1.0455 0,-0.647852 1.0455 0,-0.652852 1.0455 0,-0.657852 1.0455 0,-0.662852 1.0455 0,-0.667852 1.0455 0,-0.672852 1.0455 0,-0.677852 1.0455 0,-0.682852 1.0455 0,-0.687852 1.0455 0,-0.692852 1.0455 0,-0.697852 1.0455 0,-0.702852 1.0455 0,-0.707852 1.0455 0,-0.712852 1.0455 0,-0.717852 1.0455 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.05000000074505806,0,0,0.04499999806284904,0,0,0.03999999910593033,0,0,0.03500000014901161,0,0,0.02999999932944775,0,0,0.02499999850988388,0,0,0.01999999955296516,0,0,0.01499999966472387,0,0,0.009999998845160007,0,0,0.004999999422580004,0,0,-7.450580707946131e-10,0,0,-0.005000000819563866,0,0,-0.01000000070780516,0,0,-0.01500000059604645,0,0,-0.02000000141561031,0,0,-0.02500000037252903,0,0,-0.0300000011920929,0,0,-0.03500000014901161,0,0,-0.03999999910593033,0,0,-0.04500000178813934,0,0,-0.05000000074505806,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:21}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.667852,   1.0455,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegLeft 6</name>
+            <type>JS</type>
+            <num_lights>20</num_lights>
+            <positions>-0.715352 1.0097 0,-0.710352 1.0097 0,-0.705352 1.00971 0,-0.700352 1.00972 0,-0.695352 1.00972 0,-0.690352 1.00973 0,-0.685352 1.00974 0,-0.680352 1.00974 0,-0.675352 1.00975 0,-0.670352 1.00976 0,-0.665352 1.00976 0,-0.660352 1.00977 0,-0.655352 1.00978 0,-0.650352 1.00978 0,-0.645352 1.00979 0,-0.640352 1.0098 0,-0.635352 1.0098 0,-0.630352 1.00981 0,-0.625352 1.00982 0,-0.620352 1.00982 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.04749999940395355,0,0,0.04250000044703484,0,0,0.03750000149011612,0,0,0.0324999988079071,0,0,0.02749999985098839,0,0,0.02250000089406967,0,0,0.01750000007450581,0,0,0.01250000018626451,0,0,0.007500000763684511,0,0,0.002500000642612576,0,0,-0.002499999478459358,0,0,-0.007499999366700649,0,0,-0.01249999925494194,0,0,-0.01750000007450581,0,0,-0.02249999903142452,0,0,-0.02749999985098839,0,0,-0.0324999988079071,0,0,-0.03749999776482582,0,0,-0.04250000044703484,0,0,-0.04749999940395355,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:20}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.667852,  1.00976,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegLeft 7</name>
+            <type>JS</type>
+            <num_lights>19</num_lights>
+            <positions>-0.622852 0.976609 0,-0.627852 0.976609 0,-0.632852 0.976609 0,-0.637852 0.976609 0,-0.642852 0.976609 0,-0.647852 0.976609 0,-0.652852 0.976609 0,-0.657852 0.976609 0,-0.662852 0.976609 0,-0.667852 0.976609 0,-0.672852 0.976609 0,-0.677852 0.976609 0,-0.682852 0.976609 0,-0.687852 0.976609 0,-0.692852 0.976609 0,-0.697852 0.976609 0,-0.702852 0.976609 0,-0.707852 0.976609 0,-0.712852 0.976609 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.04499999806284904,0,0,0.03999999910593033,0,0,0.03499999642372131,0,0,0.0299999974668026,0,0,0.02499999850988388,0,0,0.01999999769032001,0,0,0.01499999780207872,0,0,0.009999997913837433,0,0,0.004999998025596142,0,0,-1.78813930329369e-09,0,0,-0.00500000175088644,0,0,-0.01000000163912773,0,0,-0.01500000152736902,0,0,-0.02000000141561031,0,0,-0.02500000223517418,0,0,-0.0300000011920929,0,0,-0.03500000014901161,0,0,-0.04000000283122063,0,0,-0.04500000178813934,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:19}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.667852, 0.976609,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegLeft 8</name>
+            <type>JS</type>
+            <num_lights>18</num_lights>
+            <positions>-0.710352 0.942156 0,-0.705352 0.942163 0,-0.700352 0.94217 0,-0.695352 0.942177 0,-0.690352 0.942184 0,-0.685352 0.94219 0,-0.680352 0.942197 0,-0.675352 0.942204 0,-0.670352 0.942211 0,-0.665352 0.942217 0,-0.660352 0.942224 0,-0.655352 0.942231 0,-0.650352 0.942238 0,-0.645352 0.942244 0,-0.640352 0.942251 0,-0.635352 0.942258 0,-0.630352 0.942265 0,-0.625352 0.942272 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.04250000044703484,0,0,0.03749999776482582,0,0,0.0324999988079071,0,0,0.02749999985098839,0,0,0.02249999903142452,0,0,0.01750000007450581,0,0,0.01249999925494194,0,0,0.007499999366700649,0,0,0.002499999478459358,0,0,-0.002500000409781933,0,0,-0.007500000298023224,0,0,-0.01250000018626451,0,0,-0.01750000007450581,0,0,-0.02250000089406967,0,0,-0.02749999985098839,0,0,-0.0324999988079071,0,0,-0.03750000149011612,0,0,-0.04250000044703484,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:18}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.667852, 0.942214,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegLeft 9</name>
+            <type>JS</type>
+            <num_lights>8</num_lights>
+            <positions>-0.675351 0.908007 0,-0.680351 0.908007 0,-0.685351 0.908007 0,-0.690351 0.908007 0,-0.695351 0.908007 0,-0.700351 0.908007 0,-0.705351 0.908007 0,-0.710351 0.908007 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.01750000007450581,0,0,0.01250000018626451,0,0,0.007499999832361937,0,0,0.002499999944120646,0,0,-0.002500000176951289,0,0,-0.007500000298023224,0,0,-0.01250000018626451,0,0,-0.01750000007450581,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:8}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.692851, 0.908007,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegLeft 10</name>
+            <type>JS</type>
+            <num_lights>10</num_lights>
+            <positions>-0.710351 0.879395 0,-0.705351 0.879401 0,-0.700351 0.879408 0,-0.695351 0.879415 0,-0.690351 0.879422 0,-0.685351 0.879428 0,-0.680351 0.879435 0,-0.675351 0.879442 0,-0.670351 0.879449 0,-0.665351 0.879455 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.02249999903142452,0,0,0.01749999821186066,0,0,0.01249999925494194,0,0,0.007499998901039362,0,0,0.002499999012798071,0,0,-0.00250000087544322,0,0,-0.007500000763684511,0,0,-0.01250000111758709,0,0,-0.01750000007450581,0,0,-0.02250000089406967,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:10}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.687851, 0.879425,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegLeft 11</name>
+            <type>JS</type>
+            <num_lights>19</num_lights>
+            <positions>-0.622852 0.845424 0,-0.627852 0.845424 0,-0.632852 0.845424 0,-0.637852 0.845424 0,-0.642852 0.845424 0,-0.647852 0.845424 0,-0.652852 0.845424 0,-0.657852 0.845424 0,-0.662852 0.845424 0,-0.667852 0.845424 0,-0.672852 0.845424 0,-0.677852 0.845424 0,-0.682852 0.845424 0,-0.687852 0.845424 0,-0.692852 0.845424 0,-0.697852 0.845424 0,-0.702852 0.845424 0,-0.707852 0.845424 0,-0.712852 0.845424 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.04499999806284904,0,0,0.03999999910593033,0,0,0.03499999642372131,0,0,0.0299999974668026,0,0,0.02499999850988388,0,0,0.01999999769032001,0,0,0.01499999780207872,0,0,0.009999997913837433,0,0,0.004999998025596142,0,0,-1.78813930329369e-09,0,0,-0.00500000175088644,0,0,-0.01000000163912773,0,0,-0.01500000152736902,0,0,-0.02000000141561031,0,0,-0.02500000223517418,0,0,-0.0300000011920929,0,0,-0.03500000014901161,0,0,-0.04000000283122063,0,0,-0.04500000178813934,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:19}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.667852, 0.845424,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegLeft 12</name>
+            <type>JS</type>
+            <num_lights>20</num_lights>
+            <positions>-0.715352 0.816779 0,-0.710352 0.816785 0,-0.705352 0.816792 0,-0.700352 0.816799 0,-0.695352 0.816806 0,-0.690352 0.816813 0,-0.685352 0.816819 0,-0.680352 0.816826 0,-0.675352 0.816833 0,-0.670352 0.81684 0,-0.665352 0.816846 0,-0.660352 0.816853 0,-0.655352 0.81686 0,-0.650352 0.816867 0,-0.645352 0.816873 0,-0.640352 0.81688 0,-0.635352 0.816887 0,-0.630352 0.816894 0,-0.625352 0.8169 0,-0.620352 0.816907 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.04749999940395355,0,0,0.04250000044703484,0,0,0.03750000149011612,0,0,0.0324999988079071,0,0,0.02749999985098839,0,0,0.02250000089406967,0,0,0.01750000007450581,0,0,0.01250000018626451,0,0,0.007500000763684511,0,0,0.002500000642612576,0,0,-0.002499999478459358,0,0,-0.007499999366700649,0,0,-0.01249999925494194,0,0,-0.01750000007450581,0,0,-0.02249999903142452,0,0,-0.02749999985098839,0,0,-0.0324999988079071,0,0,-0.03749999776482582,0,0,-0.04250000044703484,0,0,-0.04749999940395355,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:20}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.667852, 0.816843,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegLeft 13</name>
+            <type>JS</type>
+            <num_lights>20</num_lights>
+            <positions>-0.620352 0.787036 0,-0.625352 0.787036 0,-0.630352 0.787036 0,-0.635352 0.787036 0,-0.640352 0.787036 0,-0.645352 0.787036 0,-0.650352 0.787036 0,-0.655352 0.787036 0,-0.660352 0.787036 0,-0.665352 0.787036 0,-0.670352 0.787036 0,-0.675352 0.787036 0,-0.680352 0.787036 0,-0.685352 0.787036 0,-0.690352 0.787036 0,-0.695352 0.787036 0,-0.700352 0.787036 0,-0.705352 0.787036 0,-0.710352 0.787036 0,-0.715352 0.787036 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.04749999940395355,0,0,0.04250000044703484,0,0,0.03750000149011612,0,0,0.0324999988079071,0,0,0.02749999985098839,0,0,0.02250000089406967,0,0,0.01750000007450581,0,0,0.01250000018626451,0,0,0.007500000763684511,0,0,0.002500000642612576,0,0,-0.002499999478459358,0,0,-0.007499999366700649,0,0,-0.01249999925494194,0,0,-0.01750000007450581,0,0,-0.02249999903142452,0,0,-0.02749999985098839,0,0,-0.0324999988079071,0,0,-0.03749999776482582,0,0,-0.04250000044703484,0,0,-0.04749999940395355,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:20}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.667852, 0.787036,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegLeft 14</name>
+            <type>JS</type>
+            <num_lights>19</num_lights>
+            <positions>-0.712852 0.755598 0,-0.707852 0.755605 0,-0.702852 0.755612 0,-0.697852 0.755618 0,-0.692852 0.755625 0,-0.687852 0.755632 0,-0.682852 0.755639 0,-0.677852 0.755645 0,-0.672852 0.755652 0,-0.667852 0.755659 0,-0.662852 0.755666 0,-0.657852 0.755673 0,-0.652852 0.755679 0,-0.647852 0.755686 0,-0.642852 0.755693 0,-0.637852 0.7557 0,-0.632852 0.755706 0,-0.627852 0.755713 0,-0.622852 0.75572 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.04499999806284904,0,0,0.03999999910593033,0,0,0.03499999642372131,0,0,0.0299999974668026,0,0,0.02499999850988388,0,0,0.01999999769032001,0,0,0.01499999780207872,0,0,0.009999997913837433,0,0,0.004999998025596142,0,0,-1.78813930329369e-09,0,0,-0.00500000175088644,0,0,-0.01000000163912773,0,0,-0.01500000152736902,0,0,-0.02000000141561031,0,0,-0.02500000223517418,0,0,-0.0300000011920929,0,0,-0.03500000014901161,0,0,-0.04000000283122063,0,0,-0.04500000178813934,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:19}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.667852, 0.755659,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegLeft 15</name>
+            <type>JS</type>
+            <num_lights>16</num_lights>
+            <positions>-0.630352 0.721658 0,-0.635352 0.721658 0,-0.640352 0.721658 0,-0.645352 0.721658 0,-0.650352 0.721658 0,-0.655352 0.721658 0,-0.660352 0.721658 0,-0.665352 0.721658 0,-0.670352 0.721658 0,-0.675352 0.721658 0,-0.680352 0.721658 0,-0.685352 0.721658 0,-0.690352 0.721658 0,-0.695352 0.721658 0,-0.700352 0.721658 0,-0.705352 0.721658 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.03749999776482582,0,0,0.0324999988079071,0,0,0.02749999798834324,0,0,0.02249999903142452,0,0,0.01749999821186066,0,0,0.01249999832361937,0,0,0.007499998435378075,0,0,0.002499998547136784,0,0,-0.002500001573935151,0,0,-0.007500001695007086,0,0,-0.01250000111758709,0,0,-0.01750000193715096,0,0,-0.02250000089406967,0,0,-0.02750000171363354,0,0,-0.0325000025331974,0,0,-0.03750000149011612,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:16}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.667852, 0.721658,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegLeft 16</name>
+            <type>JS</type>
+            <num_lights>16</num_lights>
+            <positions>-0.705352 0.691627 0,-0.700352 0.691634 0,-0.695352 0.691641 0,-0.690352 0.691648 0,-0.685352 0.691654 0,-0.680352 0.691661 0,-0.675352 0.691668 0,-0.670352 0.691675 0,-0.665352 0.691681 0,-0.660352 0.691688 0,-0.655352 0.691695 0,-0.650352 0.691702 0,-0.645352 0.691708 0,-0.640352 0.691715 0,-0.635352 0.691722 0,-0.630352 0.691729 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.03749999776482582,0,0,0.0324999988079071,0,0,0.02749999798834324,0,0,0.02249999903142452,0,0,0.01749999821186066,0,0,0.01249999832361937,0,0,0.007499998435378075,0,0,0.002499998547136784,0,0,-0.002500001573935151,0,0,-0.007500001695007086,0,0,-0.01250000111758709,0,0,-0.01750000193715096,0,0,-0.02250000089406967,0,0,-0.02750000171363354,0,0,-0.0325000025331974,0,0,-0.03750000149011612,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:16}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.667852, 0.691678,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegLeft 17</name>
+            <type>JS</type>
+            <num_lights>13</num_lights>
+            <positions>-0.637852 0.660474 0,-0.642852 0.660474 0,-0.647852 0.660474 0,-0.652852 0.660474 0,-0.657852 0.660474 0,-0.662852 0.660474 0,-0.667852 0.660474 0,-0.672852 0.660474 0,-0.677852 0.660474 0,-0.682852 0.660474 0,-0.687852 0.660474 0,-0.692852 0.660474 0,-0.697852 0.660474 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.0300000011920929,0,0,0.02500000037252903,0,0,0.02000000141561031,0,0,0.01500000059604645,0,0,0.01000000070780516,0,0,0.005000000819563866,0,0,6.705522803684971e-10,0,0,-0.004999999422580004,0,0,-0.009999999776482582,0,0,-0.01499999966472387,0,0,-0.01999999955296516,0,0,-0.02499999850988388,0,0,-0.02999999932944775,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:13}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.667852, 0.660474,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegLeft 18</name>
+            <type>JS</type>
+            <num_lights>12</num_lights>
+            <positions>-0.695352 0.631855 0,-0.690352 0.631862 0,-0.685352 0.631868 0,-0.680352 0.631875 0,-0.675352 0.631882 0,-0.670352 0.631889 0,-0.665352 0.631895 0,-0.660352 0.631902 0,-0.655352 0.631909 0,-0.650352 0.631916 0,-0.645352 0.631922 0,-0.640352 0.631929 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.02749999985098839,0,0,0.02250000089406967,0,0,0.01750000007450581,0,0,0.01250000018626451,0,0,0.007500000298023224,0,0,0.002500000176951289,0,0,-0.002499999944120646,0,0,-0.007499999832361937,0,0,-0.01250000018626451,0,0,-0.01750000007450581,0,0,-0.02249999903142452,0,0,-0.02749999985098839,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:12}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.667852, 0.631892,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegLeft 19</name>
+            <type>JS</type>
+            <num_lights>11</num_lights>
+            <positions>-0.642852 0.603483 0,-0.647852 0.603483 0,-0.652852 0.603483 0,-0.657852 0.603483 0,-0.662852 0.603483 0,-0.667852 0.603483 0,-0.672852 0.603483 0,-0.677852 0.603483 0,-0.682852 0.603483 0,-0.687852 0.603483 0,-0.692852 0.603483 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.02500000037252903,0,0,0.01999999955296516,0,0,0.01499999966472387,0,0,0.009999999776482582,0,0,0.004999999422580004,0,0,-3.725290353973065e-10,0,0,-0.005000000353902578,0,0,-0.01000000070780516,0,0,-0.01500000059604645,0,0,-0.01999999955296516,0,0,-0.02500000037252903,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:11}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.667852, 0.603483,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>AdalgisaLegLeft 20</name>
+            <type>JS</type>
+            <num_lights>10</num_lights>
+            <positions>-0.690352 0.574872 0,-0.685352 0.574878 0,-0.680352 0.574885 0,-0.675352 0.574892 0,-0.670352 0.574899 0,-0.665352 0.574905 0,-0.660352 0.574912 0,-0.655352 0.574919 0,-0.650352 0.574926 0,-0.645352 0.574932 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.02249999903142452,0,0,0.01749999821186066,0,0,0.01249999925494194,0,0,0.007499998901039362,0,0,0.002499999012798071,0,0,-0.00250000087544322,0,0,-0.007500000763684511,0,0,-0.01250000111758709,0,0,-0.01750000007450581,0,0,-0.02250000089406967,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.005,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:10}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.667852, 0.574902,        0,        1</transformation>
+        </fixture>
+    </fixtures>
+    <contents>
+        <content>
+            <name>main.py</name>
+            <type>PythonProgram</type>
+            <parameters>
+                <enabled type="bool">0</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <python_script type="filepath">$PROJECT_DIR/scripts/main.py</python_script>
+                <params>
+                    <gamma type="float">0.99</gamma>
+                    <Color type="color">102, 81, 255, 255</Color>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.325224,        0,        0,        0&#x0A;       0,  1.66671,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.751621,  1.39221,        0,        1</transformation>
+        </content>
+    </contents>
+    <groups></groups>
+    <controllers>
+        <controller>
+            <name>controller</name>
+            <type>ProtoPixel</type>
+            <parameters>
+                <connected type="bool">1</connected>
+                <outlets type="customint">8</outlets>
+                <Device type="string">REC:0</Device>
+                <device_data type="string">{}</device_data>
+            </parameters>
+            <outlets>
+                <outlet>
+                    <fixtures>
+                        <items>
+                            <item>fixture:AdalgisaFront1</item>
+                            <item>fixture:AdalgisaFront2</item>
+                            <item>fixture:AdalgisaFront3</item>
+                            <item>fixture:AdalgisaFront4</item>
+                            <item>fixture:AdalgisaFront5</item>
+                            <item>fixture:AdalgisaFront6</item>
+                            <item>fixture:AdalgisaFront7</item>
+                            <item>fixture:AdalgisaFront8</item>
+                            <item>fixture:AdalgisaFront9</item>
+                            <item>fixture:AdalgisaFront10</item>
+                            <item>fixture:AdalgisaFront11</item>
+                            <item>fixture:AdalgisaFront12</item>
+                            <item>fixture:AdalgisaFront13</item>
+                            <item>fixture:AdalgisaFront14</item>
+                        </items>
+                    </fixtures>
+                </outlet>
+                <outlet>
+                    <fixtures>
+                        <items>
+                            <item>fixture:AdalgisaBack1</item>
+                            <item>fixture:AdalgisaBack2</item>
+                            <item>fixture:AdalgisaBack3</item>
+                            <item>fixture:AdalgisaBack4</item>
+                            <item>fixture:AdalgisaBack5</item>
+                            <item>fixture:AdalgisaBack6</item>
+                            <item>fixture:AdalgisaBack7</item>
+                            <item>fixture:AdalgisaBack8</item>
+                            <item>fixture:AdalgisaBack9</item>
+                            <item>fixture:AdalgisaBack10</item>
+                            <item>fixture:AdalgisaBack11</item>
+                            <item>fixture:AdalgisaBack12</item>
+                            <item>fixture:AdalgisaBack13</item>
+                            <item>fixture:AdalgisaBack14</item>
+                        </items>
+                    </fixtures>
+                </outlet>
+                <outlet>
+                    <fixtures>
+                        <items>
+                            <item>fixture:AdalgisaLegRight</item>
+                            <item>fixture:AdalgisaLegRight 0</item>
+                            <item>fixture:AdalgisaLegRight 1</item>
+                            <item>fixture:AdalgisaLegRight 2</item>
+                            <item>fixture:AdalgisaLegRight 3</item>
+                            <item>fixture:AdalgisaLegRight 4</item>
+                            <item>fixture:AdalgisaLegRight 5</item>
+                            <item>fixture:AdalgisaLegRight 6</item>
+                            <item>fixture:AdalgisaLegRight 7</item>
+                            <item>fixture:AdalgisaLegRight 8</item>
+                            <item>fixture:AdalgisaLegRight 9</item>
+                            <item>fixture:AdalgisaLegRight 10</item>
+                            <item>fixture:AdalgisaLegRight 11</item>
+                            <item>fixture:AdalgisaLegRight 12</item>
+                            <item>fixture:AdalgisaLegRight 13</item>
+                            <item>fixture:AdalgisaLegRight 14</item>
+                            <item>fixture:AdalgisaLegRight 15</item>
+                            <item>fixture:AdalgisaLegRight 16</item>
+                            <item>fixture:AdalgisaLegRight 17</item>
+                            <item>fixture:AdalgisaLegRight 18</item>
+                            <item>fixture:AdalgisaLegRight 19</item>
+                            <item>fixture:AdalgisaLegRight 20</item>
+                        </items>
+                    </fixtures>
+                </outlet>
+                <outlet>
+                    <fixtures>
+                        <items>
+                            <item>fixture:AdalgisaLegLeft</item>
+                            <item>fixture:AdalgisaLegLeft 0</item>
+                            <item>fixture:AdalgisaLegLeft 1</item>
+                            <item>fixture:AdalgisaLegLeft 2</item>
+                            <item>fixture:AdalgisaLegLeft 3</item>
+                            <item>fixture:AdalgisaLegLeft 4</item>
+                            <item>fixture:AdalgisaLegLeft 5</item>
+                            <item>fixture:AdalgisaLegLeft 6</item>
+                            <item>fixture:AdalgisaLegLeft 7</item>
+                            <item>fixture:AdalgisaLegLeft 8</item>
+                            <item>fixture:AdalgisaLegLeft 9</item>
+                            <item>fixture:AdalgisaLegLeft 10</item>
+                            <item>fixture:AdalgisaLegLeft 11</item>
+                            <item>fixture:AdalgisaLegLeft 12</item>
+                            <item>fixture:AdalgisaLegLeft 13</item>
+                            <item>fixture:AdalgisaLegLeft 14</item>
+                            <item>fixture:AdalgisaLegLeft 15</item>
+                            <item>fixture:AdalgisaLegLeft 16</item>
+                            <item>fixture:AdalgisaLegLeft 17</item>
+                            <item>fixture:AdalgisaLegLeft 18</item>
+                            <item>fixture:AdalgisaLegLeft 19</item>
+                            <item>fixture:AdalgisaLegLeft 20</item>
+                        </items>
+                    </fixtures>
+                </outlet>
+                <outlet>
+                    <fixtures>
+                        <items></items>
+                    </fixtures>
+                </outlet>
+                <outlet>
+                    <fixtures>
+                        <items></items>
+                    </fixtures>
+                </outlet>
+                <outlet>
+                    <fixtures>
+                        <items></items>
+                    </fixtures>
+                </outlet>
+                <outlet>
+                    <fixtures>
+                        <items></items>
+                    </fixtures>
+                </outlet>
+            </outlets>
+        </controller>
+    </controllers>
+</project>
