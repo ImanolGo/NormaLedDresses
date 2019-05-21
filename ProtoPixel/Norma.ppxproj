@@ -37,8 +37,6 @@
                 <item>fixture:NormaLegRight 6</item>
                 <item>fixture:NormaLegRight 7</item>
                 <item>fixture:NormaLegRight 8</item>
-                <item>fixture:NormaLegRight 9</item>
-                <item>fixture:NormaLegRight 10</item>
                 <item>fixture:NormaLegRight 11</item>
                 <item>fixture:NormaLegRight 12</item>
                 <item>fixture:NormaLegRight 13</item>
@@ -58,8 +56,6 @@
                 <item>fixture:NormaLegLeft 6</item>
                 <item>fixture:NormaLegLeft 7</item>
                 <item>fixture:NormaLegLeft 8</item>
-                <item>fixture:NormaLegLeft 9</item>
-                <item>fixture:NormaLegLeft 10</item>
                 <item>fixture:NormaLegLeft 11</item>
                 <item>fixture:NormaLegLeft 12</item>
                 <item>fixture:NormaLegLeft 13</item>
@@ -457,8 +453,8 @@
         <fixture>
             <name>NormaLegRight</name>
             <type>JS</type>
-            <num_lights>19</num_lights>
-            <positions>-0.885611 1.2653 0,-0.878611 1.2653 0,-0.871611 1.2653 0,-0.864611 1.2653 0,-0.857611 1.2653 0,-0.850611 1.2653 0,-0.843611 1.2653 0,-0.836611 1.2653 0,-0.829611 1.2653 0,-0.822611 1.2653 0,-0.815611 1.2653 0,-0.808611 1.2653 0,-0.801611 1.2653 0,-0.794611 1.2653 0,-0.787611 1.2653 0,-0.780611 1.2653 0,-0.773611 1.2653 0,-0.766611 1.2653 0,-0.759611 1.2653 0,</positions>
+            <num_lights>17</num_lights>
+            <positions>-0.885343 1.2653 0,-0.878343 1.2653 0,-0.871343 1.2653 0,-0.864343 1.2653 0,-0.857343 1.2653 0,-0.850343 1.2653 0,-0.843343 1.2653 0,-0.836343 1.2653 0,-0.829343 1.2653 0,-0.822343 1.2653 0,-0.815343 1.2653 0,-0.808343 1.2653 0,-0.801343 1.2653 0,-0.794343 1.2653 0,-0.787343 1.2653 0,-0.780343 1.2653 0,-0.773343 1.2653 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -473,64 +469,16 @@
                 <Base_color type="color">0, 0, 0, 0</Base_color>
                 <Zone type="string"></Zone>
                 <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[-0.06300000101327896,0,0,-0.0560000017285347,0,0,-0.04900000244379044,0,0,-0.04199999943375587,0,0,-0.03500000014901161,0,0,-0.02800000086426735,0,0,-0.02100000157952309,0,0,-0.01400000136345625,0,0,-0.007000001147389412,0,0,-1.013279016248703e-09,0,0,0.006999998819082975,0,0,0.01399999856948853,0,0,0.02099999971687794,0,0,0.0279999990016222,0,0,0.03500000014901161,0,0,0.04199999943375587,0,0,0.04899999871850014,0,0,0.0559999980032444,0,0,0.06300000101327896,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:19}&#x0A;</js_payload>
+                <light_positions type="jsvalue">[-0.0560000017285347,0,0,-0.04900000244379044,0,0,-0.04200000315904617,0,0,-0.03500000014901161,0,0,-0.02800000086426735,0,0,-0.02100000157952309,0,0,-0.01400000136345625,0,0,-0.007000001613050699,0,0,-1.728534648748337e-09,0,0,0.006999998353421688,0,0,0.01399999856948853,0,0,0.02099999785423279,0,0,0.0279999990016222,0,0,0.03499999642372131,0,0,0.04199999943375587,0,0,0.04899999871850014,0,0,0.0559999980032444,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:17}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.822611,   1.2653,        0,        1</transformation>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.829343,   1.2653,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegRight 0</name>
             <type>JS</type>
-            <num_lights>18</num_lights>
-            <positions>-0.763111 1.23201 0,-0.770111 1.232 0,-0.777111 1.23199 0,-0.784111 1.23198 0,-0.791111 1.23197 0,-0.798111 1.23196 0,-0.805111 1.23195 0,-0.812111 1.23194 0,-0.819111 1.23193 0,-0.826111 1.23193 0,-0.833111 1.23192 0,-0.840111 1.23191 0,-0.847111 1.2319 0,-0.854111 1.23189 0,-0.861111 1.23188 0,-0.868111 1.23187 0,-0.875111 1.23186 0,-0.882111 1.23185 0,</positions>
-            <parameters>
-                <ON type="bool">1</ON>
-                <Level type="float">1</Level>
-                <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
-                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
-                <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
-                <custom_ordering type="string">R,G,B</custom_ordering>
-                <White_function type="stringoption">average</White_function>
-                <Color_mode type="stringoption">original</Color_mode>
-                <Base_color type="color">0, 0, 0, 0</Base_color>
-                <Zone type="string"></Zone>
-                <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[-0.05950000137090683,0,0,-0.05250000208616257,0,0,-0.0455000028014183,0,0,-0.03849999979138374,0,0,-0.03150000050663948,0,0,-0.02450000122189522,0,0,-0.01750000193715096,0,0,-0.01050000172108412,0,0,-0.003500001272186637,0,0,0.003499998711049557,0,0,0.01049999892711639,0,0,0.01749999821186066,0,0,0.02449999935925007,0,0,0.03149999678134918,0,0,0.03849999979138374,0,0,0.04549999907612801,0,0,0.05249999836087227,0,0,0.05949999764561653,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:18}&#x0A;</js_payload>
-            </parameters>
-            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.822611,  1.23193,        0,        1</transformation>
-        </fixture>
-        <fixture>
-            <name>NormaLegRight 1</name>
-            <type>JS</type>
-            <num_lights>18</num_lights>
-            <positions>-0.882111 1.19629 0,-0.875111 1.19629 0,-0.868111 1.19629 0,-0.861111 1.19629 0,-0.854111 1.19629 0,-0.847111 1.19629 0,-0.840111 1.19629 0,-0.833111 1.19629 0,-0.826111 1.19629 0,-0.819111 1.19629 0,-0.812111 1.19629 0,-0.805111 1.19629 0,-0.798111 1.19629 0,-0.791111 1.19629 0,-0.784111 1.19629 0,-0.777111 1.19629 0,-0.770111 1.19629 0,-0.763111 1.19629 0,</positions>
-            <parameters>
-                <ON type="bool">1</ON>
-                <Level type="float">1</Level>
-                <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
-                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
-                <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
-                <custom_ordering type="string">R,G,B</custom_ordering>
-                <White_function type="stringoption">average</White_function>
-                <Color_mode type="stringoption">original</Color_mode>
-                <Base_color type="color">0, 0, 0, 0</Base_color>
-                <Zone type="string"></Zone>
-                <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[-0.05950000137090683,0,0,-0.05250000208616257,0,0,-0.0455000028014183,0,0,-0.03849999979138374,0,0,-0.03150000050663948,0,0,-0.02450000122189522,0,0,-0.01750000193715096,0,0,-0.01050000172108412,0,0,-0.003500001272186637,0,0,0.003499998711049557,0,0,0.01049999892711639,0,0,0.01749999821186066,0,0,0.02449999935925007,0,0,0.03149999678134918,0,0,0.03849999979138374,0,0,0.04549999907612801,0,0,0.05249999836087227,0,0,0.05949999764561653,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:18}&#x0A;</js_payload>
-            </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.822611,  1.19629,        0,        1</transformation>
-        </fixture>
-        <fixture>
-            <name>NormaLegRight 2</name>
-            <type>JS</type>
             <num_lights>16</num_lights>
-            <positions>-0.770111 1.16299 0,-0.777111 1.16298 0,-0.784111 1.16297 0,-0.791111 1.16296 0,-0.798111 1.16295 0,-0.805111 1.16294 0,-0.812111 1.16293 0,-0.819111 1.16292 0,-0.826111 1.16292 0,-0.833111 1.16291 0,-0.840111 1.1629 0,-0.847111 1.16289 0,-0.854111 1.16288 0,-0.861111 1.16287 0,-0.868111 1.16286 0,-0.875111 1.16285 0,</positions>
+            <positions>-0.776843 1.232 0,-0.783843 1.23199 0,-0.790843 1.23198 0,-0.797843 1.23197 0,-0.804843 1.23196 0,-0.811843 1.23195 0,-0.818843 1.23194 0,-0.825843 1.23193 0,-0.832843 1.23193 0,-0.839843 1.23192 0,-0.846843 1.23191 0,-0.853843 1.2319 0,-0.860843 1.23189 0,-0.867843 1.23188 0,-0.874843 1.23187 0,-0.881843 1.23186 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -548,13 +496,61 @@
                 <light_positions type="jsvalue">[-0.05249999836087227,0,0,-0.04549999907612801,0,0,-0.03849999979138374,0,0,-0.03149999678134918,0,0,-0.02449999749660492,0,0,-0.01749999821186066,0,0,-0.01049999799579382,0,0,-0.003499998245388269,0,0,0.003500001737847924,0,0,0.01050000172108412,0,0,0.01750000193715096,0,0,0.02450000122189522,0,0,0.03150000050663948,0,0,0.03849999979138374,0,0,0.0455000028014183,0,0,0.05250000208616257,0,0]&#x0A;</light_positions>
                 <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:16}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.822611,  1.16292,        0,        1</transformation>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.829343,  1.23193,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>NormaLegRight 1</name>
+            <type>JS</type>
+            <num_lights>15</num_lights>
+            <positions>-0.878343 1.19629 0,-0.871343 1.19629 0,-0.864343 1.19629 0,-0.857343 1.19629 0,-0.850343 1.19629 0,-0.843343 1.19629 0,-0.836343 1.19629 0,-0.829343 1.19629 0,-0.822343 1.19629 0,-0.815343 1.19629 0,-0.808343 1.19629 0,-0.801343 1.19629 0,-0.794343 1.19629 0,-0.787343 1.19629 0,-0.780343 1.19629 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.04899999871850014,0,0,-0.04199999943375587,0,0,-0.03500000014901161,0,0,-0.0279999990016222,0,0,-0.02099999785423279,0,0,-0.01399999856948853,0,0,-0.006999998819082975,0,0,1.281499906191641e-09,0,0,0.007000001147389412,0,0,0.01400000136345625,0,0,0.02100000157952309,0,0,0.02800000086426735,0,0,0.03500000014901161,0,0,0.04199999943375587,0,0,0.04900000244379044,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:15}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.829343,  1.19629,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>NormaLegRight 2</name>
+            <type>JS</type>
+            <num_lights>15</num_lights>
+            <positions>-0.780343 1.16299 0,-0.787343 1.16298 0,-0.794343 1.16297 0,-0.801343 1.16296 0,-0.808343 1.16295 0,-0.815343 1.16294 0,-0.822343 1.16293 0,-0.829343 1.16292 0,-0.836343 1.16291 0,-0.843343 1.1629 0,-0.850343 1.16289 0,-0.857343 1.16288 0,-0.864343 1.16287 0,-0.871343 1.16286 0,-0.878343 1.16285 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.04899999871850014,0,0,-0.04199999943375587,0,0,-0.03500000014901161,0,0,-0.0279999990016222,0,0,-0.02099999785423279,0,0,-0.01399999856948853,0,0,-0.006999998819082975,0,0,1.281499906191641e-09,0,0,0.007000001147389412,0,0,0.01400000136345625,0,0,0.02100000157952309,0,0,0.02800000086426735,0,0,0.03500000014901161,0,0,0.04199999943375587,0,0,0.04900000244379044,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:15}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.829343,  1.16292,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegRight 3</name>
             <type>JS</type>
-            <num_lights>15</num_lights>
-            <positions>-0.871611 1.12609 0,-0.864611 1.12609 0,-0.857611 1.12609 0,-0.850611 1.12609 0,-0.843611 1.12609 0,-0.836611 1.12609 0,-0.829611 1.12609 0,-0.822611 1.12609 0,-0.815611 1.12609 0,-0.808611 1.12609 0,-0.801611 1.12609 0,-0.794611 1.12609 0,-0.787611 1.12609 0,-0.780611 1.12609 0,-0.773611 1.12609 0,</positions>
+            <num_lights>13</num_lights>
+            <positions>-0.871343 1.12609 0,-0.864343 1.12609 0,-0.857343 1.12609 0,-0.850343 1.12609 0,-0.843343 1.12609 0,-0.836343 1.12609 0,-0.829343 1.12609 0,-0.822343 1.12609 0,-0.815343 1.12609 0,-0.808343 1.12609 0,-0.801343 1.12609 0,-0.794343 1.12609 0,-0.787343 1.12609 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -569,16 +565,16 @@
                 <Base_color type="color">0, 0, 0, 0</Base_color>
                 <Zone type="string"></Zone>
                 <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[-0.04899999871850014,0,0,-0.04199999943375587,0,0,-0.03500000014901161,0,0,-0.0279999990016222,0,0,-0.02099999785423279,0,0,-0.01399999856948853,0,0,-0.006999998819082975,0,0,1.281499906191641e-09,0,0,0.007000001147389412,0,0,0.01400000136345625,0,0,0.02100000157952309,0,0,0.02800000086426735,0,0,0.03500000014901161,0,0,0.04199999943375587,0,0,0.04900000244379044,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:15}&#x0A;</js_payload>
+                <light_positions type="jsvalue">[-0.04199999943375587,0,0,-0.03500000014901161,0,0,-0.0279999990016222,0,0,-0.02099999971687794,0,0,-0.0139999995008111,0,0,-0.006999999284744263,0,0,5.662441071585533e-10,0,0,0.007000000681728125,0,0,0.01400000043213367,0,0,0.02099999971687794,0,0,0.02800000086426735,0,0,0.03500000014901161,0,0,0.04199999943375587,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:13}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.822611,  1.12609,        0,        1</transformation>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.829343,  1.12609,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegRight 4</name>
             <type>JS</type>
-            <num_lights>15</num_lights>
-            <positions>-0.773611 1.09042 0,-0.780611 1.09041 0,-0.787611 1.0904 0,-0.794611 1.09039 0,-0.801611 1.09038 0,-0.808611 1.09037 0,-0.815611 1.09036 0,-0.822611 1.09035 0,-0.829611 1.09034 0,-0.836611 1.09033 0,-0.843611 1.09032 0,-0.850611 1.09031 0,-0.857611 1.0903 0,-0.864611 1.09029 0,-0.871611 1.09028 0,</positions>
+            <num_lights>13</num_lights>
+            <positions>-0.787343 1.09041 0,-0.794343 1.0904 0,-0.801343 1.09039 0,-0.808343 1.09038 0,-0.815343 1.09037 0,-0.822343 1.09036 0,-0.829343 1.09035 0,-0.836343 1.09034 0,-0.843343 1.09033 0,-0.850343 1.09032 0,-0.857343 1.09031 0,-0.864343 1.0903 0,-0.871343 1.09029 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -593,16 +589,16 @@
                 <Base_color type="color">0, 0, 0, 0</Base_color>
                 <Zone type="string"></Zone>
                 <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[-0.04899999871850014,0,0,-0.04199999943375587,0,0,-0.03500000014901161,0,0,-0.0279999990016222,0,0,-0.02099999785423279,0,0,-0.01399999856948853,0,0,-0.006999998819082975,0,0,1.281499906191641e-09,0,0,0.007000001147389412,0,0,0.01400000136345625,0,0,0.02100000157952309,0,0,0.02800000086426735,0,0,0.03500000014901161,0,0,0.04199999943375587,0,0,0.04900000244379044,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:15}&#x0A;</js_payload>
+                <light_positions type="jsvalue">[-0.04199999943375587,0,0,-0.03500000014901161,0,0,-0.0279999990016222,0,0,-0.02099999971687794,0,0,-0.0139999995008111,0,0,-0.006999999284744263,0,0,5.662441071585533e-10,0,0,0.007000000681728125,0,0,0.01400000043213367,0,0,0.02099999971687794,0,0,0.02800000086426735,0,0,0.03500000014901161,0,0,0.04199999943375587,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:13}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.822611,  1.09035,        0,        1</transformation>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.829343,  1.09035,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegRight 5</name>
             <type>JS</type>
-            <num_lights>13</num_lights>
-            <positions>-0.864611 1.05471 0,-0.857611 1.05471 0,-0.850611 1.05471 0,-0.843611 1.05471 0,-0.836611 1.05471 0,-0.829611 1.05471 0,-0.822611 1.05471 0,-0.815611 1.05471 0,-0.808611 1.05471 0,-0.801611 1.05471 0,-0.794611 1.05471 0,-0.787611 1.05471 0,-0.780611 1.05471 0,</positions>
+            <num_lights>12</num_lights>
+            <positions>-0.867843 1.05471 0,-0.860843 1.05471 0,-0.853843 1.05471 0,-0.846843 1.05471 0,-0.839843 1.05471 0,-0.832843 1.05471 0,-0.825843 1.05471 0,-0.818843 1.05471 0,-0.811843 1.05471 0,-0.804843 1.05471 0,-0.797843 1.05471 0,-0.790843 1.05471 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -617,16 +613,16 @@
                 <Base_color type="color">0, 0, 0, 0</Base_color>
                 <Zone type="string"></Zone>
                 <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[-0.04199999943375587,0,0,-0.03500000014901161,0,0,-0.0279999990016222,0,0,-0.02099999971687794,0,0,-0.0139999995008111,0,0,-0.006999999284744263,0,0,5.662441071585533e-10,0,0,0.007000000681728125,0,0,0.01400000043213367,0,0,0.02099999971687794,0,0,0.02800000086426735,0,0,0.03500000014901161,0,0,0.04199999943375587,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:13}&#x0A;</js_payload>
+                <light_positions type="jsvalue">[-0.03849999979138374,0,0,-0.03150000050663948,0,0,-0.02449999935925007,0,0,-0.01750000007450581,0,0,-0.01049999985843897,0,0,-0.003499999875202775,0,0,0.003500000108033419,0,0,0.01049999985843897,0,0,0.01750000007450581,0,0,0.02449999935925007,0,0,0.03150000050663948,0,0,0.03849999979138374,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:12}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.822611,  1.05471,        0,        1</transformation>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.829343,  1.05471,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegRight 6</name>
             <type>JS</type>
-            <num_lights>13</num_lights>
-            <positions>-0.780611 1.01903 0,-0.787611 1.01902 0,-0.794611 1.01901 0,-0.801611 1.019 0,-0.808611 1.01899 0,-0.815611 1.01898 0,-0.822611 1.01897 0,-0.829611 1.01896 0,-0.836611 1.01895 0,-0.843611 1.01894 0,-0.850611 1.01893 0,-0.857611 1.01892 0,-0.864611 1.01891 0,</positions>
+            <num_lights>11</num_lights>
+            <positions>-0.794343 1.01902 0,-0.801343 1.01901 0,-0.808343 1.019 0,-0.815343 1.01899 0,-0.822343 1.01898 0,-0.829343 1.01897 0,-0.836343 1.01896 0,-0.843343 1.01895 0,-0.850343 1.01894 0,-0.857343 1.01893 0,-0.864343 1.01892 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -641,184 +637,16 @@
                 <Base_color type="color">0, 0, 0, 0</Base_color>
                 <Zone type="string"></Zone>
                 <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[-0.04199999943375587,0,0,-0.03500000014901161,0,0,-0.0279999990016222,0,0,-0.02099999971687794,0,0,-0.0139999995008111,0,0,-0.006999999284744263,0,0,5.662441071585533e-10,0,0,0.007000000681728125,0,0,0.01400000043213367,0,0,0.02099999971687794,0,0,0.02800000086426735,0,0,0.03500000014901161,0,0,0.04199999943375587,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:13}&#x0A;</js_payload>
+                <light_positions type="jsvalue">[-0.03500000014901161,0,0,-0.02800000086426735,0,0,-0.02099999971687794,0,0,-0.01400000043213367,0,0,-0.007000000216066837,0,0,-1.490116086078075e-10,0,0,0.00699999975040555,0,0,0.0139999995008111,0,0,0.02099999971687794,0,0,0.0279999990016222,0,0,0.03500000014901161,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:11}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.822611,  1.01897,        0,        1</transformation>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.829343,  1.01897,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegRight 7</name>
             <type>JS</type>
-            <num_lights>12</num_lights>
-            <positions>-0.861111 0.985816 0,-0.854111 0.985816 0,-0.847111 0.985816 0,-0.840111 0.985816 0,-0.833111 0.985816 0,-0.826111 0.985816 0,-0.819111 0.985816 0,-0.812111 0.985816 0,-0.805111 0.985816 0,-0.798111 0.985816 0,-0.791111 0.985816 0,-0.784111 0.985816 0,</positions>
-            <parameters>
-                <ON type="bool">1</ON>
-                <Level type="float">1</Level>
-                <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
-                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
-                <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
-                <custom_ordering type="string">R,G,B</custom_ordering>
-                <White_function type="stringoption">average</White_function>
-                <Color_mode type="stringoption">original</Color_mode>
-                <Base_color type="color">0, 0, 0, 0</Base_color>
-                <Zone type="string"></Zone>
-                <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[-0.03849999979138374,0,0,-0.03150000050663948,0,0,-0.02449999935925007,0,0,-0.01750000007450581,0,0,-0.01049999985843897,0,0,-0.003499999875202775,0,0,0.003500000108033419,0,0,0.01049999985843897,0,0,0.01750000007450581,0,0,0.02449999935925007,0,0,0.03150000050663948,0,0,0.03849999979138374,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:12}&#x0A;</js_payload>
-            </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.822611, 0.985816,        0,        1</transformation>
-        </fixture>
-        <fixture>
-            <name>NormaLegRight 8</name>
-            <type>JS</type>
-            <num_lights>12</num_lights>
-            <positions>-0.784111 0.951473 0,-0.791111 0.951464 0,-0.798111 0.951454 0,-0.805111 0.951445 0,-0.812111 0.951435 0,-0.819111 0.951426 0,-0.826111 0.951416 0,-0.833111 0.951407 0,-0.840111 0.951397 0,-0.847111 0.951388 0,-0.854111 0.951378 0,-0.861111 0.951369 0,</positions>
-            <parameters>
-                <ON type="bool">1</ON>
-                <Level type="float">1</Level>
-                <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
-                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
-                <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
-                <custom_ordering type="string">R,G,B</custom_ordering>
-                <White_function type="stringoption">average</White_function>
-                <Color_mode type="stringoption">original</Color_mode>
-                <Base_color type="color">0, 0, 0, 0</Base_color>
-                <Zone type="string"></Zone>
-                <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[-0.03849999979138374,0,0,-0.03150000050663948,0,0,-0.02449999935925007,0,0,-0.01750000007450581,0,0,-0.01049999985843897,0,0,-0.003499999875202775,0,0,0.003500000108033419,0,0,0.01049999985843897,0,0,0.01750000007450581,0,0,0.02449999935925007,0,0,0.03150000050663948,0,0,0.03849999979138374,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:12}&#x0A;</js_payload>
-            </parameters>
-            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.822611, 0.951421,        0,        1</transformation>
-        </fixture>
-        <fixture>
-            <name>NormaLegRight 9</name>
-            <type>JS</type>
-            <num_lights>6</num_lights>
-            <positions>-0.819111 0.918005 0,-0.812111 0.918005 0,-0.805111 0.918005 0,-0.798111 0.918005 0,-0.791111 0.918005 0,-0.784111 0.918005 0,</positions>
-            <parameters>
-                <ON type="bool">1</ON>
-                <Level type="float">1</Level>
-                <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
-                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
-                <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
-                <custom_ordering type="string">R,G,B</custom_ordering>
-                <White_function type="stringoption">average</White_function>
-                <Color_mode type="stringoption">original</Color_mode>
-                <Base_color type="color">0, 0, 0, 0</Base_color>
-                <Zone type="string"></Zone>
-                <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[-0.01750000007450581,0,0,-0.01049999985843897,0,0,-0.003500000108033419,0,0,0.003499999875202775,0,0,0.01049999985843897,0,0,0.01750000007450581,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:6}&#x0A;</js_payload>
-            </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.801611, 0.918005,        0,        1</transformation>
-        </fixture>
-        <fixture>
-            <name>NormaLegRight 10</name>
-            <type>JS</type>
-            <num_lights>12</num_lights>
-            <positions>-0.784111 0.888684 0,-0.791111 0.888675 0,-0.798111 0.888665 0,-0.805111 0.888656 0,-0.812111 0.888646 0,-0.819111 0.888637 0,-0.826111 0.888627 0,-0.833111 0.888618 0,-0.840111 0.888608 0,-0.847111 0.888599 0,-0.854111 0.888589 0,-0.861111 0.88858 0,</positions>
-            <parameters>
-                <ON type="bool">1</ON>
-                <Level type="float">1</Level>
-                <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
-                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
-                <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
-                <custom_ordering type="string">R,G,B</custom_ordering>
-                <White_function type="stringoption">average</White_function>
-                <Color_mode type="stringoption">original</Color_mode>
-                <Base_color type="color">0, 0, 0, 0</Base_color>
-                <Zone type="string"></Zone>
-                <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[-0.03849999979138374,0,0,-0.03150000050663948,0,0,-0.02449999935925007,0,0,-0.01750000007450581,0,0,-0.01049999985843897,0,0,-0.003499999875202775,0,0,0.003500000108033419,0,0,0.01049999985843897,0,0,0.01750000007450581,0,0,0.02449999935925007,0,0,0.03150000050663948,0,0,0.03849999979138374,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:12}&#x0A;</js_payload>
-            </parameters>
-            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.822611, 0.888632,        0,        1</transformation>
-        </fixture>
-        <fixture>
-            <name>NormaLegRight 11</name>
-            <type>JS</type>
-            <num_lights>12</num_lights>
-            <positions>-0.861111 0.859031 0,-0.854111 0.859031 0,-0.847111 0.859031 0,-0.840111 0.859031 0,-0.833111 0.859031 0,-0.826111 0.859031 0,-0.819111 0.859031 0,-0.812111 0.859031 0,-0.805111 0.859031 0,-0.798111 0.859031 0,-0.791111 0.859031 0,-0.784111 0.859031 0,</positions>
-            <parameters>
-                <ON type="bool">1</ON>
-                <Level type="float">1</Level>
-                <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
-                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
-                <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
-                <custom_ordering type="string">R,G,B</custom_ordering>
-                <White_function type="stringoption">average</White_function>
-                <Color_mode type="stringoption">original</Color_mode>
-                <Base_color type="color">0, 0, 0, 0</Base_color>
-                <Zone type="string"></Zone>
-                <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[-0.03849999979138374,0,0,-0.03150000050663948,0,0,-0.02449999935925007,0,0,-0.01750000007450581,0,0,-0.01049999985843897,0,0,-0.003499999875202775,0,0,0.003500000108033419,0,0,0.01049999985843897,0,0,0.01750000007450581,0,0,0.02449999935925007,0,0,0.03150000050663948,0,0,0.03849999979138374,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:12}&#x0A;</js_payload>
-            </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.822611, 0.859031,        0,        1</transformation>
-        </fixture>
-        <fixture>
-            <name>NormaLegRight 12</name>
-            <type>JS</type>
-            <num_lights>13</num_lights>
-            <positions>-0.780611 0.830506 0,-0.787611 0.830496 0,-0.794611 0.830487 0,-0.801611 0.830477 0,-0.808611 0.830468 0,-0.815611 0.830458 0,-0.822611 0.830449 0,-0.829611 0.83044 0,-0.836611 0.83043 0,-0.843611 0.830421 0,-0.850611 0.830411 0,-0.857611 0.830402 0,-0.864611 0.830392 0,</positions>
-            <parameters>
-                <ON type="bool">1</ON>
-                <Level type="float">1</Level>
-                <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
-                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
-                <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
-                <custom_ordering type="string">R,G,B</custom_ordering>
-                <White_function type="stringoption">average</White_function>
-                <Color_mode type="stringoption">original</Color_mode>
-                <Base_color type="color">0, 0, 0, 0</Base_color>
-                <Zone type="string"></Zone>
-                <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[-0.04199999943375587,0,0,-0.03500000014901161,0,0,-0.0279999990016222,0,0,-0.02099999971687794,0,0,-0.0139999995008111,0,0,-0.006999999284744263,0,0,5.662441071585533e-10,0,0,0.007000000681728125,0,0,0.01400000043213367,0,0,0.02099999971687794,0,0,0.02800000086426735,0,0,0.03500000014901161,0,0,0.04199999943375587,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:13}&#x0A;</js_payload>
-            </parameters>
-            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.822611, 0.830449,        0,        1</transformation>
-        </fixture>
-        <fixture>
-            <name>NormaLegRight 13</name>
-            <type>JS</type>
-            <num_lights>12</num_lights>
-            <positions>-0.861111 0.800951 0,-0.854111 0.800951 0,-0.847111 0.800951 0,-0.840111 0.800951 0,-0.833111 0.800951 0,-0.826111 0.800951 0,-0.819111 0.800951 0,-0.812111 0.800951 0,-0.805111 0.800951 0,-0.798111 0.800951 0,-0.791111 0.800951 0,-0.784111 0.800951 0,</positions>
-            <parameters>
-                <ON type="bool">1</ON>
-                <Level type="float">1</Level>
-                <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
-                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
-                <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
-                <custom_ordering type="string">R,G,B</custom_ordering>
-                <White_function type="stringoption">average</White_function>
-                <Color_mode type="stringoption">original</Color_mode>
-                <Base_color type="color">0, 0, 0, 0</Base_color>
-                <Zone type="string"></Zone>
-                <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[-0.03849999979138374,0,0,-0.03150000050663948,0,0,-0.02449999935925007,0,0,-0.01750000007450581,0,0,-0.01049999985843897,0,0,-0.003499999875202775,0,0,0.003500000108033419,0,0,0.01049999985843897,0,0,0.01750000007450581,0,0,0.02449999935925007,0,0,0.03150000050663948,0,0,0.03849999979138374,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:12}&#x0A;</js_payload>
-            </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.822611, 0.800951,        0,        1</transformation>
-        </fixture>
-        <fixture>
-            <name>NormaLegRight 14</name>
-            <type>JS</type>
             <num_lights>10</num_lights>
-            <positions>-0.791111 0.769616 0,-0.798111 0.769606 0,-0.805111 0.769597 0,-0.812111 0.769587 0,-0.819111 0.769578 0,-0.826111 0.769568 0,-0.833111 0.769559 0,-0.840111 0.769549 0,-0.847111 0.76954 0,-0.854111 0.76953 0,</positions>
+            <positions>-0.860843 0.985816 0,-0.853843 0.985816 0,-0.846843 0.985816 0,-0.839843 0.985816 0,-0.832843 0.985816 0,-0.825843 0.985816 0,-0.818843 0.985816 0,-0.811843 0.985816 0,-0.804843 0.985816 0,-0.797843 0.985816 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -836,13 +664,133 @@
                 <light_positions type="jsvalue">[-0.03150000050663948,0,0,-0.02450000122189522,0,0,-0.01750000007450581,0,0,-0.01050000078976154,0,0,-0.003500000573694706,0,0,0.003499999409541488,0,0,0.01049999985843897,0,0,0.01750000007450581,0,0,0.02449999935925007,0,0,0.03150000050663948,0,0]&#x0A;</light_positions>
                 <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:10}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.822611, 0.769573,        0,        1</transformation>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.829343, 0.985816,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>NormaLegRight 8</name>
+            <type>JS</type>
+            <num_lights>10</num_lights>
+            <positions>-0.797843 0.951464 0,-0.804843 0.951454 0,-0.811843 0.951445 0,-0.818843 0.951435 0,-0.825843 0.951426 0,-0.832843 0.951416 0,-0.839843 0.951407 0,-0.846843 0.951397 0,-0.853843 0.951388 0,-0.860843 0.951378 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.03150000050663948,0,0,-0.02450000122189522,0,0,-0.01750000007450581,0,0,-0.01050000078976154,0,0,-0.003500000573694706,0,0,0.003499999409541488,0,0,0.01049999985843897,0,0,0.01750000007450581,0,0,0.02449999935925007,0,0,0.03150000050663948,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:10}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.829343, 0.951421,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>NormaLegRight 11</name>
+            <type>JS</type>
+            <num_lights>12</num_lights>
+            <positions>-0.867843 0.912887 0,-0.860843 0.912887 0,-0.853843 0.912887 0,-0.846843 0.912887 0,-0.839843 0.912887 0,-0.832843 0.912887 0,-0.825843 0.912887 0,-0.818843 0.912887 0,-0.811843 0.912887 0,-0.804843 0.912887 0,-0.797843 0.912887 0,-0.790843 0.912887 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.03849999979138374,0,0,-0.03150000050663948,0,0,-0.02449999935925007,0,0,-0.01750000007450581,0,0,-0.01049999985843897,0,0,-0.003499999875202775,0,0,0.003500000108033419,0,0,0.01049999985843897,0,0,0.01750000007450581,0,0,0.02449999935925007,0,0,0.03150000050663948,0,0,0.03849999979138374,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:12}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.829343, 0.912887,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>NormaLegRight 12</name>
+            <type>JS</type>
+            <num_lights>13</num_lights>
+            <positions>-0.787343 0.884362 0,-0.794343 0.884352 0,-0.801343 0.884343 0,-0.808343 0.884333 0,-0.815343 0.884324 0,-0.822343 0.884314 0,-0.829343 0.884305 0,-0.836343 0.884295 0,-0.843343 0.884286 0,-0.850343 0.884277 0,-0.857343 0.884267 0,-0.864343 0.884258 0,-0.871343 0.884248 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.04199999943375587,0,0,-0.03500000014901161,0,0,-0.0279999990016222,0,0,-0.02099999971687794,0,0,-0.0139999995008111,0,0,-0.006999999284744263,0,0,5.662441071585533e-10,0,0,0.007000000681728125,0,0,0.01400000043213367,0,0,0.02099999971687794,0,0,0.02800000086426735,0,0,0.03500000014901161,0,0,0.04199999943375587,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:13}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.829343, 0.884305,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>NormaLegRight 13</name>
+            <type>JS</type>
+            <num_lights>12</num_lights>
+            <positions>-0.867843 0.854807 0,-0.860843 0.854807 0,-0.853843 0.854807 0,-0.846843 0.854807 0,-0.839843 0.854807 0,-0.832843 0.854807 0,-0.825843 0.854807 0,-0.818843 0.854807 0,-0.811843 0.854807 0,-0.804843 0.854807 0,-0.797843 0.854807 0,-0.790843 0.854807 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.03849999979138374,0,0,-0.03150000050663948,0,0,-0.02449999935925007,0,0,-0.01750000007450581,0,0,-0.01049999985843897,0,0,-0.003499999875202775,0,0,0.003500000108033419,0,0,0.01049999985843897,0,0,0.01750000007450581,0,0,0.02449999935925007,0,0,0.03150000050663948,0,0,0.03849999979138374,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:12}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.829343, 0.854807,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>NormaLegRight 14</name>
+            <type>JS</type>
+            <num_lights>10</num_lights>
+            <positions>-0.797843 0.823472 0,-0.804843 0.823462 0,-0.811843 0.823453 0,-0.818843 0.823443 0,-0.825843 0.823434 0,-0.832843 0.823424 0,-0.839843 0.823415 0,-0.846843 0.823405 0,-0.853843 0.823396 0,-0.860843 0.823386 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.03150000050663948,0,0,-0.02450000122189522,0,0,-0.01750000007450581,0,0,-0.01050000078976154,0,0,-0.003500000573694706,0,0,0.003499999409541488,0,0,0.01049999985843897,0,0,0.01750000007450581,0,0,0.02449999935925007,0,0,0.03150000050663948,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:10}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.829343, 0.823429,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegRight 15</name>
             <type>JS</type>
             <num_lights>9</num_lights>
-            <positions>-0.850611 0.739972 0,-0.843611 0.739972 0,-0.836611 0.739972 0,-0.829611 0.739972 0,-0.822611 0.739972 0,-0.815611 0.739972 0,-0.808611 0.739972 0,-0.801611 0.739972 0,-0.794611 0.739972 0,</positions>
+            <positions>-0.857343 0.793828 0,-0.850343 0.793828 0,-0.843343 0.793828 0,-0.836343 0.793828 0,-0.829343 0.793828 0,-0.822343 0.793828 0,-0.815343 0.793828 0,-0.808343 0.793828 0,-0.801343 0.793828 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -860,13 +808,13 @@
                 <light_positions type="jsvalue">[-0.02800000086426735,0,0,-0.02100000157952309,0,0,-0.01400000043213367,0,0,-0.007000000681728125,0,0,-8.642673243741683e-10,0,0,0.006999999284744263,0,0,0.0139999995008111,0,0,0.02099999971687794,0,0,0.0279999990016222,0,0]&#x0A;</light_positions>
                 <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:9}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.822611, 0.739972,        0,        1</transformation>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.829343, 0.793828,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegRight 16</name>
             <type>JS</type>
             <num_lights>8</num_lights>
-            <positions>-0.798111 0.710026 0,-0.805111 0.710017 0,-0.812111 0.710007 0,-0.819111 0.709998 0,-0.826111 0.709988 0,-0.833111 0.709979 0,-0.840111 0.709969 0,-0.847111 0.70996 0,</positions>
+            <positions>-0.804843 0.763882 0,-0.811843 0.763873 0,-0.818843 0.763863 0,-0.825843 0.763854 0,-0.832843 0.763844 0,-0.839843 0.763835 0,-0.846843 0.763825 0,-0.853843 0.763816 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -884,13 +832,13 @@
                 <light_positions type="jsvalue">[-0.02449999935925007,0,0,-0.01750000007450581,0,0,-0.01049999892711639,0,0,-0.003499999409541488,0,0,0.003500000573694706,0,0,0.01050000078976154,0,0,0.01750000007450581,0,0,0.02450000122189522,0,0]&#x0A;</light_positions>
                 <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:8}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.822611, 0.709993,        0,        1</transformation>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.829343, 0.763849,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegRight 17</name>
             <type>JS</type>
             <num_lights>8</num_lights>
-            <positions>-0.847111 0.678788 0,-0.840111 0.678788 0,-0.833111 0.678788 0,-0.826111 0.678788 0,-0.819111 0.678788 0,-0.812111 0.678788 0,-0.805111 0.678788 0,-0.798111 0.678788 0,</positions>
+            <positions>-0.853843 0.732644 0,-0.846843 0.732644 0,-0.839843 0.732644 0,-0.832843 0.732644 0,-0.825843 0.732644 0,-0.818843 0.732644 0,-0.811843 0.732644 0,-0.804843 0.732644 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -908,13 +856,13 @@
                 <light_positions type="jsvalue">[-0.02449999935925007,0,0,-0.01750000007450581,0,0,-0.01049999892711639,0,0,-0.003499999409541488,0,0,0.003500000573694706,0,0,0.01050000078976154,0,0,0.01750000007450581,0,0,0.02450000122189522,0,0]&#x0A;</light_positions>
                 <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:8}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.822611, 0.678788,        0,        1</transformation>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.829343, 0.732644,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegRight 18</name>
             <type>JS</type>
             <num_lights>7</num_lights>
-            <positions>-0.801611 0.650235 0,-0.808611 0.650226 0,-0.815611 0.650216 0,-0.822611 0.650207 0,-0.829611 0.650198 0,-0.836611 0.650188 0,-0.843611 0.650179 0,</positions>
+            <positions>-0.808343 0.704091 0,-0.815343 0.704082 0,-0.822343 0.704072 0,-0.829343 0.704063 0,-0.836343 0.704053 0,-0.843343 0.704044 0,-0.850343 0.704035 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -932,13 +880,13 @@
                 <light_positions type="jsvalue">[-0.02099999971687794,0,0,-0.0139999995008111,0,0,-0.00699999975040555,0,0,2.831220535792767e-10,0,0,0.007000000216066837,0,0,0.01400000043213367,0,0,0.02099999971687794,0,0]&#x0A;</light_positions>
                 <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:7}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.822611, 0.650207,        0,        1</transformation>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.829343, 0.704063,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegRight 19</name>
             <type>JS</type>
             <num_lights>6</num_lights>
-            <positions>-0.840111 0.621798 0,-0.833111 0.621798 0,-0.826111 0.621798 0,-0.819111 0.621798 0,-0.812111 0.621798 0,-0.805111 0.621798 0,</positions>
+            <positions>-0.846843 0.675654 0,-0.839843 0.675654 0,-0.832843 0.675654 0,-0.825843 0.675654 0,-0.818843 0.675654 0,-0.811843 0.675654 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -956,13 +904,13 @@
                 <light_positions type="jsvalue">[-0.01750000007450581,0,0,-0.01049999985843897,0,0,-0.003500000108033419,0,0,0.003499999875202775,0,0,0.01049999985843897,0,0,0.01750000007450581,0,0]&#x0A;</light_positions>
                 <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:6}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.822611, 0.621798,        0,        1</transformation>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.829343, 0.675654,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegLeft</name>
             <type>JS</type>
-            <num_lights>19</num_lights>
-            <positions>-0.603459 1.26597 0,-0.610459 1.26597 0,-0.617459 1.26597 0,-0.624459 1.26597 0,-0.631459 1.26597 0,-0.638459 1.26597 0,-0.645459 1.26597 0,-0.652459 1.26597 0,-0.659459 1.26597 0,-0.666459 1.26597 0,-0.673459 1.26597 0,-0.680459 1.26597 0,-0.687459 1.26597 0,-0.694459 1.26597 0,-0.701459 1.26597 0,-0.708459 1.26597 0,-0.715459 1.26597 0,-0.722459 1.26597 0,-0.729459 1.26597 0,</positions>
+            <num_lights>17</num_lights>
+            <positions>-0.617191 1.26597 0,-0.624191 1.26597 0,-0.631191 1.26597 0,-0.638191 1.26597 0,-0.645191 1.26597 0,-0.652191 1.26597 0,-0.659191 1.26597 0,-0.666191 1.26597 0,-0.673191 1.26597 0,-0.680191 1.26597 0,-0.687191 1.26597 0,-0.694191 1.26597 0,-0.701191 1.26597 0,-0.708191 1.26597 0,-0.715191 1.26597 0,-0.722191 1.26597 0,-0.729191 1.26597 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -977,64 +925,16 @@
                 <Base_color type="color">0, 0, 0, 0</Base_color>
                 <Zone type="string"></Zone>
                 <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[0.06300000101327896,0,0,0.0559999980032444,0,0,0.04899999871850014,0,0,0.04199999943375587,0,0,0.03500000014901161,0,0,0.0279999990016222,0,0,0.02099999971687794,0,0,0.01399999856948853,0,0,0.006999998819082975,0,0,-1.013279016248703e-09,0,0,-0.007000001147389412,0,0,-0.01400000136345625,0,0,-0.02100000157952309,0,0,-0.02800000086426735,0,0,-0.03500000014901161,0,0,-0.04199999943375587,0,0,-0.04900000244379044,0,0,-0.0560000017285347,0,0,-0.06300000101327896,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:19}&#x0A;</js_payload>
+                <light_positions type="jsvalue">[0.0559999980032444,0,0,0.04899999871850014,0,0,0.04199999943375587,0,0,0.03499999642372131,0,0,0.0279999990016222,0,0,0.02099999785423279,0,0,0.01399999856948853,0,0,0.006999998353421688,0,0,-1.728534648748337e-09,0,0,-0.007000001613050699,0,0,-0.01400000136345625,0,0,-0.02100000157952309,0,0,-0.02800000086426735,0,0,-0.03500000014901161,0,0,-0.04200000315904617,0,0,-0.04900000244379044,0,0,-0.0560000017285347,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:17}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.666459,  1.26597,        0,        1</transformation>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.673191,  1.26597,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegLeft 0</name>
             <type>JS</type>
-            <num_lights>18</num_lights>
-            <positions>-0.725959 1.23252 0,-0.718959 1.23253 0,-0.711959 1.23254 0,-0.704959 1.23255 0,-0.697959 1.23256 0,-0.690959 1.23257 0,-0.683959 1.23258 0,-0.676959 1.23259 0,-0.669959 1.2326 0,-0.662959 1.2326 0,-0.655959 1.23261 0,-0.648959 1.23262 0,-0.641959 1.23263 0,-0.634959 1.23264 0,-0.627959 1.23265 0,-0.620959 1.23266 0,-0.613959 1.23267 0,-0.606959 1.23268 0,</positions>
-            <parameters>
-                <ON type="bool">1</ON>
-                <Level type="float">1</Level>
-                <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
-                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
-                <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
-                <custom_ordering type="string">R,G,B</custom_ordering>
-                <White_function type="stringoption">average</White_function>
-                <Color_mode type="stringoption">original</Color_mode>
-                <Base_color type="color">0, 0, 0, 0</Base_color>
-                <Zone type="string"></Zone>
-                <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[0.05949999764561653,0,0,0.05249999836087227,0,0,0.04549999907612801,0,0,0.03849999979138374,0,0,0.03149999678134918,0,0,0.02449999935925007,0,0,0.01749999821186066,0,0,0.01049999892711639,0,0,0.003499998711049557,0,0,-0.003500001272186637,0,0,-0.01050000172108412,0,0,-0.01750000193715096,0,0,-0.02450000122189522,0,0,-0.03150000050663948,0,0,-0.03849999979138374,0,0,-0.0455000028014183,0,0,-0.05250000208616257,0,0,-0.05950000137090683,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:18}&#x0A;</js_payload>
-            </parameters>
-            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.666459,   1.2326,        0,        1</transformation>
-        </fixture>
-        <fixture>
-            <name>NormaLegLeft 1</name>
-            <type>JS</type>
-            <num_lights>18</num_lights>
-            <positions>-0.606959 1.19696 0,-0.613959 1.19696 0,-0.620959 1.19696 0,-0.627959 1.19696 0,-0.634959 1.19696 0,-0.641959 1.19696 0,-0.648959 1.19696 0,-0.655959 1.19696 0,-0.662959 1.19696 0,-0.669959 1.19696 0,-0.676959 1.19696 0,-0.683959 1.19696 0,-0.690959 1.19696 0,-0.697959 1.19696 0,-0.704959 1.19696 0,-0.711959 1.19696 0,-0.718959 1.19696 0,-0.725959 1.19696 0,</positions>
-            <parameters>
-                <ON type="bool">1</ON>
-                <Level type="float">1</Level>
-                <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
-                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
-                <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
-                <custom_ordering type="string">R,G,B</custom_ordering>
-                <White_function type="stringoption">average</White_function>
-                <Color_mode type="stringoption">original</Color_mode>
-                <Base_color type="color">0, 0, 0, 0</Base_color>
-                <Zone type="string"></Zone>
-                <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[0.05949999764561653,0,0,0.05249999836087227,0,0,0.04549999907612801,0,0,0.03849999979138374,0,0,0.03149999678134918,0,0,0.02449999935925007,0,0,0.01749999821186066,0,0,0.01049999892711639,0,0,0.003499998711049557,0,0,-0.003500001272186637,0,0,-0.01050000172108412,0,0,-0.01750000193715096,0,0,-0.02450000122189522,0,0,-0.03150000050663948,0,0,-0.03849999979138374,0,0,-0.0455000028014183,0,0,-0.05250000208616257,0,0,-0.05950000137090683,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:18}&#x0A;</js_payload>
-            </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.666459,  1.19696,        0,        1</transformation>
-        </fixture>
-        <fixture>
-            <name>NormaLegLeft 2</name>
-            <type>JS</type>
             <num_lights>16</num_lights>
-            <positions>-0.718959 1.16352 0,-0.711959 1.16353 0,-0.704959 1.16354 0,-0.697959 1.16355 0,-0.690959 1.16356 0,-0.683959 1.16357 0,-0.676959 1.16358 0,-0.669959 1.16359 0,-0.662959 1.16359 0,-0.655959 1.1636 0,-0.648959 1.16361 0,-0.641959 1.16362 0,-0.634959 1.16363 0,-0.627959 1.16364 0,-0.620959 1.16365 0,-0.613959 1.16366 0,</positions>
+            <positions>-0.725691 1.23253 0,-0.718691 1.23254 0,-0.711691 1.23255 0,-0.704691 1.23256 0,-0.697691 1.23257 0,-0.690691 1.23258 0,-0.683691 1.23259 0,-0.676691 1.2326 0,-0.669691 1.2326 0,-0.662691 1.23261 0,-0.655691 1.23262 0,-0.648691 1.23263 0,-0.641691 1.23264 0,-0.634691 1.23265 0,-0.627691 1.23266 0,-0.620691 1.23267 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1052,13 +952,61 @@
                 <light_positions type="jsvalue">[0.05250000208616257,0,0,0.0455000028014183,0,0,0.03849999979138374,0,0,0.03150000050663948,0,0,0.02450000122189522,0,0,0.01750000193715096,0,0,0.01050000172108412,0,0,0.003500001737847924,0,0,-0.003499998245388269,0,0,-0.01049999799579382,0,0,-0.01749999821186066,0,0,-0.02449999749660492,0,0,-0.03149999678134918,0,0,-0.03849999979138374,0,0,-0.04549999907612801,0,0,-0.05249999836087227,0,0]&#x0A;</light_positions>
                 <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:16}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.666459,  1.16359,        0,        1</transformation>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.673191,   1.2326,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>NormaLegLeft 1</name>
+            <type>JS</type>
+            <num_lights>15</num_lights>
+            <positions>-0.624191 1.19696 0,-0.631191 1.19696 0,-0.638191 1.19696 0,-0.645191 1.19696 0,-0.652191 1.19696 0,-0.659191 1.19696 0,-0.666191 1.19696 0,-0.673191 1.19696 0,-0.680191 1.19696 0,-0.687191 1.19696 0,-0.694191 1.19696 0,-0.701191 1.19696 0,-0.708191 1.19696 0,-0.715191 1.19696 0,-0.722191 1.19696 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.04900000244379044,0,0,0.04199999943375587,0,0,0.03500000014901161,0,0,0.02800000086426735,0,0,0.02100000157952309,0,0,0.01400000136345625,0,0,0.007000001147389412,0,0,1.281499906191641e-09,0,0,-0.006999998819082975,0,0,-0.01399999856948853,0,0,-0.02099999785423279,0,0,-0.0279999990016222,0,0,-0.03500000014901161,0,0,-0.04199999943375587,0,0,-0.04899999871850014,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:15}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.673191,  1.19696,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>NormaLegLeft 2</name>
+            <type>JS</type>
+            <num_lights>15</num_lights>
+            <positions>-0.722191 1.16352 0,-0.715191 1.16353 0,-0.708191 1.16354 0,-0.701191 1.16355 0,-0.694191 1.16356 0,-0.687191 1.16357 0,-0.680191 1.16358 0,-0.673191 1.16359 0,-0.666191 1.1636 0,-0.659191 1.16361 0,-0.652191 1.16362 0,-0.645191 1.16363 0,-0.638191 1.16364 0,-0.631191 1.16365 0,-0.624191 1.16366 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.04900000244379044,0,0,0.04199999943375587,0,0,0.03500000014901161,0,0,0.02800000086426735,0,0,0.02100000157952309,0,0,0.01400000136345625,0,0,0.007000001147389412,0,0,1.281499906191641e-09,0,0,-0.006999998819082975,0,0,-0.01399999856948853,0,0,-0.02099999785423279,0,0,-0.0279999990016222,0,0,-0.03500000014901161,0,0,-0.04199999943375587,0,0,-0.04899999871850014,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:15}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.673191,  1.16359,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegLeft 3</name>
             <type>JS</type>
-            <num_lights>15</num_lights>
-            <positions>-0.617459 1.12676 0,-0.624459 1.12676 0,-0.631459 1.12676 0,-0.638459 1.12676 0,-0.645459 1.12676 0,-0.652459 1.12676 0,-0.659459 1.12676 0,-0.666459 1.12676 0,-0.673459 1.12676 0,-0.680459 1.12676 0,-0.687459 1.12676 0,-0.694459 1.12676 0,-0.701459 1.12676 0,-0.708459 1.12676 0,-0.715459 1.12676 0,</positions>
+            <num_lights>13</num_lights>
+            <positions>-0.631191 1.12676 0,-0.638191 1.12676 0,-0.645191 1.12676 0,-0.652191 1.12676 0,-0.659191 1.12676 0,-0.666191 1.12676 0,-0.673191 1.12676 0,-0.680191 1.12676 0,-0.687191 1.12676 0,-0.694191 1.12676 0,-0.701191 1.12676 0,-0.708191 1.12676 0,-0.715191 1.12676 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1073,16 +1021,16 @@
                 <Base_color type="color">0, 0, 0, 0</Base_color>
                 <Zone type="string"></Zone>
                 <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[0.04900000244379044,0,0,0.04199999943375587,0,0,0.03500000014901161,0,0,0.02800000086426735,0,0,0.02100000157952309,0,0,0.01400000136345625,0,0,0.007000001147389412,0,0,1.281499906191641e-09,0,0,-0.006999998819082975,0,0,-0.01399999856948853,0,0,-0.02099999785423279,0,0,-0.0279999990016222,0,0,-0.03500000014901161,0,0,-0.04199999943375587,0,0,-0.04899999871850014,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:15}&#x0A;</js_payload>
+                <light_positions type="jsvalue">[0.04199999943375587,0,0,0.03500000014901161,0,0,0.02800000086426735,0,0,0.02099999971687794,0,0,0.01400000043213367,0,0,0.007000000681728125,0,0,5.662441071585533e-10,0,0,-0.006999999284744263,0,0,-0.0139999995008111,0,0,-0.02099999971687794,0,0,-0.0279999990016222,0,0,-0.03500000014901161,0,0,-0.04199999943375587,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:13}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.666459,  1.12676,        0,        1</transformation>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.673191,  1.12676,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegLeft 4</name>
             <type>JS</type>
-            <num_lights>15</num_lights>
-            <positions>-0.715459 1.09095 0,-0.708459 1.09096 0,-0.701459 1.09097 0,-0.694459 1.09098 0,-0.687459 1.09099 0,-0.680459 1.091 0,-0.673459 1.09101 0,-0.666459 1.09102 0,-0.659459 1.09103 0,-0.652459 1.09104 0,-0.645459 1.09105 0,-0.638459 1.09106 0,-0.631459 1.09107 0,-0.624459 1.09108 0,-0.617459 1.09109 0,</positions>
+            <num_lights>13</num_lights>
+            <positions>-0.715191 1.09096 0,-0.708191 1.09097 0,-0.701191 1.09098 0,-0.694191 1.09099 0,-0.687191 1.091 0,-0.680191 1.09101 0,-0.673191 1.09102 0,-0.666191 1.09103 0,-0.659191 1.09104 0,-0.652191 1.09105 0,-0.645191 1.09106 0,-0.638191 1.09107 0,-0.631191 1.09108 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1097,16 +1045,16 @@
                 <Base_color type="color">0, 0, 0, 0</Base_color>
                 <Zone type="string"></Zone>
                 <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[0.04900000244379044,0,0,0.04199999943375587,0,0,0.03500000014901161,0,0,0.02800000086426735,0,0,0.02100000157952309,0,0,0.01400000136345625,0,0,0.007000001147389412,0,0,1.281499906191641e-09,0,0,-0.006999998819082975,0,0,-0.01399999856948853,0,0,-0.02099999785423279,0,0,-0.0279999990016222,0,0,-0.03500000014901161,0,0,-0.04199999943375587,0,0,-0.04899999871850014,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:15}&#x0A;</js_payload>
+                <light_positions type="jsvalue">[0.04199999943375587,0,0,0.03500000014901161,0,0,0.02800000086426735,0,0,0.02099999971687794,0,0,0.01400000043213367,0,0,0.007000000681728125,0,0,5.662441071585533e-10,0,0,-0.006999999284744263,0,0,-0.0139999995008111,0,0,-0.02099999971687794,0,0,-0.0279999990016222,0,0,-0.03500000014901161,0,0,-0.04199999943375587,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:13}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.666459,  1.09102,        0,        1</transformation>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.673191,  1.09102,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegLeft 5</name>
             <type>JS</type>
-            <num_lights>13</num_lights>
-            <positions>-0.624459 1.05538 0,-0.631459 1.05538 0,-0.638459 1.05538 0,-0.645459 1.05538 0,-0.652459 1.05538 0,-0.659459 1.05538 0,-0.666459 1.05538 0,-0.673459 1.05538 0,-0.680459 1.05538 0,-0.687459 1.05538 0,-0.694459 1.05538 0,-0.701459 1.05538 0,-0.708459 1.05538 0,</positions>
+            <num_lights>12</num_lights>
+            <positions>-0.634691 1.05538 0,-0.641691 1.05538 0,-0.648691 1.05538 0,-0.655691 1.05538 0,-0.662691 1.05538 0,-0.669691 1.05538 0,-0.676691 1.05538 0,-0.683691 1.05538 0,-0.690691 1.05538 0,-0.697691 1.05538 0,-0.704691 1.05538 0,-0.711691 1.05538 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1121,16 +1069,16 @@
                 <Base_color type="color">0, 0, 0, 0</Base_color>
                 <Zone type="string"></Zone>
                 <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[0.04199999943375587,0,0,0.03500000014901161,0,0,0.02800000086426735,0,0,0.02099999971687794,0,0,0.01400000043213367,0,0,0.007000000681728125,0,0,5.662441071585533e-10,0,0,-0.006999999284744263,0,0,-0.0139999995008111,0,0,-0.02099999971687794,0,0,-0.0279999990016222,0,0,-0.03500000014901161,0,0,-0.04199999943375587,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:13}&#x0A;</js_payload>
+                <light_positions type="jsvalue">[0.03849999979138374,0,0,0.03150000050663948,0,0,0.02449999935925007,0,0,0.01750000007450581,0,0,0.01049999985843897,0,0,0.003500000108033419,0,0,-0.003499999875202775,0,0,-0.01049999985843897,0,0,-0.01750000007450581,0,0,-0.02449999935925007,0,0,-0.03150000050663948,0,0,-0.03849999979138374,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:12}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.666459,  1.05538,        0,        1</transformation>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.673191,  1.05538,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegLeft 6</name>
             <type>JS</type>
-            <num_lights>13</num_lights>
-            <positions>-0.708459 1.01958 0,-0.701459 1.01959 0,-0.694459 1.0196 0,-0.687459 1.01961 0,-0.680459 1.01962 0,-0.673459 1.01963 0,-0.666459 1.01964 0,-0.659459 1.01965 0,-0.652459 1.01966 0,-0.645459 1.01967 0,-0.638459 1.01968 0,-0.631459 1.01969 0,-0.624459 1.0197 0,</positions>
+            <num_lights>11</num_lights>
+            <positions>-0.708191 1.01959 0,-0.701191 1.0196 0,-0.694191 1.01961 0,-0.687191 1.01962 0,-0.680191 1.01963 0,-0.673191 1.01964 0,-0.666191 1.01965 0,-0.659191 1.01966 0,-0.652191 1.01967 0,-0.645191 1.01968 0,-0.638191 1.01969 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1145,184 +1093,16 @@
                 <Base_color type="color">0, 0, 0, 0</Base_color>
                 <Zone type="string"></Zone>
                 <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[0.04199999943375587,0,0,0.03500000014901161,0,0,0.02800000086426735,0,0,0.02099999971687794,0,0,0.01400000043213367,0,0,0.007000000681728125,0,0,5.662441071585533e-10,0,0,-0.006999999284744263,0,0,-0.0139999995008111,0,0,-0.02099999971687794,0,0,-0.0279999990016222,0,0,-0.03500000014901161,0,0,-0.04199999943375587,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:13}&#x0A;</js_payload>
+                <light_positions type="jsvalue">[0.03500000014901161,0,0,0.0279999990016222,0,0,0.02099999971687794,0,0,0.0139999995008111,0,0,0.00699999975040555,0,0,-1.490116086078075e-10,0,0,-0.007000000216066837,0,0,-0.01400000043213367,0,0,-0.02099999971687794,0,0,-0.02800000086426735,0,0,-0.03500000014901161,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:11}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.666459,  1.01964,        0,        1</transformation>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.673191,  1.01964,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegLeft 7</name>
             <type>JS</type>
-            <num_lights>12</num_lights>
-            <positions>-0.627959 0.986493 0,-0.634959 0.986493 0,-0.641959 0.986493 0,-0.648959 0.986493 0,-0.655959 0.986493 0,-0.662959 0.986493 0,-0.669959 0.986493 0,-0.676959 0.986493 0,-0.683959 0.986493 0,-0.690959 0.986493 0,-0.697959 0.986493 0,-0.704959 0.986493 0,</positions>
-            <parameters>
-                <ON type="bool">1</ON>
-                <Level type="float">1</Level>
-                <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
-                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
-                <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
-                <custom_ordering type="string">R,G,B</custom_ordering>
-                <White_function type="stringoption">average</White_function>
-                <Color_mode type="stringoption">original</Color_mode>
-                <Base_color type="color">0, 0, 0, 0</Base_color>
-                <Zone type="string"></Zone>
-                <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[0.03849999979138374,0,0,0.03150000050663948,0,0,0.02449999935925007,0,0,0.01750000007450581,0,0,0.01049999985843897,0,0,0.003500000108033419,0,0,-0.003499999875202775,0,0,-0.01049999985843897,0,0,-0.01750000007450581,0,0,-0.02449999935925007,0,0,-0.03150000050663948,0,0,-0.03849999979138374,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:12}&#x0A;</js_payload>
-            </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.666459, 0.986493,        0,        1</transformation>
-        </fixture>
-        <fixture>
-            <name>NormaLegLeft 8</name>
-            <type>JS</type>
-            <num_lights>12</num_lights>
-            <positions>-0.704959 0.952046 0,-0.697959 0.952055 0,-0.690959 0.952065 0,-0.683959 0.952074 0,-0.676959 0.952084 0,-0.669959 0.952093 0,-0.662959 0.952103 0,-0.655959 0.952112 0,-0.648959 0.952122 0,-0.641959 0.952131 0,-0.634959 0.952141 0,-0.627959 0.95215 0,</positions>
-            <parameters>
-                <ON type="bool">1</ON>
-                <Level type="float">1</Level>
-                <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
-                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
-                <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
-                <custom_ordering type="string">R,G,B</custom_ordering>
-                <White_function type="stringoption">average</White_function>
-                <Color_mode type="stringoption">original</Color_mode>
-                <Base_color type="color">0, 0, 0, 0</Base_color>
-                <Zone type="string"></Zone>
-                <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[0.03849999979138374,0,0,0.03150000050663948,0,0,0.02449999935925007,0,0,0.01750000007450581,0,0,0.01049999985843897,0,0,0.003500000108033419,0,0,-0.003499999875202775,0,0,-0.01049999985843897,0,0,-0.01750000007450581,0,0,-0.02449999935925007,0,0,-0.03150000050663948,0,0,-0.03849999979138374,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:12}&#x0A;</js_payload>
-            </parameters>
-            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.666459, 0.952098,        0,        1</transformation>
-        </fixture>
-        <fixture>
-            <name>NormaLegLeft 9</name>
-            <type>JS</type>
-            <num_lights>6</num_lights>
-            <positions>-0.669959 0.918682 0,-0.676959 0.918682 0,-0.683959 0.918682 0,-0.690959 0.918682 0,-0.697959 0.918682 0,-0.704959 0.918682 0,</positions>
-            <parameters>
-                <ON type="bool">1</ON>
-                <Level type="float">1</Level>
-                <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
-                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
-                <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
-                <custom_ordering type="string">R,G,B</custom_ordering>
-                <White_function type="stringoption">average</White_function>
-                <Color_mode type="stringoption">original</Color_mode>
-                <Base_color type="color">0, 0, 0, 0</Base_color>
-                <Zone type="string"></Zone>
-                <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[0.01750000007450581,0,0,0.01049999985843897,0,0,0.003499999875202775,0,0,-0.003500000108033419,0,0,-0.01049999985843897,0,0,-0.01750000007450581,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:6}&#x0A;</js_payload>
-            </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.687459, 0.918682,        0,        1</transformation>
-        </fixture>
-        <fixture>
-            <name>NormaLegLeft 10</name>
-            <type>JS</type>
-            <num_lights>12</num_lights>
-            <positions>-0.704959 0.889257 0,-0.697959 0.889266 0,-0.690959 0.889276 0,-0.683959 0.889285 0,-0.676959 0.889295 0,-0.669959 0.889304 0,-0.662959 0.889314 0,-0.655959 0.889323 0,-0.648959 0.889333 0,-0.641959 0.889342 0,-0.634959 0.889352 0,-0.627959 0.889361 0,</positions>
-            <parameters>
-                <ON type="bool">1</ON>
-                <Level type="float">1</Level>
-                <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
-                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
-                <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
-                <custom_ordering type="string">R,G,B</custom_ordering>
-                <White_function type="stringoption">average</White_function>
-                <Color_mode type="stringoption">original</Color_mode>
-                <Base_color type="color">0, 0, 0, 0</Base_color>
-                <Zone type="string"></Zone>
-                <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[0.03849999979138374,0,0,0.03150000050663948,0,0,0.02449999935925007,0,0,0.01750000007450581,0,0,0.01049999985843897,0,0,0.003500000108033419,0,0,-0.003499999875202775,0,0,-0.01049999985843897,0,0,-0.01750000007450581,0,0,-0.02449999935925007,0,0,-0.03150000050663948,0,0,-0.03849999979138374,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:12}&#x0A;</js_payload>
-            </parameters>
-            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.666459, 0.889309,        0,        1</transformation>
-        </fixture>
-        <fixture>
-            <name>NormaLegLeft 11</name>
-            <type>JS</type>
-            <num_lights>12</num_lights>
-            <positions>-0.627959 0.859708 0,-0.634959 0.859708 0,-0.641959 0.859708 0,-0.648959 0.859708 0,-0.655959 0.859708 0,-0.662959 0.859708 0,-0.669959 0.859708 0,-0.676959 0.859708 0,-0.683959 0.859708 0,-0.690959 0.859708 0,-0.697959 0.859708 0,-0.704959 0.859708 0,</positions>
-            <parameters>
-                <ON type="bool">1</ON>
-                <Level type="float">1</Level>
-                <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
-                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
-                <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
-                <custom_ordering type="string">R,G,B</custom_ordering>
-                <White_function type="stringoption">average</White_function>
-                <Color_mode type="stringoption">original</Color_mode>
-                <Base_color type="color">0, 0, 0, 0</Base_color>
-                <Zone type="string"></Zone>
-                <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[0.03849999979138374,0,0,0.03150000050663948,0,0,0.02449999935925007,0,0,0.01750000007450581,0,0,0.01049999985843897,0,0,0.003500000108033419,0,0,-0.003499999875202775,0,0,-0.01049999985843897,0,0,-0.01750000007450581,0,0,-0.02449999935925007,0,0,-0.03150000050663948,0,0,-0.03849999979138374,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:12}&#x0A;</js_payload>
-            </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.666459, 0.859708,        0,        1</transformation>
-        </fixture>
-        <fixture>
-            <name>NormaLegLeft 12</name>
-            <type>JS</type>
-            <num_lights>13</num_lights>
-            <positions>-0.708459 0.831069 0,-0.701459 0.831079 0,-0.694459 0.831088 0,-0.687459 0.831098 0,-0.680459 0.831107 0,-0.673459 0.831116 0,-0.666459 0.831126 0,-0.659459 0.831135 0,-0.652459 0.831145 0,-0.645459 0.831154 0,-0.638459 0.831164 0,-0.631459 0.831173 0,-0.624459 0.831183 0,</positions>
-            <parameters>
-                <ON type="bool">1</ON>
-                <Level type="float">1</Level>
-                <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
-                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
-                <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
-                <custom_ordering type="string">R,G,B</custom_ordering>
-                <White_function type="stringoption">average</White_function>
-                <Color_mode type="stringoption">original</Color_mode>
-                <Base_color type="color">0, 0, 0, 0</Base_color>
-                <Zone type="string"></Zone>
-                <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[0.04199999943375587,0,0,0.03500000014901161,0,0,0.02800000086426735,0,0,0.02099999971687794,0,0,0.01400000043213367,0,0,0.007000000681728125,0,0,5.662441071585533e-10,0,0,-0.006999999284744263,0,0,-0.0139999995008111,0,0,-0.02099999971687794,0,0,-0.0279999990016222,0,0,-0.03500000014901161,0,0,-0.04199999943375587,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:13}&#x0A;</js_payload>
-            </parameters>
-            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.666459, 0.831126,        0,        1</transformation>
-        </fixture>
-        <fixture>
-            <name>NormaLegLeft 13</name>
-            <type>JS</type>
-            <num_lights>12</num_lights>
-            <positions>-0.627959 0.801628 0,-0.634959 0.801628 0,-0.641959 0.801628 0,-0.648959 0.801628 0,-0.655959 0.801628 0,-0.662959 0.801628 0,-0.669959 0.801628 0,-0.676959 0.801628 0,-0.683959 0.801628 0,-0.690959 0.801628 0,-0.697959 0.801628 0,-0.704959 0.801628 0,</positions>
-            <parameters>
-                <ON type="bool">1</ON>
-                <Level type="float">1</Level>
-                <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
-                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
-                <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
-                <custom_ordering type="string">R,G,B</custom_ordering>
-                <White_function type="stringoption">average</White_function>
-                <Color_mode type="stringoption">original</Color_mode>
-                <Base_color type="color">0, 0, 0, 0</Base_color>
-                <Zone type="string"></Zone>
-                <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[0.03849999979138374,0,0,0.03150000050663948,0,0,0.02449999935925007,0,0,0.01750000007450581,0,0,0.01049999985843897,0,0,0.003500000108033419,0,0,-0.003499999875202775,0,0,-0.01049999985843897,0,0,-0.01750000007450581,0,0,-0.02449999935925007,0,0,-0.03150000050663948,0,0,-0.03849999979138374,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:12}&#x0A;</js_payload>
-            </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.666459, 0.801628,        0,        1</transformation>
-        </fixture>
-        <fixture>
-            <name>NormaLegLeft 14</name>
-            <type>JS</type>
             <num_lights>10</num_lights>
-            <positions>-0.697959 0.770207 0,-0.690959 0.770217 0,-0.683959 0.770226 0,-0.676959 0.770236 0,-0.669959 0.770245 0,-0.662959 0.770255 0,-0.655959 0.770264 0,-0.648959 0.770274 0,-0.641959 0.770283 0,-0.634959 0.770293 0,</positions>
+            <positions>-0.641691 0.986493 0,-0.648691 0.986493 0,-0.655691 0.986493 0,-0.662691 0.986493 0,-0.669691 0.986493 0,-0.676691 0.986493 0,-0.683691 0.986493 0,-0.690691 0.986493 0,-0.697691 0.986493 0,-0.704691 0.986493 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1340,13 +1120,133 @@
                 <light_positions type="jsvalue">[0.03150000050663948,0,0,0.02449999935925007,0,0,0.01750000007450581,0,0,0.01049999985843897,0,0,0.003499999409541488,0,0,-0.003500000573694706,0,0,-0.01050000078976154,0,0,-0.01750000007450581,0,0,-0.02450000122189522,0,0,-0.03150000050663948,0,0]&#x0A;</light_positions>
                 <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:10}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.666459,  0.77025,        0,        1</transformation>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.673191, 0.986493,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>NormaLegLeft 8</name>
+            <type>JS</type>
+            <num_lights>10</num_lights>
+            <positions>-0.704691 0.952055 0,-0.697691 0.952065 0,-0.690691 0.952074 0,-0.683691 0.952084 0,-0.676691 0.952093 0,-0.669691 0.952103 0,-0.662691 0.952112 0,-0.655691 0.952122 0,-0.648691 0.952131 0,-0.641691 0.952141 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.03150000050663948,0,0,0.02449999935925007,0,0,0.01750000007450581,0,0,0.01049999985843897,0,0,0.003499999409541488,0,0,-0.003500000573694706,0,0,-0.01050000078976154,0,0,-0.01750000007450581,0,0,-0.02450000122189522,0,0,-0.03150000050663948,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:10}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.673191, 0.952098,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>NormaLegLeft 11</name>
+            <type>JS</type>
+            <num_lights>12</num_lights>
+            <positions>-0.634691 0.913564 0,-0.641691 0.913564 0,-0.648691 0.913564 0,-0.655691 0.913564 0,-0.662691 0.913564 0,-0.669691 0.913564 0,-0.676691 0.913564 0,-0.683691 0.913564 0,-0.690691 0.913564 0,-0.697691 0.913564 0,-0.704691 0.913564 0,-0.711691 0.913564 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.03849999979138374,0,0,0.03150000050663948,0,0,0.02449999935925007,0,0,0.01750000007450581,0,0,0.01049999985843897,0,0,0.003500000108033419,0,0,-0.003499999875202775,0,0,-0.01049999985843897,0,0,-0.01750000007450581,0,0,-0.02449999935925007,0,0,-0.03150000050663948,0,0,-0.03849999979138374,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:12}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.673191, 0.913564,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>NormaLegLeft 12</name>
+            <type>JS</type>
+            <num_lights>13</num_lights>
+            <positions>-0.715191 0.884925 0,-0.708191 0.884935 0,-0.701191 0.884944 0,-0.694191 0.884953 0,-0.687191 0.884963 0,-0.680191 0.884972 0,-0.673191 0.884982 0,-0.666191 0.884991 0,-0.659191 0.885001 0,-0.652191 0.88501 0,-0.645191 0.88502 0,-0.638191 0.885029 0,-0.631191 0.885039 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.04199999943375587,0,0,0.03500000014901161,0,0,0.02800000086426735,0,0,0.02099999971687794,0,0,0.01400000043213367,0,0,0.007000000681728125,0,0,5.662441071585533e-10,0,0,-0.006999999284744263,0,0,-0.0139999995008111,0,0,-0.02099999971687794,0,0,-0.0279999990016222,0,0,-0.03500000014901161,0,0,-0.04199999943375587,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:13}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.673191, 0.884982,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>NormaLegLeft 13</name>
+            <type>JS</type>
+            <num_lights>12</num_lights>
+            <positions>-0.634691 0.855484 0,-0.641691 0.855484 0,-0.648691 0.855484 0,-0.655691 0.855484 0,-0.662691 0.855484 0,-0.669691 0.855484 0,-0.676691 0.855484 0,-0.683691 0.855484 0,-0.690691 0.855484 0,-0.697691 0.855484 0,-0.704691 0.855484 0,-0.711691 0.855484 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.03849999979138374,0,0,0.03150000050663948,0,0,0.02449999935925007,0,0,0.01750000007450581,0,0,0.01049999985843897,0,0,0.003500000108033419,0,0,-0.003499999875202775,0,0,-0.01049999985843897,0,0,-0.01750000007450581,0,0,-0.02449999935925007,0,0,-0.03150000050663948,0,0,-0.03849999979138374,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:12}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.673191, 0.855484,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>NormaLegLeft 14</name>
+            <type>JS</type>
+            <num_lights>10</num_lights>
+            <positions>-0.704691 0.824063 0,-0.697691 0.824073 0,-0.690691 0.824082 0,-0.683691 0.824092 0,-0.676691 0.824101 0,-0.669691 0.824111 0,-0.662691 0.82412 0,-0.655691 0.82413 0,-0.648691 0.824139 0,-0.641691 0.824149 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.03150000050663948,0,0,0.02449999935925007,0,0,0.01750000007450581,0,0,0.01049999985843897,0,0,0.003499999409541488,0,0,-0.003500000573694706,0,0,-0.01050000078976154,0,0,-0.01750000007450581,0,0,-0.02450000122189522,0,0,-0.03150000050663948,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:10}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.673191, 0.824106,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegLeft 15</name>
             <type>JS</type>
             <num_lights>9</num_lights>
-            <positions>-0.638459 0.740649 0,-0.645459 0.740649 0,-0.652459 0.740649 0,-0.659459 0.740649 0,-0.666459 0.740649 0,-0.673459 0.740649 0,-0.680459 0.740649 0,-0.687459 0.740649 0,-0.694459 0.740649 0,</positions>
+            <positions>-0.645191 0.794505 0,-0.652191 0.794505 0,-0.659191 0.794505 0,-0.666191 0.794505 0,-0.673191 0.794505 0,-0.680191 0.794505 0,-0.687191 0.794505 0,-0.694191 0.794505 0,-0.701191 0.794505 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1364,13 +1264,13 @@
                 <light_positions type="jsvalue">[0.0279999990016222,0,0,0.02099999971687794,0,0,0.0139999995008111,0,0,0.006999999284744263,0,0,-8.642673243741683e-10,0,0,-0.007000000681728125,0,0,-0.01400000043213367,0,0,-0.02100000157952309,0,0,-0.02800000086426735,0,0]&#x0A;</light_positions>
                 <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:9}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.666459, 0.740649,        0,        1</transformation>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.673191, 0.794505,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegLeft 16</name>
             <type>JS</type>
             <num_lights>8</num_lights>
-            <positions>-0.690959 0.710637 0,-0.683959 0.710646 0,-0.676959 0.710656 0,-0.669959 0.710665 0,-0.662959 0.710675 0,-0.655959 0.710684 0,-0.648959 0.710694 0,-0.641959 0.710703 0,</positions>
+            <positions>-0.697691 0.764493 0,-0.690691 0.764502 0,-0.683691 0.764512 0,-0.676691 0.764521 0,-0.669691 0.764531 0,-0.662691 0.76454 0,-0.655691 0.76455 0,-0.648691 0.764559 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1388,13 +1288,13 @@
                 <light_positions type="jsvalue">[0.02450000122189522,0,0,0.01750000007450581,0,0,0.01050000078976154,0,0,0.003500000573694706,0,0,-0.003499999409541488,0,0,-0.01049999892711639,0,0,-0.01750000007450581,0,0,-0.02449999935925007,0,0]&#x0A;</light_positions>
                 <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:8}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.666459,  0.71067,        0,        1</transformation>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.673191, 0.764526,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegLeft 17</name>
             <type>JS</type>
             <num_lights>8</num_lights>
-            <positions>-0.641959 0.679465 0,-0.648959 0.679465 0,-0.655959 0.679465 0,-0.662959 0.679465 0,-0.669959 0.679465 0,-0.676959 0.679465 0,-0.683959 0.679465 0,-0.690959 0.679465 0,</positions>
+            <positions>-0.648691 0.733321 0,-0.655691 0.733321 0,-0.662691 0.733321 0,-0.669691 0.733321 0,-0.676691 0.733321 0,-0.683691 0.733321 0,-0.690691 0.733321 0,-0.697691 0.733321 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1412,13 +1312,13 @@
                 <light_positions type="jsvalue">[0.02450000122189522,0,0,0.01750000007450581,0,0,0.01050000078976154,0,0,0.003500000573694706,0,0,-0.003499999409541488,0,0,-0.01049999892711639,0,0,-0.01750000007450581,0,0,-0.02449999935925007,0,0]&#x0A;</light_positions>
                 <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:8}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.666459, 0.679465,        0,        1</transformation>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.673191, 0.733321,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegLeft 18</name>
             <type>JS</type>
             <num_lights>7</num_lights>
-            <positions>-0.687459 0.650856 0,-0.680459 0.650865 0,-0.673459 0.650874 0,-0.666459 0.650884 0,-0.659459 0.650893 0,-0.652459 0.650903 0,-0.645459 0.650912 0,</positions>
+            <positions>-0.694191 0.704711 0,-0.687191 0.704721 0,-0.680191 0.70473 0,-0.673191 0.70474 0,-0.666191 0.704749 0,-0.659191 0.704759 0,-0.652191 0.704768 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1436,13 +1336,13 @@
                 <light_positions type="jsvalue">[0.02099999971687794,0,0,0.01400000043213367,0,0,0.007000000216066837,0,0,2.831220535792767e-10,0,0,-0.00699999975040555,0,0,-0.0139999995008111,0,0,-0.02099999971687794,0,0]&#x0A;</light_positions>
                 <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:7}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.666459, 0.650884,        0,        1</transformation>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.673191,  0.70474,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaLegLeft 19</name>
             <type>JS</type>
             <num_lights>6</num_lights>
-            <positions>-0.648959 0.622475 0,-0.655959 0.622475 0,-0.662959 0.622475 0,-0.669959 0.622475 0,-0.676959 0.622475 0,-0.683959 0.622475 0,</positions>
+            <positions>-0.655691 0.676331 0,-0.662691 0.676331 0,-0.669691 0.676331 0,-0.676691 0.676331 0,-0.683691 0.676331 0,-0.690691 0.676331 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1460,7 +1360,7 @@
                 <light_positions type="jsvalue">[0.01750000007450581,0,0,0.01049999985843897,0,0,0.003499999875202775,0,0,-0.003500000108033419,0,0,-0.01049999985843897,0,0,-0.01750000007450581,0,0]&#x0A;</light_positions>
                 <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:6}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.666459, 0.622475,        0,        1</transformation>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.673191, 0.676331,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaRightArm</name>
@@ -2138,7 +2038,7 @@
             <name>NormaBack</name>
             <type>JS</type>
             <num_lights>18</num_lights>
-            <positions>-0.833164 1.78314 0,-0.823164 1.7831 0,-0.813164 1.78306 0,-0.803164 1.78303 0,-0.793165 1.78299 0,-0.783165 1.78295 0,-0.773165 1.78291 0,-0.763165 1.78287 0,-0.753165 1.78284 0,-0.743165 1.7828 0,-0.733165 1.78276 0,-0.723165 1.78272 0,-0.713165 1.78269 0,-0.703165 1.78265 0,-0.693165 1.78261 0,-0.683165 1.78257 0,-0.673165 1.78253 0,-0.663166 1.7825 0,</positions>
+            <positions>-0.833164 1.78314 0,-0.823164 1.7831 0,-0.813165 1.78307 0,-0.803165 1.78303 0,-0.793165 1.78299 0,-0.783165 1.78295 0,-0.773165 1.78291 0,-0.763165 1.78288 0,-0.753165 1.78284 0,-0.743165 1.7828 0,-0.733165 1.78276 0,-0.723165 1.78273 0,-0.713165 1.78269 0,-0.703165 1.78265 0,-0.693165 1.78261 0,-0.683165 1.78257 0,-0.673166 1.78254 0,-0.663166 1.7825 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -2162,7 +2062,7 @@
             <name>NormaBack 0</name>
             <type>JS</type>
             <num_lights>18</num_lights>
-            <positions>-0.663054 1.81194 0,-0.673054 1.81194 0,-0.683054 1.81194 0,-0.693054 1.81194 0,-0.703054 1.81195 0,-0.713054 1.81195 0,-0.723054 1.81195 0,-0.733054 1.81195 0,-0.743054 1.81196 0,-0.753054 1.81196 0,-0.763054 1.81196 0,-0.773054 1.81196 0,-0.783054 1.81197 0,-0.793054 1.81197 0,-0.803054 1.81197 0,-0.813054 1.81197 0,-0.823054 1.81198 0,-0.833054 1.81198 0,</positions>
+            <positions>-0.663054 1.81194 0,-0.673054 1.81194 0,-0.683054 1.81194 0,-0.693054 1.81195 0,-0.703054 1.81195 0,-0.713054 1.81195 0,-0.723054 1.81195 0,-0.733054 1.81196 0,-0.743054 1.81196 0,-0.753054 1.81196 0,-0.763054 1.81196 0,-0.773054 1.81197 0,-0.783054 1.81197 0,-0.793054 1.81197 0,-0.803054 1.81197 0,-0.813054 1.81198 0,-0.823054 1.81198 0,-0.833054 1.81198 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -2186,7 +2086,7 @@
             <name>NormaBack 1</name>
             <type>JS</type>
             <num_lights>18</num_lights>
-            <positions>-0.832924 1.84634 0,-0.822924 1.8463 0,-0.812924 1.84626 0,-0.802925 1.84623 0,-0.792925 1.84619 0,-0.782925 1.84615 0,-0.772925 1.84611 0,-0.762925 1.84607 0,-0.752925 1.84604 0,-0.742925 1.846 0,-0.732925 1.84596 0,-0.722925 1.84592 0,-0.712925 1.84588 0,-0.702925 1.84585 0,-0.692925 1.84581 0,-0.682925 1.84577 0,-0.672925 1.84573 0,-0.662926 1.84569 0,</positions>
+            <positions>-0.832924 1.84634 0,-0.822924 1.8463 0,-0.812925 1.84627 0,-0.802925 1.84623 0,-0.792925 1.84619 0,-0.782925 1.84615 0,-0.772925 1.84611 0,-0.762925 1.84608 0,-0.752925 1.84604 0,-0.742925 1.846 0,-0.732925 1.84596 0,-0.722925 1.84593 0,-0.712925 1.84589 0,-0.702925 1.84585 0,-0.692925 1.84581 0,-0.682925 1.84577 0,-0.672925 1.84574 0,-0.662926 1.8457 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -2210,7 +2110,7 @@
             <name>NormaBack 2</name>
             <type>JS</type>
             <num_lights>22</num_lights>
-            <positions>-0.642807 1.87698 0,-0.652807 1.87698 0,-0.662807 1.87699 0,-0.672807 1.87699 0,-0.682807 1.87699 0,-0.692807 1.87699 0,-0.702807 1.877 0,-0.712807 1.877 0,-0.722807 1.877 0,-0.732807 1.877 0,-0.742807 1.87701 0,-0.752807 1.87701 0,-0.762807 1.87701 0,-0.772807 1.87701 0,-0.782807 1.87702 0,-0.792807 1.87702 0,-0.802807 1.87702 0,-0.812807 1.87702 0,-0.822807 1.87703 0,-0.832807 1.87703 0,-0.842807 1.87703 0,-0.852807 1.87703 0,</positions>
+            <positions>-0.642807 1.87698 0,-0.652807 1.87699 0,-0.662807 1.87699 0,-0.672807 1.87699 0,-0.682807 1.87699 0,-0.692807 1.877 0,-0.702807 1.877 0,-0.712807 1.877 0,-0.722807 1.877 0,-0.732807 1.87701 0,-0.742807 1.87701 0,-0.752807 1.87701 0,-0.762807 1.87701 0,-0.772807 1.87702 0,-0.782807 1.87702 0,-0.792807 1.87702 0,-0.802807 1.87702 0,-0.812807 1.87703 0,-0.822807 1.87703 0,-0.832807 1.87703 0,-0.842807 1.87703 0,-0.852807 1.87704 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -2234,7 +2134,7 @@
             <name>NormaBack 3</name>
             <type>JS</type>
             <num_lights>21</num_lights>
-            <positions>-0.847683 1.90986 0,-0.837683 1.90982 0,-0.827683 1.90978 0,-0.817684 1.90974 0,-0.807684 1.9097 0,-0.797684 1.90967 0,-0.787684 1.90963 0,-0.777684 1.90959 0,-0.767684 1.90955 0,-0.757684 1.90951 0,-0.747684 1.90948 0,-0.737684 1.90944 0,-0.727684 1.9094 0,-0.717684 1.90936 0,-0.707684 1.90933 0,-0.697684 1.90929 0,-0.687684 1.90925 0,-0.677684 1.90921 0,-0.667685 1.90917 0,-0.657685 1.90914 0,-0.647685 1.9091 0,</positions>
+            <positions>-0.847683 1.90986 0,-0.837683 1.90982 0,-0.827683 1.90978 0,-0.817684 1.90975 0,-0.807684 1.90971 0,-0.797684 1.90967 0,-0.787684 1.90963 0,-0.777684 1.90959 0,-0.767684 1.90956 0,-0.757684 1.90952 0,-0.747684 1.90948 0,-0.737684 1.90944 0,-0.727684 1.9094 0,-0.717684 1.90937 0,-0.707684 1.90933 0,-0.697684 1.90929 0,-0.687684 1.90925 0,-0.677684 1.90921 0,-0.667685 1.90918 0,-0.657685 1.90914 0,-0.647685 1.9091 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -2258,7 +2158,7 @@
             <name>NormaBack 4</name>
             <type>JS</type>
             <num_lights>20</num_lights>
-            <positions>-0.652554 1.94361 0,-0.662554 1.94362 0,-0.672554 1.94362 0,-0.682554 1.94362 0,-0.692554 1.94362 0,-0.702554 1.94363 0,-0.712554 1.94363 0,-0.722554 1.94363 0,-0.732554 1.94363 0,-0.742554 1.94364 0,-0.752554 1.94364 0,-0.762554 1.94364 0,-0.772554 1.94364 0,-0.782554 1.94365 0,-0.792554 1.94365 0,-0.802554 1.94365 0,-0.812554 1.94365 0,-0.822554 1.94365 0,-0.832554 1.94366 0,-0.842554 1.94366 0,</positions>
+            <positions>-0.652554 1.94362 0,-0.662554 1.94362 0,-0.672554 1.94362 0,-0.682554 1.94362 0,-0.692554 1.94363 0,-0.702554 1.94363 0,-0.712554 1.94363 0,-0.722554 1.94363 0,-0.732554 1.94364 0,-0.742554 1.94364 0,-0.752554 1.94364 0,-0.762554 1.94364 0,-0.772554 1.94365 0,-0.782554 1.94365 0,-0.792554 1.94365 0,-0.802554 1.94365 0,-0.812554 1.94366 0,-0.822554 1.94366 0,-0.832554 1.94366 0,-0.842554 1.94366 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -2282,7 +2182,7 @@
             <name>NormaBack 5</name>
             <type>JS</type>
             <num_lights>19</num_lights>
-            <positions>-0.83743 1.97646 0,-0.82743 1.97642 0,-0.817431 1.97638 0,-0.807431 1.97634 0,-0.797431 1.97631 0,-0.787431 1.97627 0,-0.777431 1.97623 0,-0.767431 1.97619 0,-0.757431 1.97615 0,-0.747431 1.97612 0,-0.737431 1.97608 0,-0.727431 1.97604 0,-0.717431 1.976 0,-0.707431 1.97596 0,-0.697431 1.97593 0,-0.687431 1.97589 0,-0.677432 1.97585 0,-0.667432 1.97581 0,-0.657432 1.97577 0,</positions>
+            <positions>-0.83743 1.97646 0,-0.82743 1.97642 0,-0.81743 1.97639 0,-0.807431 1.97635 0,-0.797431 1.97631 0,-0.787431 1.97627 0,-0.777431 1.97623 0,-0.767431 1.9762 0,-0.757431 1.97616 0,-0.747431 1.97612 0,-0.737431 1.97608 0,-0.727431 1.97604 0,-0.717431 1.97601 0,-0.707431 1.97597 0,-0.697431 1.97593 0,-0.687431 1.97589 0,-0.677431 1.97585 0,-0.667432 1.97582 0,-0.657432 1.97578 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -2306,7 +2206,7 @@
             <name>NormaBack 6</name>
             <type>JS</type>
             <num_lights>18</num_lights>
-            <positions>-0.66231 2.00788 0,-0.67231 2.00788 0,-0.68231 2.00788 0,-0.69231 2.00788 0,-0.70231 2.00789 0,-0.71231 2.00789 0,-0.72231 2.00789 0,-0.73231 2.00789 0,-0.74231 2.00789 0,-0.75231 2.0079 0,-0.76231 2.0079 0,-0.77231 2.0079 0,-0.78231 2.0079 0,-0.79231 2.00791 0,-0.80231 2.00791 0,-0.81231 2.00791 0,-0.82231 2.00791 0,-0.83231 2.00792 0,</positions>
+            <positions>-0.66231 2.00788 0,-0.67231 2.00788 0,-0.68231 2.00788 0,-0.69231 2.00789 0,-0.70231 2.00789 0,-0.71231 2.00789 0,-0.72231 2.00789 0,-0.73231 2.0079 0,-0.74231 2.0079 0,-0.75231 2.0079 0,-0.76231 2.0079 0,-0.77231 2.00791 0,-0.78231 2.00791 0,-0.79231 2.00791 0,-0.80231 2.00791 0,-0.81231 2.00792 0,-0.82231 2.00792 0,-0.83231 2.00792 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -2330,7 +2230,7 @@
             <name>NormaBack 7</name>
             <type>JS</type>
             <num_lights>17</num_lights>
-            <positions>-0.82719 2.03988 0,-0.81719 2.03984 0,-0.80719 2.0398 0,-0.79719 2.03977 0,-0.78719 2.03973 0,-0.77719 2.03969 0,-0.76719 2.03965 0,-0.75719 2.03961 0,-0.74719 2.03958 0,-0.73719 2.03954 0,-0.72719 2.0395 0,-0.71719 2.03946 0,-0.70719 2.03942 0,-0.69719 2.03939 0,-0.68719 2.03935 0,-0.677191 2.03931 0,-0.667191 2.03927 0,</positions>
+            <positions>-0.827189 2.03988 0,-0.81719 2.03985 0,-0.80719 2.03981 0,-0.79719 2.03977 0,-0.78719 2.03973 0,-0.77719 2.03969 0,-0.76719 2.03966 0,-0.75719 2.03962 0,-0.74719 2.03958 0,-0.73719 2.03954 0,-0.72719 2.0395 0,-0.71719 2.03947 0,-0.70719 2.03943 0,-0.69719 2.03939 0,-0.68719 2.03935 0,-0.67719 2.03931 0,-0.667191 2.03928 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -2354,7 +2254,7 @@
             <name>NormaBack 8</name>
             <type>JS</type>
             <num_lights>16</num_lights>
-            <positions>-0.672075 2.06976 0,-0.682075 2.06976 0,-0.692075 2.06976 0,-0.702075 2.06976 0,-0.712075 2.06977 0,-0.722075 2.06977 0,-0.732075 2.06977 0,-0.742075 2.06977 0,-0.752075 2.06978 0,-0.762075 2.06978 0,-0.772075 2.06978 0,-0.782075 2.06978 0,-0.792075 2.06979 0,-0.802075 2.06979 0,-0.812075 2.06979 0,-0.822075 2.06979 0,</positions>
+            <positions>-0.672075 2.06976 0,-0.682075 2.06976 0,-0.692075 2.06977 0,-0.702075 2.06977 0,-0.712075 2.06977 0,-0.722075 2.06977 0,-0.732075 2.06978 0,-0.742075 2.06978 0,-0.752075 2.06978 0,-0.762075 2.06978 0,-0.772075 2.06979 0,-0.782075 2.06979 0,-0.792075 2.06979 0,-0.802075 2.06979 0,-0.812075 2.0698 0,-0.822075 2.0698 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -2378,7 +2278,7 @@
             <name>NormaBack 9</name>
             <type>JS</type>
             <num_lights>18</num_lights>
-            <positions>-0.831949 2.10336 0,-0.821949 2.10332 0,-0.811949 2.10328 0,-0.801949 2.10324 0,-0.791949 2.10321 0,-0.781949 2.10317 0,-0.771949 2.10313 0,-0.761949 2.10309 0,-0.751949 2.10305 0,-0.741949 2.10302 0,-0.731949 2.10298 0,-0.721949 2.10294 0,-0.711949 2.1029 0,-0.701949 2.10286 0,-0.69195 2.10283 0,-0.68195 2.10279 0,-0.67195 2.10275 0,-0.66195 2.10271 0,</positions>
+            <positions>-0.831948 2.10336 0,-0.821948 2.10332 0,-0.811949 2.10329 0,-0.801949 2.10325 0,-0.791949 2.10321 0,-0.781949 2.10317 0,-0.771949 2.10313 0,-0.761949 2.1031 0,-0.751949 2.10306 0,-0.741949 2.10302 0,-0.731949 2.10298 0,-0.721949 2.10295 0,-0.711949 2.10291 0,-0.701949 2.10287 0,-0.691949 2.10283 0,-0.681949 2.10279 0,-0.67195 2.10276 0,-0.66195 2.10272 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -2402,7 +2302,7 @@
             <name>NormaBack 10</name>
             <type>JS</type>
             <num_lights>19</num_lights>
-            <positions>-0.656825 2.13559 0,-0.666825 2.1356 0,-0.676825 2.1356 0,-0.686825 2.1356 0,-0.696825 2.1356 0,-0.706825 2.13561 0,-0.716825 2.13561 0,-0.726825 2.13561 0,-0.736825 2.13561 0,-0.746825 2.13562 0,-0.756825 2.13562 0,-0.766825 2.13562 0,-0.776825 2.13562 0,-0.786825 2.13562 0,-0.796825 2.13563 0,-0.806825 2.13563 0,-0.816826 2.13563 0,-0.826825 2.13563 0,-0.836825 2.13564 0,</positions>
+            <positions>-0.656825 2.1356 0,-0.666825 2.1356 0,-0.676825 2.1356 0,-0.686825 2.13561 0,-0.696825 2.13561 0,-0.706825 2.13561 0,-0.716825 2.13561 0,-0.726825 2.13562 0,-0.736825 2.13562 0,-0.746825 2.13562 0,-0.756825 2.13562 0,-0.766825 2.13562 0,-0.776825 2.13563 0,-0.786825 2.13563 0,-0.796825 2.13563 0,-0.806825 2.13563 0,-0.816825 2.13564 0,-0.826825 2.13564 0,-0.836825 2.13564 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -2426,7 +2326,7 @@
             <name>NormaBack 11</name>
             <type>JS</type>
             <num_lights>21</num_lights>
-            <positions>-0.846695 2.17005 0,-0.836696 2.17002 0,-0.826696 2.16998 0,-0.816696 2.16994 0,-0.806696 2.1699 0,-0.796696 2.16986 0,-0.786696 2.16983 0,-0.776696 2.16979 0,-0.766696 2.16975 0,-0.756696 2.16971 0,-0.746696 2.16967 0,-0.736696 2.16964 0,-0.726696 2.1696 0,-0.716696 2.16956 0,-0.706696 2.16952 0,-0.696697 2.16949 0,-0.686697 2.16945 0,-0.676697 2.16941 0,-0.666697 2.16937 0,-0.656697 2.16933 0,-0.646697 2.1693 0,</positions>
+            <positions>-0.846695 2.17005 0,-0.836695 2.17001 0,-0.826695 2.16997 0,-0.816696 2.16994 0,-0.806696 2.1699 0,-0.796696 2.16986 0,-0.786696 2.16982 0,-0.776696 2.16978 0,-0.766696 2.16975 0,-0.756696 2.16971 0,-0.746696 2.16967 0,-0.736696 2.16963 0,-0.726696 2.16959 0,-0.716696 2.16956 0,-0.706696 2.16952 0,-0.696696 2.16948 0,-0.686696 2.16944 0,-0.676696 2.1694 0,-0.666697 2.16937 0,-0.656697 2.16933 0,-0.646697 2.16929 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -2450,7 +2350,7 @@
             <name>NormaBack 12</name>
             <type>JS</type>
             <num_lights>22</num_lights>
-            <positions>-0.641572 2.20222 0,-0.651572 2.20222 0,-0.661572 2.20222 0,-0.671572 2.20223 0,-0.681572 2.20223 0,-0.691572 2.20223 0,-0.701572 2.20223 0,-0.711572 2.20224 0,-0.721572 2.20224 0,-0.731573 2.20224 0,-0.741572 2.20224 0,-0.751572 2.20225 0,-0.761572 2.20225 0,-0.771572 2.20225 0,-0.781573 2.20225 0,-0.791573 2.20226 0,-0.801573 2.20226 0,-0.811572 2.20226 0,-0.821573 2.20226 0,-0.831573 2.20227 0,-0.841573 2.20227 0,-0.851573 2.20227 0,</positions>
+            <positions>-0.641572 2.20221 0,-0.651572 2.20222 0,-0.661572 2.20222 0,-0.671572 2.20222 0,-0.681572 2.20222 0,-0.691572 2.20223 0,-0.701572 2.20223 0,-0.711572 2.20223 0,-0.721572 2.20223 0,-0.731572 2.20224 0,-0.741572 2.20224 0,-0.751572 2.20224 0,-0.761572 2.20224 0,-0.771572 2.20225 0,-0.781572 2.20225 0,-0.791572 2.20225 0,-0.801572 2.20225 0,-0.811572 2.20226 0,-0.821572 2.20226 0,-0.831572 2.20226 0,-0.841572 2.20226 0,-0.851572 2.20227 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -2476,7 +2376,7 @@
             <name>main.py</name>
             <type>PythonProgram</type>
             <parameters>
-                <enabled type="bool">1</enabled>
+                <enabled type="bool">0</enabled>
                 <color_levels type="color">255, 255, 255, 255</color_levels>
                 <Zone type="string"></Zone>
                 <texture_filtering type="stringoption">linear</texture_filtering>
@@ -2503,7 +2403,7 @@
             <type>ProtoPixel</type>
             <parameters>
                 <connected type="bool">1</connected>
-                <outlets type="customint">8</outlets>
+                <outlets type="customint">6</outlets>
                 <Device type="string">REC:0</Device>
                 <device_data type="string">{}</device_data>
             </parameters>
@@ -2541,8 +2441,6 @@
                             <item>fixture:NormaLegLeft 6</item>
                             <item>fixture:NormaLegLeft 7</item>
                             <item>fixture:NormaLegLeft 8</item>
-                            <item>fixture:NormaLegLeft 9</item>
-                            <item>fixture:NormaLegLeft 10</item>
                             <item>fixture:NormaLegLeft 11</item>
                             <item>fixture:NormaLegLeft 12</item>
                             <item>fixture:NormaLegLeft 13</item>
@@ -2568,8 +2466,6 @@
                             <item>fixture:NormaLegRight 6</item>
                             <item>fixture:NormaLegRight 7</item>
                             <item>fixture:NormaLegRight 8</item>
-                            <item>fixture:NormaLegRight 9</item>
-                            <item>fixture:NormaLegRight 10</item>
                             <item>fixture:NormaLegRight 11</item>
                             <item>fixture:NormaLegRight 12</item>
                             <item>fixture:NormaLegRight 13</item>
@@ -2640,16 +2536,6 @@
                             <item>fixture:NormaBack 11</item>
                             <item>fixture:NormaBack 12</item>
                         </items>
-                    </fixtures>
-                </outlet>
-                <outlet>
-                    <fixtures>
-                        <items></items>
-                    </fixtures>
-                </outlet>
-                <outlet>
-                    <fixtures>
-                        <items></items>
                     </fixtures>
                 </outlet>
             </outlets>

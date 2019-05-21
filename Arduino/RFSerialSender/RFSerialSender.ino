@@ -26,12 +26,13 @@
 
 RFManager rfManager;
 SerialManager serialManager(&rfManager);
-
+RadioPacket radioData;
 
 void setup() 
 {
     serialManager.setup();
     rfManager.setup();
+    rfManager.sendData(1,5);
 }
 
 void loop() 

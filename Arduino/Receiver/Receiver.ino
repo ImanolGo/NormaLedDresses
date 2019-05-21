@@ -24,19 +24,12 @@ const static uint8_t PIN_RADIO_CSN = 9;
 
 struct RadioPacket // Any packet up to 32 bytes can be sent.
 {
-    uint8_t FromRadioId;
-    uint32_t OnTimeMillis;
-    uint32_t FailedTxCount;
-};
-
-struct RadioPacket2 // Any packet up to 32 bytes can be sent.
-{
-    uint8_t DeviceID;
+    uint8_t deviceID;
     uint8_t instruction;
 };
 
 NRFLite _radio;
-RadioPacket2 _radioData;
+RadioPacket _radioData;
 
 void setup()
 {
@@ -66,8 +59,8 @@ void loop()
         _radio.readData(&_radioData); // Note how '&' must be placed in front of the variable name.
 
         String msg = "devid ";
-        msg += _radioData.DeviceID;
-        msg += ", instruction";
+        msg += _radioData.deviceID;
+        msg += ", instruction ";
         msg += _radioData.instruction;
         Serial.println(msg);
         //Serial.write(_radioData.DeviceID);

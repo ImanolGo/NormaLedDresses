@@ -18,6 +18,12 @@ const static uint8_t DESTINATION_RADIO_ID = 0; // Id of the radio we will transm
 const static uint8_t PIN_RADIO_CE = 10;
 const static uint8_t PIN_RADIO_CSN = 9;
 
+struct RadioPacket // Any packet up to 32 bytes can be sent.
+{
+    uint8_t deviceID;
+    uint8_t instruction;
+};
+
 
 class RFManager{
 
@@ -54,11 +60,11 @@ void RFManager::setupRF()
 {
     if (!_radio.init(RADIO_ID, PIN_RADIO_CE, PIN_RADIO_CSN))
     {
-        Serial.println("RFManager::setupRF -> Cannot communicate with radio");
+        //Serial.println("RFManager::setupRF -> Cannot communicate with radio");
         while (1); // Wait here forever.
     }
 
-    Serial.println("RFManager::setupRF ->Successfully connected");
+   // Serial.println("RFManager::setupRF ->Successfully connected");
     
     /*
     By default, 'init' configures the radio to use a 2MBPS bitrate on channel 100 (channels 0-125 are valid).
@@ -74,6 +80,21 @@ void RFManager::setupRF()
 void RFManager::update()
 {
  
+}
+
+void RFManager::sendData(int id, int instruction)
+{
+    RadioPacket radioData;
+    radioData.deviceID = id;
+    radioData.instruction = instruction;
+  if (_radio.send(DESTINATION_RADIO_ID, &radioData, sizeof(radioData))) 
+    {
+        ///
+    }
+    else
+    {
+      // Serial.println("RFManager::sendData -> Could not send data ");
+    }
 }
 
 void RFManager::sendMessage(uint8_t* buf, uint8_t len)
