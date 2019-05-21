@@ -48,6 +48,7 @@
                 <item>fixture:NormaCoverLegRight 21</item>
                 <item>fixture:NormaCoverLegRight 22</item>
                 <item>fixture:NormaCoverLegRight 23</item>
+                <item>fixture:NormaCoverLegRight 24</item>
                 <item>fixture:NormaCoverLegLeft</item>
                 <item>fixture:NormaCoverLegLeft 0</item>
                 <item>fixture:NormaCoverLegLeft 1</item>
@@ -69,6 +70,7 @@
                 <item>fixture:NormaCoverLegLeft 21</item>
                 <item>fixture:NormaCoverLegLeft 22</item>
                 <item>fixture:NormaCoverLegLeft 23</item>
+                <item>fixture:NormaCoverLegLeft 24</item>
                 <item>fixture:NormaCoverRightArm 1</item>
                 <item>fixture:NormaCoverRightArm 2</item>
                 <item>fixture:NormaCoverRightArm 3</item>
@@ -97,6 +99,12 @@
                 <item>fixture:NormaCoverLeftArm 12</item>
                 <item>fixture:NormaCoverLeftArm 13</item>
                 <item>fixture:NormaCoverLeftArm 14</item>
+                <item>content:Channel 1</item>
+                <item>content:Channel 2</item>
+                <item>content:Channel 3</item>
+                <item>content:Channel 4</item>
+                <item>content:Channel 5</item>
+                <item>content:Slow Motion Fire Background Series 300fps Casio EX-F1 V13859a.mp4</item>
             </items>
             <parameters>
                 <is_3D type="bool">0</is_3D>
@@ -116,7 +124,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -140,7 +148,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -164,7 +172,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -188,7 +196,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -212,7 +220,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -236,7 +244,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -260,7 +268,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -284,7 +292,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -308,7 +316,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -332,7 +340,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -356,7 +364,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -380,7 +388,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -404,7 +412,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -428,7 +436,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -452,7 +460,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -476,7 +484,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -500,7 +508,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -524,7 +532,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -540,7 +548,7 @@
             <name>NormaCoverLegRight 6</name>
             <type>JS</type>
             <num_lights>17</num_lights>
-            <positions>-0.793407 0.986483 0,-0.800407 0.986473 0,-0.807407 0.986464 0,-0.814407 0.986454 0,-0.821407 0.986445 0,-0.828407 0.986435 0,-0.835407 0.986426 0,-0.842407 0.986417 0,-0.849407 0.986407 0,-0.856407 0.986398 0,-0.863407 0.986388 0,-0.870407 0.986379 0,-0.877407 0.986369 0,-0.884407 0.98636 0,-0.891407 0.98635 0,-0.898407 0.986341 0,-0.905407 0.986331 0,</positions>
+            <positions>-0.793407 0.986483 0,-0.800407 0.986473 0,-0.807407 0.986464 0,-0.814407 0.986454 0,-0.821407 0.986445 0,-0.828407 0.986435 0,-0.835407 0.986426 0,-0.842407 0.986416 0,-0.849407 0.986407 0,-0.856407 0.986398 0,-0.863407 0.986388 0,-0.870407 0.986379 0,-0.877407 0.986369 0,-0.884407 0.98636 0,-0.891407 0.98635 0,-0.898407 0.986341 0,-0.905407 0.986331 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -548,7 +556,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -572,7 +580,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -588,7 +596,7 @@
             <name>NormaCoverLegRight 8</name>
             <type>JS</type>
             <num_lights>15</num_lights>
-            <positions>-0.800407 0.918927 0,-0.807407 0.918918 0,-0.814407 0.918908 0,-0.821407 0.918899 0,-0.828407 0.91889 0,-0.835407 0.91888 0,-0.842407 0.918871 0,-0.849407 0.918861 0,-0.856407 0.918852 0,-0.863407 0.918842 0,-0.870407 0.918833 0,-0.877407 0.918823 0,-0.884407 0.918814 0,-0.891407 0.918804 0,-0.898407 0.918795 0,</positions>
+            <positions>-0.800407 0.918927 0,-0.807407 0.918918 0,-0.814407 0.918908 0,-0.821407 0.918899 0,-0.828407 0.918889 0,-0.835407 0.91888 0,-0.842407 0.91887 0,-0.849407 0.918861 0,-0.856407 0.918851 0,-0.863407 0.918842 0,-0.870407 0.918833 0,-0.877407 0.918823 0,-0.884407 0.918814 0,-0.891407 0.918804 0,-0.898407 0.918795 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -596,7 +604,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -620,7 +628,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -644,7 +652,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -668,7 +676,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -692,7 +700,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -716,7 +724,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -740,7 +748,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -764,7 +772,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -788,7 +796,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -812,7 +820,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -836,7 +844,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -860,7 +868,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -875,8 +883,8 @@
         <fixture>
             <name>NormaCoverLegRight 21</name>
             <type>JS</type>
-            <num_lights>8</num_lights>
-            <positions>-0.873907 0.595387 0,-0.866907 0.595387 0,-0.859907 0.595387 0,-0.852907 0.595387 0,-0.845907 0.595387 0,-0.838907 0.595387 0,-0.831907 0.595387 0,-0.824907 0.595387 0,</positions>
+            <num_lights>9</num_lights>
+            <positions>-0.877407 0.595387 0,-0.870407 0.595387 0,-0.863407 0.595387 0,-0.856407 0.595387 0,-0.849407 0.595387 0,-0.842407 0.595387 0,-0.835407 0.595387 0,-0.828407 0.595387 0,-0.821407 0.595387 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -884,7 +892,31 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.02800000086426735,0,0,-0.02100000157952309,0,0,-0.01400000043213367,0,0,-0.007000000681728125,0,0,-8.642673243741683e-10,0,0,0.006999999284744263,0,0,0.0139999995008111,0,0,0.02099999971687794,0,0,0.0279999990016222,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:9}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.849407, 0.595387,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>NormaCoverLegRight 22</name>
+            <type>JS</type>
+            <num_lights>8</num_lights>
+            <positions>-0.824907 0.566524 0,-0.831907 0.566515 0,-0.838907 0.566505 0,-0.845907 0.566496 0,-0.852907 0.566486 0,-0.859907 0.566477 0,-0.866907 0.566467 0,-0.873907 0.566458 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -894,13 +926,13 @@
                 <light_positions type="jsvalue">[-0.02449999935925007,0,0,-0.01750000007450581,0,0,-0.01049999892711639,0,0,-0.003499999409541488,0,0,0.003500000573694706,0,0,0.01050000078976154,0,0,0.01750000007450581,0,0,0.02450000122189522,0,0]&#x0A;</light_positions>
                 <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:8}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.849407, 0.595387,        0,        1</transformation>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.849407, 0.566491,        0,        1</transformation>
         </fixture>
         <fixture>
-            <name>NormaCoverLegRight 22</name>
+            <name>NormaCoverLegRight 23</name>
             <type>JS</type>
             <num_lights>7</num_lights>
-            <positions>-0.828407 0.566519 0,-0.835407 0.56651 0,-0.842407 0.5665 0,-0.849407 0.566491 0,-0.856407 0.566482 0,-0.863407 0.566472 0,-0.870407 0.566463 0,</positions>
+            <positions>-0.871006 0.542713 0,-0.864006 0.542713 0,-0.857006 0.542713 0,-0.850006 0.542713 0,-0.843006 0.542713 0,-0.836006 0.542713 0,-0.829006 0.542713 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -908,7 +940,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -918,31 +950,7 @@
                 <light_positions type="jsvalue">[-0.02099999971687794,0,0,-0.0139999995008111,0,0,-0.00699999975040555,0,0,2.831220535792767e-10,0,0,0.007000000216066837,0,0,0.01400000043213367,0,0,0.02099999971687794,0,0]&#x0A;</light_positions>
                 <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:7}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.849407, 0.566491,        0,        1</transformation>
-        </fixture>
-        <fixture>
-            <name>NormaCoverLegRight 23</name>
-            <type>JS</type>
-            <num_lights>6</num_lights>
-            <positions>-0.866907 0.542713 0,-0.859907 0.542713 0,-0.852907 0.542713 0,-0.845907 0.542713 0,-0.838907 0.542713 0,-0.831907 0.542713 0,</positions>
-            <parameters>
-                <ON type="bool">1</ON>
-                <Level type="float">1</Level>
-                <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
-                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
-                <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
-                <custom_ordering type="string">R,G,B</custom_ordering>
-                <White_function type="stringoption">average</White_function>
-                <Color_mode type="stringoption">original</Color_mode>
-                <Base_color type="color">0, 0, 0, 0</Base_color>
-                <Zone type="string"></Zone>
-                <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[-0.01750000007450581,0,0,-0.01049999985843897,0,0,-0.003500000108033419,0,0,0.003499999875202775,0,0,0.01049999985843897,0,0,0.01750000007450581,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:6}&#x0A;</js_payload>
-            </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.849407, 0.542713,        0,        1</transformation>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.850006, 0.542713,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaCoverLegLeft</name>
@@ -956,7 +964,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -972,7 +980,7 @@
             <name>NormaCoverLegLeft 0</name>
             <type>JS</type>
             <num_lights>21</num_lights>
-            <positions>-0.724975 1.16237 0,-0.717975 1.16238 0,-0.710975 1.16239 0,-0.703975 1.1624 0,-0.696975 1.16241 0,-0.689975 1.16242 0,-0.682975 1.16243 0,-0.675975 1.16244 0,-0.668975 1.16244 0,-0.661975 1.16245 0,-0.654975 1.16246 0,-0.647975 1.16247 0,-0.640975 1.16248 0,-0.633975 1.16249 0,-0.626975 1.1625 0,-0.619975 1.16251 0,-0.612975 1.16252 0,-0.605975 1.16253 0,-0.598975 1.16254 0,-0.591975 1.16255 0,-0.584975 1.16256 0,</positions>
+            <positions>-0.724975 1.16237 0,-0.717975 1.16237 0,-0.710975 1.16238 0,-0.703975 1.16239 0,-0.696975 1.1624 0,-0.689975 1.16241 0,-0.682975 1.16242 0,-0.675975 1.16243 0,-0.668975 1.16244 0,-0.661975 1.16245 0,-0.654975 1.16246 0,-0.647975 1.16247 0,-0.640975 1.16248 0,-0.633975 1.16249 0,-0.626975 1.1625 0,-0.619975 1.16251 0,-0.612975 1.16252 0,-0.605975 1.16253 0,-0.598975 1.16254 0,-0.591975 1.16255 0,-0.584975 1.16255 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -980,7 +988,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1004,7 +1012,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1020,7 +1028,7 @@
             <name>NormaCoverLegLeft 2</name>
             <type>JS</type>
             <num_lights>19</num_lights>
-            <positions>-0.717975 1.09337 0,-0.710975 1.09338 0,-0.703975 1.09339 0,-0.696975 1.0934 0,-0.689975 1.09341 0,-0.682975 1.09342 0,-0.675975 1.09343 0,-0.668975 1.09343 0,-0.661975 1.09344 0,-0.654975 1.09345 0,-0.647975 1.09346 0,-0.640975 1.09347 0,-0.633975 1.09348 0,-0.626975 1.09349 0,-0.619975 1.0935 0,-0.612975 1.09351 0,-0.605975 1.09352 0,-0.598975 1.09353 0,-0.591975 1.09354 0,</positions>
+            <positions>-0.717975 1.09336 0,-0.710975 1.09337 0,-0.703975 1.09338 0,-0.696975 1.09339 0,-0.689975 1.0934 0,-0.682975 1.09341 0,-0.675975 1.09342 0,-0.668975 1.09343 0,-0.661975 1.09344 0,-0.654975 1.09345 0,-0.647975 1.09346 0,-0.640975 1.09347 0,-0.633975 1.09348 0,-0.626975 1.09349 0,-0.619975 1.0935 0,-0.612975 1.09351 0,-0.605975 1.09352 0,-0.598975 1.09353 0,-0.591975 1.09354 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1028,7 +1036,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1052,7 +1060,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1076,7 +1084,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1100,7 +1108,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1124,7 +1132,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1148,7 +1156,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1172,7 +1180,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1196,7 +1204,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1220,7 +1228,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1244,7 +1252,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1268,7 +1276,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1292,7 +1300,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1308,7 +1316,7 @@
             <name>NormaCoverLegLeft 18</name>
             <type>JS</type>
             <num_lights>11</num_lights>
-            <positions>-0.689975 0.679437 0,-0.682975 0.679446 0,-0.675975 0.679455 0,-0.668975 0.679465 0,-0.661975 0.679474 0,-0.654975 0.679484 0,-0.647975 0.679493 0,-0.640975 0.679503 0,-0.633975 0.679512 0,-0.626975 0.679522 0,-0.619975 0.679531 0,</positions>
+            <positions>-0.689975 0.679437 0,-0.682975 0.679446 0,-0.675975 0.679456 0,-0.668975 0.679465 0,-0.661975 0.679475 0,-0.654975 0.679484 0,-0.647975 0.679493 0,-0.640975 0.679503 0,-0.633975 0.679512 0,-0.626975 0.679522 0,-0.619975 0.679531 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1316,7 +1324,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1340,7 +1348,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1356,7 +1364,7 @@
             <name>NormaCoverLegLeft 20</name>
             <type>JS</type>
             <num_lights>9</num_lights>
-            <positions>-0.682975 0.622456 0,-0.675975 0.622465 0,-0.668975 0.622475 0,-0.661975 0.622484 0,-0.654975 0.622494 0,-0.647975 0.622503 0,-0.640975 0.622513 0,-0.633975 0.622522 0,-0.626975 0.622532 0,</positions>
+            <positions>-0.682975 0.622456 0,-0.675975 0.622466 0,-0.668975 0.622475 0,-0.661975 0.622485 0,-0.654975 0.622494 0,-0.647975 0.622503 0,-0.640975 0.622513 0,-0.633975 0.622522 0,-0.626975 0.622532 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1364,7 +1372,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1379,8 +1387,8 @@
         <fixture>
             <name>NormaCoverLegLeft 21</name>
             <type>JS</type>
-            <num_lights>8</num_lights>
-            <positions>-0.630475 0.595888 0,-0.637475 0.595888 0,-0.644475 0.595888 0,-0.651475 0.595888 0,-0.658475 0.595888 0,-0.665475 0.595888 0,-0.672475 0.595888 0,-0.679475 0.595888 0,</positions>
+            <num_lights>9</num_lights>
+            <positions>-0.626975 0.595888 0,-0.633975 0.595888 0,-0.640975 0.595888 0,-0.647975 0.595888 0,-0.654975 0.595888 0,-0.661975 0.595888 0,-0.668975 0.595888 0,-0.675975 0.595888 0,-0.682975 0.595888 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1388,7 +1396,31 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.0279999990016222,0,0,0.02099999971687794,0,0,0.0139999995008111,0,0,0.006999999284744263,0,0,-8.642673243741683e-10,0,0,-0.007000000681728125,0,0,-0.01400000043213367,0,0,-0.02100000157952309,0,0,-0.02800000086426735,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:9}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.654975, 0.595888,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>NormaCoverLegLeft 22</name>
+            <type>JS</type>
+            <num_lights>8</num_lights>
+            <positions>-0.679475 0.566959 0,-0.672475 0.566968 0,-0.665475 0.566978 0,-0.658475 0.566987 0,-0.651475 0.566997 0,-0.644475 0.567006 0,-0.637475 0.567016 0,-0.630475 0.567025 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1398,13 +1430,13 @@
                 <light_positions type="jsvalue">[0.02450000122189522,0,0,0.01750000007450581,0,0,0.01050000078976154,0,0,0.003500000573694706,0,0,-0.003499999409541488,0,0,-0.01049999892711639,0,0,-0.01750000007450581,0,0,-0.02449999935925007,0,0]&#x0A;</light_positions>
                 <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:8}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.654975, 0.595888,        0,        1</transformation>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.654975, 0.566992,        0,        1</transformation>
         </fixture>
         <fixture>
-            <name>NormaCoverLegLeft 22</name>
+            <name>NormaCoverLegLeft 23</name>
             <type>JS</type>
             <num_lights>7</num_lights>
-            <positions>-0.675975 0.566963 0,-0.668975 0.566973 0,-0.661975 0.566982 0,-0.654975 0.566992 0,-0.647975 0.567001 0,-0.640975 0.567011 0,-0.633975 0.56702 0,</positions>
+            <positions>-0.634174 0.543214 0,-0.641174 0.543214 0,-0.648174 0.543214 0,-0.655174 0.543214 0,-0.662174 0.543214 0,-0.669174 0.543214 0,-0.676174 0.543214 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1412,7 +1444,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1422,31 +1454,7 @@
                 <light_positions type="jsvalue">[0.02099999971687794,0,0,0.01400000043213367,0,0,0.007000000216066837,0,0,2.831220535792767e-10,0,0,-0.00699999975040555,0,0,-0.0139999995008111,0,0,-0.02099999971687794,0,0]&#x0A;</light_positions>
                 <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:7}&#x0A;</js_payload>
             </parameters>
-            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.654975, 0.566992,        0,        1</transformation>
-        </fixture>
-        <fixture>
-            <name>NormaCoverLegLeft 23</name>
-            <type>JS</type>
-            <num_lights>6</num_lights>
-            <positions>-0.637475 0.543214 0,-0.644475 0.543214 0,-0.651475 0.543214 0,-0.658475 0.543214 0,-0.665475 0.543214 0,-0.672475 0.543214 0,</positions>
-            <parameters>
-                <ON type="bool">1</ON>
-                <Level type="float">1</Level>
-                <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
-                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
-                <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
-                <custom_ordering type="string">R,G,B</custom_ordering>
-                <White_function type="stringoption">average</White_function>
-                <Color_mode type="stringoption">original</Color_mode>
-                <Base_color type="color">0, 0, 0, 0</Base_color>
-                <Zone type="string"></Zone>
-                <custom_ordering_functions_args></custom_ordering_functions_args>
-                <light_positions type="jsvalue">[0.01750000007450581,0,0,0.01049999985843897,0,0,0.003499999875202775,0,0,-0.003500000108033419,0,0,-0.01049999985843897,0,0,-0.01750000007450581,0,0]&#x0A;</light_positions>
-                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:6}&#x0A;</js_payload>
-            </parameters>
-            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.654975, 0.543214,        0,        1</transformation>
+            <transformation type="matrix4x4">       1,        0,        0,        0&#x0A;       0,        1,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.655174, 0.543214,        0,        1</transformation>
         </fixture>
         <fixture>
             <name>NormaCoverRightArm 1</name>
@@ -1460,7 +1468,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1484,7 +1492,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1508,7 +1516,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1532,7 +1540,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1556,7 +1564,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1580,7 +1588,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1604,7 +1612,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1628,7 +1636,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1652,7 +1660,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1676,7 +1684,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1700,7 +1708,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1724,7 +1732,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1748,7 +1756,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1772,7 +1780,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1796,7 +1804,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1820,7 +1828,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1844,7 +1852,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1868,7 +1876,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1892,7 +1900,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1916,7 +1924,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1940,7 +1948,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1964,7 +1972,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -1988,7 +1996,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -2012,7 +2020,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -2036,7 +2044,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -2060,7 +2068,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -2084,7 +2092,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -2108,7 +2116,7 @@
                 <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
-                <PPx_RGB_ordering type="stringoption">GRB</PPx_RGB_ordering>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
                 <custom_ordering type="string">R,G,B</custom_ordering>
                 <White_function type="stringoption">average</White_function>
                 <Color_mode type="stringoption">original</Color_mode>
@@ -2119,6 +2127,54 @@
                 <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:5}&#x0A;</js_payload>
             </parameters>
             <transformation type="matrix4x4">-0.999994, -0.0035572,        0,        0&#x0A;0.0035572, -0.999994,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.53996,  1.30632,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>NormaCoverLegRight 24</name>
+            <type>JS</type>
+            <num_lights>6</num_lights>
+            <positions>-0.832506 0.520481 0,-0.839506 0.520471 0,-0.846506 0.520462 0,-0.853506 0.520452 0,-0.860506 0.520443 0,-0.867506 0.520433 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[-0.01750000007450581,0,0,-0.01049999985843897,0,0,-0.003500000108033419,0,0,0.003499999875202775,0,0,0.01049999985843897,0,0,0.01750000007450581,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:false,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:6}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.850006, 0.520457,        0,        1</transformation>
+        </fixture>
+        <fixture>
+            <name>NormaCoverLegLeft 24</name>
+            <type>JS</type>
+            <num_lights>6</num_lights>
+            <positions>-0.672674 0.520161 0,-0.665674 0.520171 0,-0.658674 0.52018 0,-0.651674 0.52019 0,-0.644674 0.520199 0,-0.637674 0.520209 0,</positions>
+            <parameters>
+                <ON type="bool">1</ON>
+                <Level type="float">1</Level>
+                <zone_level type="float">1</zone_level>
+                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
+                <PPx_double_points type="bool">0</PPx_double_points>
+                <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
+                <custom_ordering type="string">R,G,B</custom_ordering>
+                <White_function type="stringoption">average</White_function>
+                <Color_mode type="stringoption">original</Color_mode>
+                <Base_color type="color">0, 0, 0, 0</Base_color>
+                <Zone type="string"></Zone>
+                <custom_ordering_functions_args></custom_ordering_functions_args>
+                <light_positions type="jsvalue">[0.01750000007450581,0,0,0.01049999985843897,0,0,0.003499999875202775,0,0,-0.003500000108033419,0,0,-0.01049999985843897,0,0,-0.01750000007450581,0,0]&#x0A;</light_positions>
+                <js_payload type="jsvalue">{&quot;LED_size&quot;:0.005,&quot;p&quot;:0.007,&quot;reversed&quot;:true,&quot;type&quot;:&quot;Line&quot;,&quot;w&quot;:6}&#x0A;</js_payload>
+            </parameters>
+            <transformation type="matrix4x4">-0.999999, -0.00135397,        0,        0&#x0A;0.00135397, -0.999999,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.655174, 0.520185,        0,        1</transformation>
         </fixture>
     </fixtures>
     <contents>
@@ -2145,6 +2201,136 @@
             </parameters>
             <transformation type="matrix4x4">0.649327,        0,        0,        0&#x0A;       0,  1.29059,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.129637,  0.97289,        0,        1</transformation>
         </content>
+        <content>
+            <name>Channel 1</name>
+            <type>py:color</type>
+            <parameters>
+                <enabled type="bool">1</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <params>
+                    <color type="color">255, 0, 0, 255</color>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.330928,        0,        0,        0&#x0A;       0, 0.472873,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.751016,  1.45541,        0,        1</transformation>
+        </content>
+        <content>
+            <name>Channel 2</name>
+            <type>py:color</type>
+            <parameters>
+                <enabled type="bool">1</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <params>
+                    <color type="color">0, 255, 0, 255</color>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.172057,        0,        0,        0&#x0A;       0, 0.749387,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.65439, 0.840895,        0,        1</transformation>
+        </content>
+        <content>
+            <name>Channel 3</name>
+            <type>py:color</type>
+            <parameters>
+                <enabled type="bool">1</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <params>
+                    <color type="color">0, 0, 255, 255</color>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.172057,        0,        0,        0&#x0A;       0, 0.749387,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.847513, 0.839187,        0,        1</transformation>
+        </content>
+        <content>
+            <name>Channel 4</name>
+            <type>py:color</type>
+            <parameters>
+                <enabled type="bool">1</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <params>
+                    <color type="color">255, 0, 255, 255</color>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.168247,        0,        0,        0&#x0A;       0, 0.480761,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.501103,  1.49857,        0,        1</transformation>
+        </content>
+        <content>
+            <name>Channel 5</name>
+            <type>py:color</type>
+            <parameters>
+                <enabled type="bool">1</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <params>
+                    <color type="color">0, 255, 255, 255</color>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.168247,        0,        0,        0&#x0A;       0, 0.477344,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-1.00063,  1.46023,        0,        1</transformation>
+        </content>
+        <content>
+            <name>Slow Motion Fire Background Series 300fps Casio EX-F1 V13859a.mp4</name>
+            <type>py:video</type>
+            <parameters>
+                <enabled type="bool">0</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <params>
+                    <video_path type="filepath">/Users/imanolgo/MEGA/Video/ProtoPixelVideos/Slow Motion Fire Background Series 300fps Casio EX-F1 V13859a.mp4</video_path>
+                    <position type="float">0.99971</position>
+                    <loop type="bool">0</loop>
+                    <autoplay type="bool">0</autoplay>
+                    <volume type="float">1</volume>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.600543,        0,        0,        0&#x0A;       0,  1.25576,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.757944,  1.09481,        0,        1</transformation>
+        </content>
     </contents>
     <groups></groups>
     <controllers>
@@ -2158,6 +2344,16 @@
                 <device_data type="string">{}</device_data>
             </parameters>
             <outlets>
+                <outlet>
+                    <fixtures>
+                        <items></items>
+                    </fixtures>
+                </outlet>
+                <outlet>
+                    <fixtures>
+                        <items></items>
+                    </fixtures>
+                </outlet>
                 <outlet>
                     <fixtures>
                         <items>
@@ -2202,6 +2398,7 @@
                             <item>fixture:NormaCoverLegLeft 21</item>
                             <item>fixture:NormaCoverLegLeft 22</item>
                             <item>fixture:NormaCoverLegLeft 23</item>
+                            <item>fixture:NormaCoverLegLeft 24</item>
                         </items>
                     </fixtures>
                 </outlet>
@@ -2229,6 +2426,7 @@
                             <item>fixture:NormaCoverLegRight 21</item>
                             <item>fixture:NormaCoverLegRight 22</item>
                             <item>fixture:NormaCoverLegRight 23</item>
+                            <item>fixture:NormaCoverLegRight 24</item>
                         </items>
                     </fixtures>
                 </outlet>
@@ -2270,16 +2468,6 @@
                             <item>fixture:NormaCoverLeftArm 13</item>
                             <item>fixture:NormaCoverLeftArm 14</item>
                         </items>
-                    </fixtures>
-                </outlet>
-                <outlet>
-                    <fixtures>
-                        <items></items>
-                    </fixtures>
-                </outlet>
-                <outlet>
-                    <fixtures>
-                        <items></items>
                     </fixtures>
                 </outlet>
                 <outlet>

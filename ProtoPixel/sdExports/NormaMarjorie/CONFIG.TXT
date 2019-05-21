@@ -13,11 +13,11 @@
 #:EnableAutodiscovery 1 or 0
 :PlayFile 1
 :PlaySDSequence 1
-:radioID 1
+:radioID 0
 #---------------------------
 #FILES:
 #---------------------------
-AdaBl 10
-AdaCh 10
-Ada1 10
+NorMBl 10
+NorMCh 10
+NorM1 10
 
