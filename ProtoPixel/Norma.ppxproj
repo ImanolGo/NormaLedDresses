@@ -107,6 +107,13 @@
                 <item>fixture:NormaBack 10</item>
                 <item>fixture:NormaBack 11</item>
                 <item>fixture:NormaBack 12</item>
+                <item>content:channel 1</item>
+                <item>content:channel 2</item>
+                <item>content:channel 3</item>
+                <item>content:channel 4</item>
+                <item>content:channel 5</item>
+                <item>content:channel 6</item>
+                <item>content:Slow Motion Fire Background Series 300fps Casio EX-F1 V13859a.mp4</item>
             </items>
             <parameters>
                 <is_3D type="bool">0</is_3D>
@@ -2395,6 +2402,157 @@
             </parameters>
             <transformation type="matrix4x4">0.462463,        0,        0,        0&#x0A;       0,   1.6194,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.748981,  1.41553,        0,        1</transformation>
         </content>
+        <content>
+            <name>channel 1</name>
+            <type>py:color</type>
+            <parameters>
+                <enabled type="bool">0</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <params>
+                    <color type="color">255, 0, 0, 255</color>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.274083,        0,        0,        0&#x0A;       0, 0.452943,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.752136,  1.51298,        0,        1</transformation>
+        </content>
+        <content>
+            <name>channel 2</name>
+            <type>py:color</type>
+            <parameters>
+                <enabled type="bool">0</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <params>
+                    <color type="color">0, 255, 0, 255</color>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.146195,        0,        0,        0&#x0A;       0, 0.623981,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.671644, 0.967852,        0,        1</transformation>
+        </content>
+        <content>
+            <name>channel 3</name>
+            <type>py:color</type>
+            <parameters>
+                <enabled type="bool">0</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <params>
+                    <color type="color">0, 0, 255, 255</color>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.146195,        0,        0,        0&#x0A;       0, 0.623981,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.833636, 0.965768,        0,        1</transformation>
+        </content>
+        <content>
+            <name>channel 4</name>
+            <type>py:color</type>
+            <parameters>
+                <enabled type="bool">0</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <params>
+                    <color type="color">255, 0, 255, 255</color>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.146195,        0,        0,        0&#x0A;       0, 0.623981,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.969492,  1.49076,        0,        1</transformation>
+        </content>
+        <content>
+            <name>channel 5</name>
+            <type>py:color</type>
+            <parameters>
+                <enabled type="bool">0</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <params>
+                    <color type="color">0, 255, 255, 255</color>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.146195,        0,        0,        0&#x0A;       0, 0.547986,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.528904,  1.52207,        0,        1</transformation>
+        </content>
+        <content>
+            <name>channel 6</name>
+            <type>py:color</type>
+            <parameters>
+                <enabled type="bool">0</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <params>
+                    <color type="color">255, 255, 255, 255</color>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.269131,        0,        0,        0&#x0A;       0, 0.547986,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.754784,  2.01948,        0,        1</transformation>
+        </content>
+        <content>
+            <name>Slow Motion Fire Background Series 300fps Casio EX-F1 V13859a.mp4</name>
+            <type>py:video</type>
+            <parameters>
+                <enabled type="bool">0</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <params>
+                    <video_path type="filepath">/Users/imanolgo/MEGA/Video/ProtoPixelVideos/Slow Motion Fire Background Series 300fps Casio EX-F1 V13859a.mp4</video_path>
+                    <position type="float">0.556089</position>
+                    <loop type="bool">0</loop>
+                    <autoplay type="bool">0</autoplay>
+                    <volume type="float">1</volume>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.513333,        0,        0,        0&#x0A;       0,  1.55904,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.752136,  1.43893,        0,        1</transformation>
+        </content>
     </contents>
     <groups></groups>
     <controllers>
@@ -2403,7 +2561,7 @@
             <type>ProtoPixel</type>
             <parameters>
                 <connected type="bool">1</connected>
-                <outlets type="customint">6</outlets>
+                <outlets type="customint">8</outlets>
                 <Device type="string">REC:0</Device>
                 <device_data type="string">{}</device_data>
             </parameters>
@@ -2496,6 +2654,16 @@
                             <item>fixture:NormaRightArm 11</item>
                             <item>fixture:NormaRightArm 12</item>
                         </items>
+                    </fixtures>
+                </outlet>
+                <outlet>
+                    <fixtures>
+                        <items></items>
+                    </fixtures>
+                </outlet>
+                <outlet>
+                    <fixtures>
+                        <items></items>
                     </fixtures>
                 </outlet>
                 <outlet>

@@ -2323,7 +2323,7 @@
                 </projection_parameters>
                 <params>
                     <video_path type="filepath">/Users/imanolgo/MEGA/Video/ProtoPixelVideos/Slow Motion Fire Background Series 300fps Casio EX-F1 V13859a.mp4</video_path>
-                    <position type="float">0.99971</position>
+                    <position type="float">0.999528</position>
                     <loop type="bool">0</loop>
                     <autoplay type="bool">0</autoplay>
                     <volume type="float">1</volume>
