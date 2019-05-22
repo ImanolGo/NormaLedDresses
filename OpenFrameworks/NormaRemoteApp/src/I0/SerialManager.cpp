@@ -15,7 +15,7 @@
 
 const int SerialManager::BAUD_RATE = 115200;
 
-SerialManager::SerialManager(): Manager(), m_connected(false)
+SerialManager::SerialManager(): Manager(), m_connected(false), m_firstConnect(true)
 {
     //Intentionally left empty
 }
@@ -37,7 +37,7 @@ void SerialManager::setup()
     Manager::setup();
     
     this->setupHeaders();
-    this->setupSerial();
+    //this->setupSerial();
     
     ofLogNotice() <<"SerialManager::initialized" ;
 }
@@ -68,6 +68,7 @@ void SerialManager::setupSerial()
    // ofLogNotice() <<"SerialManager::setupSerial << Autoconnecting serial port";
     //this->autoConnect();
     
+    m_firstConnect = true;
     int serialPort = AppManager::getInstance().getSettingsManager().getSerialPort();
     if(serialPort<0){
         ofLogNotice() <<"SerialManager::setupSerial << Autoconnecting serial port";
@@ -131,6 +132,11 @@ bool SerialManager::checkConnection(int port)
         ofLogNotice() <<"SerialManager::checkConnection << Arduino sendConnection to " << port;
         
         this->sendConnection();
+//        float initTime = ofGetElapsedTimef();
+//        while(ofGetElapsedTimef()-initTime<1.5){
+//
+//        }
+        
         ofSleepMillis(300);
         if(this->receivedConnected()){
             ofLogNotice() <<"SerialManager::checkConnection << Arduino connected to " << port;
@@ -258,6 +264,11 @@ bool SerialManager::isConnected(unsigned char * buffer, int size)
 
 void SerialManager::update()
 {
+    
+    if(m_firstConnect){
+        this->autoConnect();
+        m_firstConnect = false;
+    }
      int numBytes = m_serial.available();
      while(numBytes>0){
         

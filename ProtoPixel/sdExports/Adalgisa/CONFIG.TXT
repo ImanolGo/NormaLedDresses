@@ -22,4 +22,7 @@ AdaCh 10
 Ada1 10
 Ada2 10
 Ada3 10
+Ada4 10
+Ada5 10
+Ada6 10
 

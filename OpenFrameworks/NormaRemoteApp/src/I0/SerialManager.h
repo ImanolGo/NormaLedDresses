@@ -89,6 +89,7 @@ private:
     
     ofSerial   m_serial;
     bool       m_connected;
+    bool       m_firstConnect;
     
     serial_header    m_dataHeader;
     serial_header    m_connectHeader;

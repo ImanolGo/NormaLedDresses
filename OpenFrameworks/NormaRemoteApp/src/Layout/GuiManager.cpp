@@ -17,7 +17,7 @@
 
 const string GuiManager::GUI_SETTINGS_FILE_NAME = "xmls/GuiSettings.xml";
 const string GuiManager::GUI_SETTINGS_NAME = "GUI";
-const int GuiManager::GUI_WIDTH = 400;
+const int GuiManager::GUI_WIDTH = 600;
 
 
 GuiManager::GuiManager(): Manager(), m_showGui(true)
@@ -83,7 +83,7 @@ void GuiManager::setupNorma()
     m_normaMode.addListener(this, &GuiManager::sendNorma);
     m_normaGroup.add(m_normaMode);
     
-    for(int i=0; i< 6; i++){
+    for(int i=0; i< 10; i++){
         m_normaNames.push_back(ofToString(i));
     }
 }
@@ -95,7 +95,7 @@ void GuiManager::setupAdalgisa()
     m_adalgisaMode.addListener(this, &GuiManager::sendAdalgisa);
     m_adalgisaGroup.add(m_adalgisaMode);
     
-    for(int i=0; i< 6; i++){
+    for(int i=0; i< 10; i++){
         m_adalgisaNames.push_back(ofToString(i));
     }
 }
@@ -147,7 +147,7 @@ void GuiManager::drawGui()
     
     auto mainSettings  = ofxImGui::Settings();
     //ofxImGui::Settings().windowPos  = ofVec2f(-LayoutManager::MARGIN,-LayoutManager::MARGIN);
-    // ofxImGui::Settings().windowSize = ofVec2f(GUI_WIDTH,ofGetHeight());
+    ofxImGui::Settings().windowSize = ofVec2f(GUI_WIDTH,ofGetHeight());
     if (ofxImGui::BeginWindow("Norma Remote App", mainSettings, false))
     {
         ImGui::Text("%.1f FPS (%.3f ms/frame)", ofGetFrameRate(), 1000.0f / ImGui::GetIO().Framerate);
@@ -157,14 +157,14 @@ void GuiManager::drawGui()
         if (ofxImGui::BeginTree(m_normaGroup, mainSettings))
         {
             //ofxImGui::AddCombo(m_normaMode, m_normaNames);
-            ofxImGui::AddRadio(m_normaMode, m_normaNames, m_normaNames.size());
+            ofxImGui::AddRadio(m_normaMode, m_normaNames, m_normaNames.size()/2);
             ofxImGui::EndTree(mainSettings);
         }
         
         if (ofxImGui::BeginTree(m_adalgisaGroup, mainSettings))
         {
             //ofxImGui::AddCombo(m_adalgisaMode, m_adalgisaNames);
-            ofxImGui::AddRadio(m_adalgisaMode, m_adalgisaNames, m_adalgisaNames.size());
+            ofxImGui::AddRadio(m_adalgisaMode, m_adalgisaNames, m_adalgisaNames.size()/2);
             ofxImGui::EndTree(mainSettings);
         }
         

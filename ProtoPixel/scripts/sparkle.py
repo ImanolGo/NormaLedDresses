@@ -114,7 +114,7 @@ class Sparkles:
         // and it's property of its creator.
         // This is distributed for illustration purposes only.
 
-        #define _SnowflakeAmount 800    // Number of snowflakes
+        #define _SnowflakeAmount 300    // Number of snowflakes
         #define _BlizardFactor 0.2      // Fury of the storm !
 
         vec2 uv;
