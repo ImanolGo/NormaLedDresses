@@ -1040,7 +1040,7 @@
             <name>AdalgisaLegRight 12</name>
             <type>JS</type>
             <num_lights>19</num_lights>
-            <positions>-0.788636 0.866406 0,-0.793636 0.866399 0,-0.798636 0.866392 0,-0.803636 0.866386 0,-0.808636 0.866379 0,-0.813636 0.866372 0,-0.818636 0.866365 0,-0.823636 0.866359 0,-0.828636 0.866352 0,-0.833636 0.866345 0,-0.838636 0.866338 0,-0.843636 0.866332 0,-0.848636 0.866325 0,-0.853636 0.866318 0,-0.858636 0.866311 0,-0.863636 0.866305 0,-0.868636 0.866298 0,-0.873636 0.866291 0,-0.878636 0.866284 0,</positions>
+            <positions>-0.788636 0.866406 0,-0.793636 0.866399 0,-0.798636 0.866392 0,-0.803636 0.866386 0,-0.808636 0.866379 0,-0.813636 0.866372 0,-0.818636 0.866365 0,-0.823636 0.866359 0,-0.828636 0.866352 0,-0.833636 0.866345 0,-0.838636 0.866338 0,-0.843636 0.866331 0,-0.848636 0.866325 0,-0.853636 0.866318 0,-0.858636 0.866311 0,-0.863636 0.866304 0,-0.868636 0.866298 0,-0.873636 0.866291 0,-0.878636 0.866284 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1088,7 +1088,7 @@
             <name>AdalgisaLegRight 14</name>
             <type>JS</type>
             <num_lights>19</num_lights>
-            <positions>-0.788636 0.805222 0,-0.793636 0.805215 0,-0.798636 0.805209 0,-0.803636 0.805202 0,-0.808636 0.805195 0,-0.813636 0.805188 0,-0.818636 0.805181 0,-0.823636 0.805175 0,-0.828636 0.805168 0,-0.833636 0.805161 0,-0.838636 0.805154 0,-0.843636 0.805148 0,-0.848636 0.805141 0,-0.853636 0.805134 0,-0.858636 0.805127 0,-0.863636 0.805121 0,-0.868636 0.805114 0,-0.873636 0.805107 0,-0.878636 0.8051 0,</positions>
+            <positions>-0.788636 0.805222 0,-0.793636 0.805215 0,-0.798636 0.805208 0,-0.803636 0.805202 0,-0.808636 0.805195 0,-0.813636 0.805188 0,-0.818636 0.805181 0,-0.823636 0.805175 0,-0.828636 0.805168 0,-0.833636 0.805161 0,-0.838636 0.805154 0,-0.843636 0.805147 0,-0.848636 0.805141 0,-0.853636 0.805134 0,-0.858636 0.805127 0,-0.863636 0.80512 0,-0.868636 0.805114 0,-0.873636 0.805107 0,-0.878636 0.8051 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1136,7 +1136,7 @@
             <name>AdalgisaLegRight 16</name>
             <type>JS</type>
             <num_lights>15</num_lights>
-            <positions>-0.798636 0.741228 0,-0.803636 0.741222 0,-0.808636 0.741215 0,-0.813636 0.741208 0,-0.818636 0.741201 0,-0.823636 0.741195 0,-0.828636 0.741188 0,-0.833636 0.741181 0,-0.838636 0.741174 0,-0.843636 0.741168 0,-0.848636 0.741161 0,-0.853636 0.741154 0,-0.858636 0.741147 0,-0.863636 0.74114 0,-0.868636 0.741134 0,</positions>
+            <positions>-0.798636 0.741228 0,-0.803636 0.741222 0,-0.808636 0.741215 0,-0.813636 0.741208 0,-0.818636 0.741201 0,-0.823636 0.741195 0,-0.828636 0.741188 0,-0.833636 0.741181 0,-0.838636 0.741174 0,-0.843636 0.741167 0,-0.848636 0.741161 0,-0.853636 0.741154 0,-0.858636 0.741147 0,-0.863636 0.74114 0,-0.868636 0.741134 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1184,7 +1184,7 @@
             <name>AdalgisaLegRight 18</name>
             <type>JS</type>
             <num_lights>12</num_lights>
-            <positions>-0.806136 0.681432 0,-0.811136 0.681426 0,-0.816136 0.681419 0,-0.821136 0.681412 0,-0.826136 0.681405 0,-0.831136 0.681399 0,-0.836136 0.681392 0,-0.841136 0.681385 0,-0.846136 0.681378 0,-0.851136 0.681371 0,-0.856136 0.681365 0,-0.861136 0.681358 0,</positions>
+            <positions>-0.806136 0.681432 0,-0.811136 0.681425 0,-0.816136 0.681419 0,-0.821136 0.681412 0,-0.826136 0.681405 0,-0.831136 0.681398 0,-0.836136 0.681392 0,-0.841136 0.681385 0,-0.846136 0.681378 0,-0.851136 0.681371 0,-0.856136 0.681365 0,-0.861136 0.681358 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1232,7 +1232,7 @@
             <name>AdalgisaLegRight 20</name>
             <type>JS</type>
             <num_lights>10</num_lights>
-            <positions>-0.811136 0.624436 0,-0.816136 0.624429 0,-0.821136 0.624422 0,-0.826136 0.624415 0,-0.831136 0.624408 0,-0.836136 0.624402 0,-0.841136 0.624395 0,-0.846136 0.624388 0,-0.851136 0.624381 0,-0.856136 0.624375 0,</positions>
+            <positions>-0.811136 0.624435 0,-0.816136 0.624429 0,-0.821136 0.624422 0,-0.826136 0.624415 0,-0.831136 0.624408 0,-0.836136 0.624402 0,-0.841136 0.624395 0,-0.846136 0.624388 0,-0.851136 0.624381 0,-0.856136 0.624375 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1520,7 +1520,7 @@
             <name>AdalgisaLegLeft 12</name>
             <type>JS</type>
             <num_lights>20</num_lights>
-            <positions>-0.714712 0.866182 0,-0.709712 0.866189 0,-0.704712 0.866195 0,-0.699712 0.866202 0,-0.694712 0.866209 0,-0.689712 0.866216 0,-0.684712 0.866222 0,-0.679712 0.866229 0,-0.674712 0.866236 0,-0.669712 0.866243 0,-0.664712 0.86625 0,-0.659712 0.866256 0,-0.654712 0.866263 0,-0.649712 0.86627 0,-0.644712 0.866277 0,-0.639712 0.866283 0,-0.634712 0.86629 0,-0.629712 0.866297 0,-0.624712 0.866304 0,-0.619712 0.86631 0,</positions>
+            <positions>-0.714712 0.866182 0,-0.709712 0.866188 0,-0.704712 0.866195 0,-0.699712 0.866202 0,-0.694712 0.866209 0,-0.689712 0.866216 0,-0.684712 0.866222 0,-0.679712 0.866229 0,-0.674712 0.866236 0,-0.669712 0.866243 0,-0.664712 0.866249 0,-0.659712 0.866256 0,-0.654712 0.866263 0,-0.649712 0.86627 0,-0.644712 0.866276 0,-0.639712 0.866283 0,-0.634712 0.86629 0,-0.629712 0.866297 0,-0.624712 0.866304 0,-0.619712 0.86631 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1568,7 +1568,7 @@
             <name>AdalgisaLegLeft 14</name>
             <type>JS</type>
             <num_lights>19</num_lights>
-            <positions>-0.712212 0.805001 0,-0.707212 0.805008 0,-0.702212 0.805015 0,-0.697212 0.805022 0,-0.692212 0.805028 0,-0.687212 0.805035 0,-0.682212 0.805042 0,-0.677212 0.805049 0,-0.672212 0.805055 0,-0.667212 0.805062 0,-0.662212 0.805069 0,-0.657212 0.805076 0,-0.652212 0.805082 0,-0.647212 0.805089 0,-0.642212 0.805096 0,-0.637212 0.805103 0,-0.632212 0.80511 0,-0.627212 0.805116 0,-0.622212 0.805123 0,</positions>
+            <positions>-0.712212 0.805001 0,-0.707212 0.805008 0,-0.702212 0.805015 0,-0.697212 0.805021 0,-0.692212 0.805028 0,-0.687212 0.805035 0,-0.682212 0.805042 0,-0.677212 0.805048 0,-0.672212 0.805055 0,-0.667212 0.805062 0,-0.662212 0.805069 0,-0.657212 0.805076 0,-0.652212 0.805082 0,-0.647212 0.805089 0,-0.642212 0.805096 0,-0.637212 0.805103 0,-0.632212 0.805109 0,-0.627212 0.805116 0,-0.622212 0.805123 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1616,7 +1616,7 @@
             <name>AdalgisaLegLeft 16</name>
             <type>JS</type>
             <num_lights>16</num_lights>
-            <positions>-0.704712 0.74103 0,-0.699712 0.741037 0,-0.694712 0.741044 0,-0.689712 0.741051 0,-0.684712 0.741057 0,-0.679712 0.741064 0,-0.674712 0.741071 0,-0.669712 0.741078 0,-0.664712 0.741085 0,-0.659712 0.741091 0,-0.654712 0.741098 0,-0.649712 0.741105 0,-0.644712 0.741112 0,-0.639712 0.741118 0,-0.634712 0.741125 0,-0.629712 0.741132 0,</positions>
+            <positions>-0.704712 0.74103 0,-0.699712 0.741037 0,-0.694712 0.741044 0,-0.689712 0.741051 0,-0.684712 0.741057 0,-0.679712 0.741064 0,-0.674712 0.741071 0,-0.669712 0.741078 0,-0.664712 0.741084 0,-0.659712 0.741091 0,-0.654712 0.741098 0,-0.649712 0.741105 0,-0.644712 0.741111 0,-0.639712 0.741118 0,-0.634712 0.741125 0,-0.629712 0.741132 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1664,7 +1664,7 @@
             <name>AdalgisaLegLeft 18</name>
             <type>JS</type>
             <num_lights>12</num_lights>
-            <positions>-0.694712 0.681258 0,-0.689712 0.681265 0,-0.684712 0.681271 0,-0.679712 0.681278 0,-0.674712 0.681285 0,-0.669712 0.681292 0,-0.664712 0.681298 0,-0.659712 0.681305 0,-0.654712 0.681312 0,-0.649712 0.681319 0,-0.644712 0.681326 0,-0.639712 0.681332 0,</positions>
+            <positions>-0.694712 0.681258 0,-0.689712 0.681265 0,-0.684712 0.681271 0,-0.679712 0.681278 0,-0.674712 0.681285 0,-0.669712 0.681292 0,-0.664712 0.681298 0,-0.659712 0.681305 0,-0.654712 0.681312 0,-0.649712 0.681319 0,-0.644712 0.681325 0,-0.639712 0.681332 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1712,7 +1712,7 @@
             <name>AdalgisaLegLeft 20</name>
             <type>JS</type>
             <num_lights>10</num_lights>
-            <positions>-0.689712 0.624275 0,-0.684712 0.624281 0,-0.679712 0.624288 0,-0.674712 0.624295 0,-0.669712 0.624302 0,-0.664712 0.624308 0,-0.659712 0.624315 0,-0.654712 0.624322 0,-0.649712 0.624329 0,-0.644712 0.624336 0,</positions>
+            <positions>-0.689712 0.624275 0,-0.684712 0.624281 0,-0.679712 0.624288 0,-0.674712 0.624295 0,-0.669712 0.624302 0,-0.664712 0.624308 0,-0.659712 0.624315 0,-0.654712 0.624322 0,-0.649712 0.624329 0,-0.644712 0.624335 0,</positions>
             <parameters>
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
@@ -1795,13 +1795,13 @@
                 </projection_parameters>
                 <params>
                     <video_path type="filepath">/Users/imanolgo/MEGA/Video/MarleneDress/Smoke_Dark_15_Videvo.mp4</video_path>
-                    <position type="float">9.05699e-06</position>
+                    <position type="float">0.715061</position>
                     <loop type="bool">1</loop>
                     <autoplay type="bool">0</autoplay>
                     <volume type="float">1</volume>
                 </params>
             </parameters>
-            <transformation type="matrix4x4">0.473794,        0,        0,        0&#x0A;       0, 0.434691,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.762476,  1.48949,        0,        1</transformation>
+            <transformation type="matrix4x4"> 0.34546,        0,        0,        0&#x0A;       0,  1.67177,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.74546,  1.43358,        0,        1</transformation>
         </content>
         <content>
             <name>perpetual_serenity_01_SD.mp4</name>
@@ -1832,7 +1832,7 @@
             <name>Slow Motion Fire Background Series 300fps Casio EX-F1 V13859a.mp4</name>
             <type>py:video</type>
             <parameters>
-                <enabled type="bool">1</enabled>
+                <enabled type="bool">0</enabled>
                 <color_levels type="color">255, 255, 255, 255</color_levels>
                 <Zone type="string"></Zone>
                 <texture_filtering type="stringoption">linear</texture_filtering>
@@ -1845,13 +1845,13 @@
                 </projection_parameters>
                 <params>
                     <video_path type="filepath">/Users/imanolgo/MEGA/Video/ProtoPixelVideos/Slow Motion Fire Background Series 300fps Casio EX-F1 V13859a.mp4</video_path>
-                    <position type="float">0.242206</position>
+                    <position type="float">0</position>
                     <loop type="bool">1</loop>
                     <autoplay type="bool">0</autoplay>
                     <volume type="float">0</volume>
                 </params>
             </parameters>
-            <transformation type="matrix4x4">0.412031,        0,        0,        0&#x0A;       0,  1.68134,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.756536,  1.44425,        0,        1</transformation>
+            <transformation type="matrix4x4">0.412031,        0,        0,        0&#x0A;       0,  1.62259,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.756536,  1.44425,        0,        1</transformation>
         </content>
         <content>
             <name>cloudUp2.mp4</name>
@@ -1895,7 +1895,7 @@
                 </projection_parameters>
                 <params>
                     <video_path type="filepath">/Users/imanolgo/MEGA/Video/JoannaHirr/cloudUp1.mp4</video_path>
-                    <position type="float">6.76366e-06</position>
+                    <position type="float">0</position>
                     <loop type="bool">1</loop>
                     <autoplay type="bool">0</autoplay>
                     <volume type="float">1</volume>
@@ -1920,7 +1920,7 @@
                 </projection_parameters>
                 <params>
                     <video_path type="filepath">/Users/imanolgo/MEGA/Video/VideoLoops/ColdPlayHeartBeat1.mp4</video_path>
-                    <position type="float">0.000625294</position>
+                    <position type="float">0.000374706</position>
                     <loop type="bool">1</loop>
                     <autoplay type="bool">0</autoplay>
                     <volume type="float">1</volume>
@@ -2045,7 +2045,7 @@
             <type>ProtoPixel</type>
             <parameters>
                 <connected type="bool">1</connected>
-                <outlets type="customint">6</outlets>
+                <outlets type="customint">8</outlets>
                 <Device type="string">REC:0</Device>
                 <device_data type="string">{ &quot;mac_addr&quot; : &quot;70:b3:d5:2d:b1:b8&quot; }</device_data>
             </parameters>
@@ -2053,37 +2053,6 @@
                 <outlet>
                     <fixtures>
                         <items></items>
-                    </fixtures>
-                </outlet>
-                <outlet>
-                    <fixtures>
-                        <items></items>
-                    </fixtures>
-                </outlet>
-                <outlet>
-                    <fixtures>
-                        <items>
-                            <item>fixture:AdalgisaLegRight</item>
-                            <item>fixture:AdalgisaLegRight 0</item>
-                            <item>fixture:AdalgisaLegRight 1</item>
-                            <item>fixture:AdalgisaLegRight 2</item>
-                            <item>fixture:AdalgisaLegRight 3</item>
-                            <item>fixture:AdalgisaLegRight 4</item>
-                            <item>fixture:AdalgisaLegRight 5</item>
-                            <item>fixture:AdalgisaLegRight 6</item>
-                            <item>fixture:AdalgisaLegRight 7</item>
-                            <item>fixture:AdalgisaLegRight 8</item>
-                            <item>fixture:AdalgisaLegRight 11</item>
-                            <item>fixture:AdalgisaLegRight 12</item>
-                            <item>fixture:AdalgisaLegRight 13</item>
-                            <item>fixture:AdalgisaLegRight 14</item>
-                            <item>fixture:AdalgisaLegRight 15</item>
-                            <item>fixture:AdalgisaLegRight 16</item>
-                            <item>fixture:AdalgisaLegRight 17</item>
-                            <item>fixture:AdalgisaLegRight 18</item>
-                            <item>fixture:AdalgisaLegRight 19</item>
-                            <item>fixture:AdalgisaLegRight 20</item>
-                        </items>
                     </fixtures>
                 </outlet>
                 <outlet>
@@ -2115,6 +2084,32 @@
                 <outlet>
                     <fixtures>
                         <items>
+                            <item>fixture:AdalgisaLegRight</item>
+                            <item>fixture:AdalgisaLegRight 0</item>
+                            <item>fixture:AdalgisaLegRight 1</item>
+                            <item>fixture:AdalgisaLegRight 2</item>
+                            <item>fixture:AdalgisaLegRight 3</item>
+                            <item>fixture:AdalgisaLegRight 4</item>
+                            <item>fixture:AdalgisaLegRight 5</item>
+                            <item>fixture:AdalgisaLegRight 6</item>
+                            <item>fixture:AdalgisaLegRight 7</item>
+                            <item>fixture:AdalgisaLegRight 8</item>
+                            <item>fixture:AdalgisaLegRight 11</item>
+                            <item>fixture:AdalgisaLegRight 12</item>
+                            <item>fixture:AdalgisaLegRight 13</item>
+                            <item>fixture:AdalgisaLegRight 14</item>
+                            <item>fixture:AdalgisaLegRight 15</item>
+                            <item>fixture:AdalgisaLegRight 16</item>
+                            <item>fixture:AdalgisaLegRight 17</item>
+                            <item>fixture:AdalgisaLegRight 18</item>
+                            <item>fixture:AdalgisaLegRight 19</item>
+                            <item>fixture:AdalgisaLegRight 20</item>
+                        </items>
+                    </fixtures>
+                </outlet>
+                <outlet>
+                    <fixtures>
+                        <items>
                             <item>fixture:AdalgisaFront1</item>
                             <item>fixture:AdalgisaFront2</item>
                             <item>fixture:AdalgisaFront3</item>
@@ -2130,6 +2125,21 @@
                             <item>fixture:AdalgisaFront13</item>
                             <item>fixture:AdalgisaFront14</item>
                         </items>
+                    </fixtures>
+                </outlet>
+                <outlet>
+                    <fixtures>
+                        <items></items>
+                    </fixtures>
+                </outlet>
+                <outlet>
+                    <fixtures>
+                        <items></items>
+                    </fixtures>
+                </outlet>
+                <outlet>
+                    <fixtures>
+                        <items></items>
                     </fixtures>
                 </outlet>
                 <outlet>

@@ -114,6 +114,7 @@
                 <item>content:channel 5</item>
                 <item>content:channel 6</item>
                 <item>content:Slow Motion Fire Background Series 300fps Casio EX-F1 V13859a.mp4</item>
+                <item>content:Smoke_Dark_15_Videvo.mp4</item>
             </items>
             <parameters>
                 <is_3D type="bool">0</is_3D>
@@ -2545,13 +2546,38 @@
                 </projection_parameters>
                 <params>
                     <video_path type="filepath">/Users/imanolgo/MEGA/Video/ProtoPixelVideos/Slow Motion Fire Background Series 300fps Casio EX-F1 V13859a.mp4</video_path>
-                    <position type="float">0.556089</position>
+                    <position type="float">0.390888</position>
                     <loop type="bool">0</loop>
                     <autoplay type="bool">0</autoplay>
                     <volume type="float">1</volume>
                 </params>
             </parameters>
             <transformation type="matrix4x4">0.513333,        0,        0,        0&#x0A;       0,  1.55904,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.752136,  1.43893,        0,        1</transformation>
+        </content>
+        <content>
+            <name>Smoke_Dark_15_Videvo.mp4</name>
+            <type>py:video</type>
+            <parameters>
+                <enabled type="bool">0</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <params>
+                    <video_path type="filepath">/Users/imanolgo/MEGA/Video/MarleneDress/Smoke_Dark_15_Videvo.mp4</video_path>
+                    <position type="float">0.0854817</position>
+                    <loop type="bool">1</loop>
+                    <autoplay type="bool">0</autoplay>
+                    <volume type="float">1</volume>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.450069,        0,        0,        0&#x0A;       0,  1.54763,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.74277,   1.4484,        0,        1</transformation>
         </content>
     </contents>
     <groups></groups>
@@ -2568,21 +2594,36 @@
             <outlets>
                 <outlet>
                     <fixtures>
+                        <items></items>
+                    </fixtures>
+                </outlet>
+                <outlet>
+                    <fixtures>
+                        <items></items>
+                    </fixtures>
+                </outlet>
+                <outlet>
+                    <fixtures>
                         <items>
-                            <item>fixture:NormaFront1</item>
-                            <item>fixture:NormaFront2</item>
-                            <item>fixture:NormaFront3</item>
-                            <item>fixture:NormaFront4</item>
-                            <item>fixture:NormaFront5</item>
-                            <item>fixture:NormaFront6</item>
-                            <item>fixture:NormaFront7</item>
-                            <item>fixture:NormaFront8</item>
-                            <item>fixture:NormaFront9</item>
-                            <item>fixture:NormaFront10</item>
-                            <item>fixture:NormaFront11</item>
-                            <item>fixture:NormaFront12</item>
-                            <item>fixture:NormaFront13</item>
-                            <item>fixture:NormaFront14</item>
+                            <item>fixture:NormaLegRight</item>
+                            <item>fixture:NormaLegRight 0</item>
+                            <item>fixture:NormaLegRight 1</item>
+                            <item>fixture:NormaLegRight 2</item>
+                            <item>fixture:NormaLegRight 3</item>
+                            <item>fixture:NormaLegRight 4</item>
+                            <item>fixture:NormaLegRight 5</item>
+                            <item>fixture:NormaLegRight 6</item>
+                            <item>fixture:NormaLegRight 7</item>
+                            <item>fixture:NormaLegRight 8</item>
+                            <item>fixture:NormaLegRight 11</item>
+                            <item>fixture:NormaLegRight 12</item>
+                            <item>fixture:NormaLegRight 13</item>
+                            <item>fixture:NormaLegRight 14</item>
+                            <item>fixture:NormaLegRight 15</item>
+                            <item>fixture:NormaLegRight 16</item>
+                            <item>fixture:NormaLegRight 17</item>
+                            <item>fixture:NormaLegRight 18</item>
+                            <item>fixture:NormaLegRight 19</item>
                         </items>
                     </fixtures>
                 </outlet>
@@ -2614,56 +2655,41 @@
                 <outlet>
                     <fixtures>
                         <items>
-                            <item>fixture:NormaLegRight</item>
-                            <item>fixture:NormaLegRight 0</item>
-                            <item>fixture:NormaLegRight 1</item>
-                            <item>fixture:NormaLegRight 2</item>
-                            <item>fixture:NormaLegRight 3</item>
-                            <item>fixture:NormaLegRight 4</item>
-                            <item>fixture:NormaLegRight 5</item>
-                            <item>fixture:NormaLegRight 6</item>
-                            <item>fixture:NormaLegRight 7</item>
-                            <item>fixture:NormaLegRight 8</item>
-                            <item>fixture:NormaLegRight 11</item>
-                            <item>fixture:NormaLegRight 12</item>
-                            <item>fixture:NormaLegRight 13</item>
-                            <item>fixture:NormaLegRight 14</item>
-                            <item>fixture:NormaLegRight 15</item>
-                            <item>fixture:NormaLegRight 16</item>
-                            <item>fixture:NormaLegRight 17</item>
-                            <item>fixture:NormaLegRight 18</item>
-                            <item>fixture:NormaLegRight 19</item>
+                            <item>fixture:NormaFront1</item>
+                            <item>fixture:NormaFront2</item>
+                            <item>fixture:NormaFront3</item>
+                            <item>fixture:NormaFront4</item>
+                            <item>fixture:NormaFront5</item>
+                            <item>fixture:NormaFront6</item>
+                            <item>fixture:NormaFront7</item>
+                            <item>fixture:NormaFront8</item>
+                            <item>fixture:NormaFront9</item>
+                            <item>fixture:NormaFront10</item>
+                            <item>fixture:NormaFront11</item>
+                            <item>fixture:NormaFront12</item>
+                            <item>fixture:NormaFront13</item>
+                            <item>fixture:NormaFront14</item>
                         </items>
                     </fixtures>
                 </outlet>
                 <outlet>
                     <fixtures>
                         <items>
-                            <item>fixture:NormaRightArm</item>
-                            <item>fixture:NormaRightArm 0</item>
-                            <item>fixture:NormaRightArm 1</item>
-                            <item>fixture:NormaRightArm 2</item>
-                            <item>fixture:NormaRightArm 3</item>
-                            <item>fixture:NormaRightArm 4</item>
-                            <item>fixture:NormaRightArm 5</item>
-                            <item>fixture:NormaRightArm 6</item>
-                            <item>fixture:NormaRightArm 7</item>
-                            <item>fixture:NormaRightArm 8</item>
-                            <item>fixture:NormaRightArm 9</item>
-                            <item>fixture:NormaRightArm 10</item>
-                            <item>fixture:NormaRightArm 11</item>
-                            <item>fixture:NormaRightArm 12</item>
+                            <item>fixture:NormaBack</item>
+                            <item>fixture:NormaBack 0</item>
+                            <item>fixture:NormaBack 1</item>
+                            <item>fixture:NormaBack 2</item>
+                            <item>fixture:NormaBack 3</item>
+                            <item>fixture:NormaBack 4</item>
+                            <item>fixture:NormaBack 5</item>
+                            <item>fixture:NormaBack 6</item>
+                            <item>fixture:NormaBack 7</item>
+                            <item>fixture:NormaBack 8</item>
+                            <item>fixture:NormaBack 9</item>
+                            <item>fixture:NormaBack 10</item>
+                            <item>fixture:NormaBack 11</item>
+                            <item>fixture:NormaBack 12</item>
                         </items>
-                    </fixtures>
-                </outlet>
-                <outlet>
-                    <fixtures>
-                        <items></items>
-                    </fixtures>
-                </outlet>
-                <outlet>
-                    <fixtures>
-                        <items></items>
                     </fixtures>
                 </outlet>
                 <outlet>
@@ -2689,20 +2715,20 @@
                 <outlet>
                     <fixtures>
                         <items>
-                            <item>fixture:NormaBack</item>
-                            <item>fixture:NormaBack 0</item>
-                            <item>fixture:NormaBack 1</item>
-                            <item>fixture:NormaBack 2</item>
-                            <item>fixture:NormaBack 3</item>
-                            <item>fixture:NormaBack 4</item>
-                            <item>fixture:NormaBack 5</item>
-                            <item>fixture:NormaBack 6</item>
-                            <item>fixture:NormaBack 7</item>
-                            <item>fixture:NormaBack 8</item>
-                            <item>fixture:NormaBack 9</item>
-                            <item>fixture:NormaBack 10</item>
-                            <item>fixture:NormaBack 11</item>
-                            <item>fixture:NormaBack 12</item>
+                            <item>fixture:NormaRightArm</item>
+                            <item>fixture:NormaRightArm 0</item>
+                            <item>fixture:NormaRightArm 1</item>
+                            <item>fixture:NormaRightArm 2</item>
+                            <item>fixture:NormaRightArm 3</item>
+                            <item>fixture:NormaRightArm 4</item>
+                            <item>fixture:NormaRightArm 5</item>
+                            <item>fixture:NormaRightArm 6</item>
+                            <item>fixture:NormaRightArm 7</item>
+                            <item>fixture:NormaRightArm 8</item>
+                            <item>fixture:NormaRightArm 9</item>
+                            <item>fixture:NormaRightArm 10</item>
+                            <item>fixture:NormaRightArm 11</item>
+                            <item>fixture:NormaRightArm 12</item>
                         </items>
                     </fixtures>
                 </outlet>

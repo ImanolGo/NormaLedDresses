@@ -73,10 +73,10 @@ void AppManager::setupManagers()
     m_viewManager.setup();
     m_visualEffectsManager.setup();
     m_layoutManager.setup();
-    m_serialManager.setup();
     m_keyboardManager.setup();
-    
+    m_serialManager.setup();
     m_guiManager.setup();
+    
 }
 
 void AppManager::update()

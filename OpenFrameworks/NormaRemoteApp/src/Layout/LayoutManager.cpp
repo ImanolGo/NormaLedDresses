@@ -233,8 +233,22 @@ void LayoutManager::draw()
     if(!m_initialized)
         return;
     
-   
+    this->drawBackground();
+
 }
+
+void LayoutManager::drawBackground()
+{
+    bool connected = AppManager::getInstance().getSerialManager().getConnected();
+    if(connected){
+        ofBackground(0,50,0);
+    }
+    else{
+        ofBackground(50,0,0);
+    }
+    
+}
+
 
 
 void LayoutManager::drawText()

@@ -20,4 +20,5 @@
 NorMBl 10
 NorMCh 10
 NorM1 10
+NorM2 10
 

@@ -20,4 +20,4 @@
 NorCBl 10
 NorCCh 10
 NorC1 10
-
+NorC2 10

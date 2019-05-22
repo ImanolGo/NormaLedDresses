@@ -23,6 +23,7 @@ SerialManager::SerialManager(): Manager(), m_connected(false)
 SerialManager::~SerialManager()
 {
     ofLogNotice() << "SerialManager::destructor";
+    m_serial.close();
 }
 
 
@@ -80,13 +81,7 @@ void SerialManager::setupSerial()
 
 void SerialManager::connect(int portNum)
 {
-    std::vector<ofx::IO::SerialDeviceInfo> devicesInfo = ofx::IO::SerialDeviceUtils::listDevices();
-    if(devicesInfo.size() < portNum){
-        return;
-        
-    }
-    
-    if(m_serial.setup(devicesInfo[portNum], BAUD_RATE)) //open a device number
+    if(m_serial.setup(portNum, BAUD_RATE)) //open a device number
     {
         ofLogNotice() <<"SerialManager::connect << Arduino connected to " << portNum;
         m_connected = true;
@@ -100,50 +95,34 @@ void SerialManager::connect(int portNum)
 
 void SerialManager::autoConnect()
 {
-//    m_serial.listDevices();
-//    vector <ofSerialDeviceInfo> deviceList = m_serial.getDeviceList();
-//
-//    // this should be set to whatever com port your serial device is connected to.
-//    // (ie, COM4 on a pc, /dev/tty.... on linux, /dev/tty... on a mac)
-//    // arduino users check in arduino app....
-//
-//    m_connected = false;
-//
-//    for(auto device: deviceList)
-//    {
-//        if(this->checkConnection(device.getDeviceID())) //open a device number
-//        {
-//            ofLogNotice() <<"SerialManager::setupSerial << Arduino connected to port " << device.getDeviceName();
-//            m_connected = true;
-//            return;
-//        }
-//    }
-    
-    std::vector<ofx::IO::SerialDeviceInfo> devicesInfo = ofx::IO::SerialDeviceUtils::listDevices();
-    
-    for (std::size_t i = 0; i < devicesInfo.size(); ++i)
-    {
-        ofLogNotice("ofApp::autoConnect -> ") << "\t" << devicesInfo[i];
-    }
-    
+    m_serial.listDevices();
+    vector <ofSerialDeviceInfo> deviceList = m_serial.getDeviceList();
+
+    // this should be set to whatever com port your serial device is connected to.
+    // (ie, COM4 on a pc, /dev/tty.... on linux, /dev/tty... on a mac)
+    // arduino users check in arduino app....
+
     m_connected = false;
-    
-    for (auto device: devicesInfo)
+
+    for(auto device: deviceList)
     {
-        bool valid_port = !(ofIsStringInString( device.port(), "MINIJAMBOX") || ofIsStringInString(device.port(), "Bluetooth") || ofIsStringInString(device.port(),"UEROLL2"));
-        if(valid_port&&this->checkConnection(device.port())) //open a device number
+        string name = device.getDeviceName();
+        bool valid_port = !(ofIsStringInString( name, "MINIJAMBOX") || ofIsStringInString(name, "Bluetooth") || ofIsStringInString(name,"UEROLL2"));
+        
+        if(valid_port&&this->checkConnection(device.getDeviceID())) //open a device number
         {
-            ofLogNotice() <<"SerialManager::setupSerial << Arduino connected to port " << device.description();
+            ofLogNotice() <<"SerialManager::setupSerial << Arduino connected to port " << device.getDeviceName();
             m_connected = true;
             return;
         }
     }
+
     
     AppManager::getInstance().getGuiManager().setSerialConnected(m_connected);
 }
 
 
-bool SerialManager::checkConnection(string port)
+bool SerialManager::checkConnection(int port)
 {
     if(m_serial.setup(port, BAUD_RATE)) //open a device number
     {

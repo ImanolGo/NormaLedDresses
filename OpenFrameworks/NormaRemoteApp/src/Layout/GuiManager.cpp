@@ -17,7 +17,7 @@
 
 const string GuiManager::GUI_SETTINGS_FILE_NAME = "xmls/GuiSettings.xml";
 const string GuiManager::GUI_SETTINGS_NAME = "GUI";
-//const int GuiManager::GUI_WIDTH = 350;
+const int GuiManager::GUI_WIDTH = 400;
 
 
 GuiManager::GuiManager(): Manager(), m_showGui(true)
@@ -43,8 +43,8 @@ void GuiManager::setup()
     
     this->setupGuiParameters();
     this->setupSerialGui();
-
-    this->setupGuiEvents();
+    this->setupNorma();
+    this->setupAdalgisa();
     this->loadGuiValues();
 
     
@@ -55,47 +55,62 @@ void GuiManager::setup()
 void GuiManager::setupGuiParameters()
 {
     
-    ofxDatGuiLog::quiet();
+    //create an actual ImGui context before setting up the addon
+    ImGui::CreateContext();
     
-    //m_gui.setPosition(ofxDatGuiAnchor::TOP_LEFT);
-    m_gui.setPosition(0,0);
-    //m_gui.setAssetPath(ofToDataPath("fonts/"));
-    //m_gui.setAssetPath(ofToDataPath("fonts/"));
-    //m_gui.setAssetPath("../Resources/data/fonts/");
-    m_gui.setTheme(new GuiTheme());
+    //specify a font to use
+    ImGuiIO& io = ImGui::GetIO();
+    io.Fonts->AddFontFromFileTTF(&ofToDataPath("fonts/roboto/Roboto-Regular.ttf")[0], 20.f);
     
+    m_gui.setup(new GuiTheme());
+    ofxImGui::Settings().windowPos  = ofVec2f(0,0);
+    ofxImGui::Settings().windowSize = ofVec2f(GUI_WIDTH,ofGetHeight());
     
-    int margin =  LayoutManager::MARGIN;
-    m_gui.setAutoDraw(false);
-    auto pos = m_gui.getPosition();
-    m_gui.setPosition(pos.x + margin, pos.y + margin);
-    m_gui.addHeader(GUI_SETTINGS_NAME, false);
+    m_width = 0;
+    m_height = 0;
     
-    m_gui.addFRM(0.1);
-    
-    m_gui.addBreak();
 }
 
 void GuiManager::setupSerialGui()
 {
-    m_id.set("ID", 0, 0, 2);
-    m_id.addListener(this, &GuiManager::setId);
+    m_serialConnected.set("Serial Connected", false);
+}
+
+void GuiManager::setupNorma()
+{    
+    m_normaGroup.setName("NORMA");
+    m_normaMode.set("Scene", 0);
+    m_normaMode.addListener(this, &GuiManager::sendNorma);
+    m_normaGroup.add(m_normaMode);
     
-    m_command.set("Command", 0, 0, 3);
-    m_command.addListener(this, &GuiManager::setCommand);
+    for(int i=0; i< 6; i++){
+        m_normaNames.push_back(ofToString(i));
+    }
+}
+
+void GuiManager::setupAdalgisa()
+{
+    m_adalgisaGroup.setName("ADALGISA");
+    m_adalgisaMode.set("Scene", 0);
+    m_adalgisaMode.addListener(this, &GuiManager::sendAdalgisa);
+    m_adalgisaGroup.add(m_adalgisaMode);
     
-    m_serialConnected.set("Serial", AppManager::getInstance().getSerialManager().getConnected());
-    
-    ofxDatGuiFolder* folder = m_gui.addFolder("Serial", ofColor::purple);
-    folder->addToggle("Serial", AppManager::getInstance().getSerialManager().getConnected());
-    folder->addSlider(m_id);
-    folder->addSlider(m_command);
-    folder->expand();
-    
-    m_gui.addBreak();
+    for(int i=0; i< 6; i++){
+        m_adalgisaNames.push_back(ofToString(i));
+    }
 }
 
 
+
+void GuiManager::sendNorma(int& value)
+{
+    AppManager::getInstance().getSerialManager().sendRemote(0, value);
+}
+
+void GuiManager::sendAdalgisa(int& value)
+{
+    AppManager::getInstance().getSerialManager().sendRemote(1, value);
+}
 
 void GuiManager::setId(int& value)
 {
@@ -109,7 +124,8 @@ void GuiManager::setCommand(int& value)
 
 void GuiManager::update()
 {
-    m_gui.update();
+    m_gui.setTheme(new GuiTheme());
+    m_serialConnected = AppManager::getInstance().getSerialManager().getConnected();
 }
 
 
@@ -126,17 +142,53 @@ void GuiManager::draw()
 void GuiManager::drawGui()
 {
     ofEnableAlphaBlending();
-    m_gui.draw();
-    ofDisableAlphaBlending();
-}
-
-void GuiManager::setupGuiEvents()
-{
-    //m_gui.onDropdownEvent(this, &GuiManager::onDropdownEvent);
-    //m_gui.onColorPickerEvent(this, &GuiManager::onColorPickerEvent);
-    m_gui.onButtonEvent(this, &GuiManager::onButtonEvent);
-    //m_gui.onToggleEvent(this, &GuiManager::onToggleEvent);
-    //m_gui.onMatrixEvent(this, &GuiManager::onMatrixEvent);
+    
+    m_gui.begin();
+    
+    auto mainSettings  = ofxImGui::Settings();
+    //ofxImGui::Settings().windowPos  = ofVec2f(-LayoutManager::MARGIN,-LayoutManager::MARGIN);
+    // ofxImGui::Settings().windowSize = ofVec2f(GUI_WIDTH,ofGetHeight());
+    if (ofxImGui::BeginWindow("Norma Remote App", mainSettings, false))
+    {
+        ImGui::Text("%.1f FPS (%.3f ms/frame)", ofGetFrameRate(), 1000.0f / ImGui::GetIO().Framerate);
+        
+             ofxImGui::AddParameter(m_serialConnected);
+        
+        if (ofxImGui::BeginTree(m_normaGroup, mainSettings))
+        {
+            //ofxImGui::AddCombo(m_normaMode, m_normaNames);
+            ofxImGui::AddRadio(m_normaMode, m_normaNames, m_normaNames.size());
+            ofxImGui::EndTree(mainSettings);
+        }
+        
+        if (ofxImGui::BeginTree(m_adalgisaGroup, mainSettings))
+        {
+            //ofxImGui::AddCombo(m_adalgisaMode, m_adalgisaNames);
+            ofxImGui::AddRadio(m_adalgisaMode, m_adalgisaNames, m_adalgisaNames.size());
+            ofxImGui::EndTree(mainSettings);
+        }
+        
+//        if (ofxImGui::BeginTree(m_communicationsGroup, mainSettings))
+//        {
+//            ofxImGui::AddParameter(m_streaming);
+//            if (ImGui::Button("Next Frame..."))
+//            {
+//                AppManager::getInstance().getUdpManager().nextFrame();
+//            }
+//
+//            ofxImGui::EndTree(mainSettings);
+//
+//
+//        }
+    
+    }
+    
+    ofxImGui::EndWindow(mainSettings);
+    m_gui.end();
+    
+    //ofDisableAlphaBlending();
+    
+    this->updateSize(mainSettings);
 }
 
 
@@ -179,49 +231,21 @@ void GuiManager::toggleGui()
 
 void GuiManager::drawRectangle()
 {
-    int margin =  LayoutManager::MARGIN;
     ofPushStyle();
     ofSetColor(15);
-    ofDrawRectangle( m_gui.getPosition().x - margin, 0, m_gui.getWidth() + 2*margin, ofGetHeight());
+    ofDrawRectangle( 0, 0, this->getWidth(), ofGetHeight());
     ofPopStyle();
 }
 
 
 
-void GuiManager::onDropdownEvent(ofxDatGuiDropdownEvent e)
+void GuiManager::updateSize(const ofxImGui::Settings& settings)
 {
-    cout << "onDropdownEvent: " << e.target->getName() << " Selected" << endl;
+    if(m_width!= settings.windowSize.x){
+        m_width = settings.windowSize.x;
+        AppManager::getInstance().getLayoutManager().windowResized(ofGetWidth(), ofGetHeight());
+    }
     
+    m_height = settings.windowSize.y;
+    m_position = ofPoint(settings.windowPos.x, settings.windowPos.y);
 }
-
-void GuiManager::onColorPickerEvent(ofxDatGuiColorPickerEvent e)
-{
-    cout << "onColorPickerEvent: " << e.target->getName() << " Selected" << endl;
-
-   
-}
-
-void GuiManager::onButtonEvent(ofxDatGuiButtonEvent e)
-{
-    cout << "onButtonEvent: " << e.target->getName() << " Selected" << endl;
-    
-}
-
-
-void GuiManager::onToggleEvent(ofxDatGuiToggleEvent e)
-{
-    cout << "onToggleEvent: " << e.target->getName() << " Selected" << endl;
-    
-}
-
-void GuiManager::onMatrixEvent(ofxDatGuiMatrixEvent e)
-{
-    cout << "onMatrixEvent " << e.child << " : " << e.enabled << endl;
-}
-
-
-void GuiManager::setSerialConnected(bool value)
-{
-    m_gui.getToggle("Serial")->setChecked(value);
-}
-

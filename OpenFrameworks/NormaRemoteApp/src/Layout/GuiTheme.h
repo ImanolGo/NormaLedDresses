@@ -7,34 +7,25 @@
  */
 
 
-
 #pragma once
 
-#include "ofxDatGuiTheme.h"
+//#include "ofxImGui.h"
+#include "BaseTheme.h"
+
 
 //========================== class GuiTheme ==============================
 //============================================================================
 /** \class GuiTheme GuiTheme.h
  *	\brief Costume GUI theme
- *	\details Based on ofxDatGuiTheme
+ *	\details Based on ThemeTest
  */
 
 
-class GuiTheme : public ofxDatGuiTheme{
-    
+class GuiTheme: public ofxImGui::BaseTheme
+{
 public:
     
-    GuiTheme()
-    {
-        layout.width = 350;
-        layout.upperCaseLabels = false;
-        //font.file =  AssetPath + "fonts/open-sans/OpenSans-Regular.ttf";
-        font.file = LayoutManager::LAYOUT_FONT;
-        font.size = 7;
-        color.matrix.normal.button = hex(0x6E6E6E);
-        color.matrix.hover.button = hex(0x9C9DA1);
-        color.matrix.selected.button = hex(0x2FA1D6);
-        
-        init();
-    }
+    void setup() override;
+    
 };
+

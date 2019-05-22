@@ -109,6 +109,8 @@ private:
     
     void drawText();
     
+    void drawBackground();
+    
 private:
 
 

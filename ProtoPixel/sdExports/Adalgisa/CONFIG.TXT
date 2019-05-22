@@ -20,4 +20,6 @@
 AdaBl 10
 AdaCh 10
 Ada1 10
+Ada2 10
+Ada3 10
 

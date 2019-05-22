@@ -12,7 +12,6 @@
 
 #include "ofMain.h"
 #include "Manager.h"
-#include "ofxSerial.h"
 
 
 //========================== class SerialManager =======================================
@@ -72,7 +71,7 @@ private:
     
     void connect(int portNum);
     
-    bool checkConnection(string port);
+    bool checkConnection(int port);
     
     void sendConnection();
     
@@ -88,8 +87,7 @@ private:
     
 private:
     
-    //ofSerial   m_serial;
-    ofx::IO::SerialDevice m_serial;
+    ofSerial   m_serial;
     bool       m_connected;
     
     serial_header    m_dataHeader;
