@@ -130,14 +130,15 @@ bool SerialManager::checkConnection(int port)
 //        m_serial.flush();
 //        ofSleepMillis(500);
         ofLogNotice() <<"SerialManager::checkConnection << Arduino sendConnection to " << port;
-        
+        m_serial.flush();
+        ofSleepMillis(300);
         this->sendConnection();
 //        float initTime = ofGetElapsedTimef();
 //        while(ofGetElapsedTimef()-initTime<1.5){
 //
 //        }
         
-        ofSleepMillis(300);
+        ofSleepMillis(1000);
         if(this->receivedConnected()){
             ofLogNotice() <<"SerialManager::checkConnection << Arduino connected to " << port;
             return true;
@@ -269,25 +270,26 @@ void SerialManager::update()
         this->autoConnect();
         m_firstConnect = false;
     }
-     int numBytes = m_serial.available();
-     while(numBytes>0){
-        
-         unsigned char bytes[numBytes];
-         m_serial.readBytes( bytes, numBytes );
-         
-         string str((char *)bytes);
-         std::stringstream ss;
-         
-         for(int i=0; i<str.length(); ++i){
-             ss << std::hex << (int)str[i] << " ";
-         }
-         std::string mystr = ss.str();
-         
-         ofLogNotice() <<"SerialManager::update ->  " << mystr;
-        
-         
-        numBytes = m_serial.available();
-    }
+    
+//    int numBytes = m_serial.available();
+//     while(numBytes>0){
+//        
+//         unsigned char bytes[numBytes];
+//         m_serial.readBytes( bytes, numBytes );
+//         
+//         string str((char *)bytes);
+//         std::stringstream ss;
+//         
+//         for(int i=0; i<str.length(); ++i){
+//             ss << std::hex << (int)str[i] << " ";
+//         }
+//         std::string mystr = ss.str();
+//         
+//         //ofLogNotice() <<"SerialManager::update ->  " << mystr;
+//        
+//         
+//        numBytes = m_serial.available();
+//    }
 }
 
 

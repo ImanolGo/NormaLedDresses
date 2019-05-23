@@ -89,6 +89,8 @@
                 <item>content:cloudUp1.mp4</item>
                 <item>content:ColdPlayHeartBeat1.mp4</item>
                 <item>content:NormLove.mov</item>
+                <item>content:mainVideo.py</item>
+                <item>content:BlackMask</item>
                 <item>content:channel 1</item>
                 <item>content:channel 2</item>
                 <item>content:channel 3</item>
@@ -109,7 +111,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -133,7 +135,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -157,7 +159,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -181,7 +183,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -205,7 +207,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -229,7 +231,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -253,7 +255,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -277,7 +279,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -301,7 +303,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -325,7 +327,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -349,7 +351,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -373,7 +375,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -397,7 +399,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -421,7 +423,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -445,7 +447,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -469,7 +471,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -493,7 +495,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -517,7 +519,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -541,7 +543,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -565,7 +567,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -589,7 +591,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -613,7 +615,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -637,7 +639,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -661,7 +663,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -685,7 +687,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -709,7 +711,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -733,7 +735,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -757,7 +759,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -781,7 +783,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -805,7 +807,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -829,7 +831,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -853,7 +855,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -877,7 +879,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -901,7 +903,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -925,7 +927,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -949,7 +951,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -973,7 +975,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -997,7 +999,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1021,7 +1023,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1045,7 +1047,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1069,7 +1071,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1093,7 +1095,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1117,7 +1119,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1141,7 +1143,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1165,7 +1167,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1189,7 +1191,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1213,7 +1215,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1237,7 +1239,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1261,7 +1263,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1285,7 +1287,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1309,7 +1311,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1333,7 +1335,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1357,7 +1359,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1381,7 +1383,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1405,7 +1407,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1429,7 +1431,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1453,7 +1455,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1477,7 +1479,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1501,7 +1503,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1525,7 +1527,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1549,7 +1551,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1573,7 +1575,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1597,7 +1599,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1621,7 +1623,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1645,7 +1647,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1669,7 +1671,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1693,7 +1695,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -1717,7 +1719,7 @@
                 <ON type="bool">1</ON>
                 <Level type="float">1</Level>
                 <zone_level type="float">1</zone_level>
-                <PPx_gamma_correction type="bool">1</PPx_gamma_correction>
+                <PPx_gamma_correction type="bool">0</PPx_gamma_correction>
                 <PPx_temporal_dithering type="bool">0</PPx_temporal_dithering>
                 <PPx_double_points type="bool">0</PPx_double_points>
                 <PPx_RGB_ordering type="stringoption">RGB</PPx_RGB_ordering>
@@ -2036,6 +2038,53 @@
                 </params>
             </parameters>
             <transformation type="matrix4x4">0.134393,        0,        0,        0&#x0A;       0, 0.649929,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.667212, 0.941508,        0,        1</transformation>
+        </content>
+        <content>
+            <name>BlackMask</name>
+            <type>py:color</type>
+            <parameters>
+                <enabled type="bool">1</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <params>
+                    <color type="color">0, 0, 0, 255</color>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.352336,        0,        0,        0&#x0A;       0, 0.0420053,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.753104,  1.71917,        0,        1</transformation>
+        </content>
+        <content>
+            <name>mainVideo.py</name>
+            <type>PythonProgram</type>
+            <parameters>
+                <enabled type="bool">0</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <python_script type="filepath">$PROJECT_DIR/scripts/mainVideo.py</python_script>
+                <params>
+                    <gamma type="float">0.89</gamma>
+                    <brightness type="float">1.2</brightness>
+                    <contrast type="float">1.5</contrast>
+                    <saturation type="float">1.2</saturation>
+                    <position type="float">0.888</position>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.304866,        0,        0,        0&#x0A;       0,  1.64542,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.747296,  1.41328,        0,        1</transformation>
         </content>
     </contents>
     <groups></groups>

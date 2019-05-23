@@ -83,7 +83,7 @@ void GuiManager::setupNorma()
     m_normaMode.addListener(this, &GuiManager::sendNorma);
     m_normaGroup.add(m_normaMode);
     
-    for(int i=0; i< 10; i++){
+    for(int i=1; i<= 12; i++){
         m_normaNames.push_back(ofToString(i));
     }
 }
@@ -95,7 +95,7 @@ void GuiManager::setupAdalgisa()
     m_adalgisaMode.addListener(this, &GuiManager::sendAdalgisa);
     m_adalgisaGroup.add(m_adalgisaMode);
     
-    for(int i=0; i< 10; i++){
+    for(int i=1; i<= 12; i++){
         m_adalgisaNames.push_back(ofToString(i));
     }
 }
@@ -104,12 +104,12 @@ void GuiManager::setupAdalgisa()
 
 void GuiManager::sendNorma(int& value)
 {
-    AppManager::getInstance().getSerialManager().sendRemote(0, value);
+    AppManager::getInstance().getSerialManager().sendRemote(0, value+2);
 }
 
 void GuiManager::sendAdalgisa(int& value)
 {
-    AppManager::getInstance().getSerialManager().sendRemote(1, value);
+    AppManager::getInstance().getSerialManager().sendRemote(1, value+2);
 }
 
 void GuiManager::setId(int& value)
@@ -157,12 +157,33 @@ void GuiManager::drawGui()
         if (ofxImGui::BeginTree(m_normaGroup, mainSettings))
         {
             //ofxImGui::AddCombo(m_normaMode, m_normaNames);
+            
+            if (ImGui::Button("Off"))
+            {
+               AppManager::getInstance().getSerialManager().sendRemote(0,0);
+            }
+            
+            if (ImGui::Button("Test"))
+            {
+                AppManager::getInstance().getSerialManager().sendRemote(0,1);
+            }
+            
             ofxImGui::AddRadio(m_normaMode, m_normaNames, m_normaNames.size()/2);
             ofxImGui::EndTree(mainSettings);
         }
         
         if (ofxImGui::BeginTree(m_adalgisaGroup, mainSettings))
         {
+            if (ImGui::Button("Off"))
+            {
+                AppManager::getInstance().getSerialManager().sendRemote(1,0);
+            }
+            
+            if (ImGui::Button("Test"))
+            {
+                AppManager::getInstance().getSerialManager().sendRemote(1,1);
+            }
+            
             //ofxImGui::AddCombo(m_adalgisaMode, m_adalgisaNames);
             ofxImGui::AddRadio(m_adalgisaMode, m_adalgisaNames, m_adalgisaNames.size()/2);
             ofxImGui::EndTree(mainSettings);

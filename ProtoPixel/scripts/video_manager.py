@@ -61,9 +61,9 @@ class VideoManager:
                 else:
                     self.position = 0.0
             self.lastposition = self.position
-            if self.position >= 0.99:
-                self.lastposition = 0.0
-                self.nextVideo()
+            # if self.position >= 0.99:
+            #     self.lastposition = 0.0
+            #     self.nextVideo()
 
     def nextVideo(self):
         self.videoIndex = (self.videoIndex + 1)%len(self.videoPaths)
@@ -74,7 +74,7 @@ class VideoManager:
         print "VideoManager::nextVideo: loading -> " + path
 
         if result:
-            self.videoPlayer.setLoopState(OF_LOOP_NONE)
+            self.videoPlayer.setLoopState(OF_LOOP_NORMAL)
             self.videoPlayer.play()
             self.is_playing = True
             print "VideoManager::nextVideo: isPlaying!!!! -> "
