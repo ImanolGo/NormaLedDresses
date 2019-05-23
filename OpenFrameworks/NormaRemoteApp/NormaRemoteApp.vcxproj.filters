@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Addons\ofxImGui\libs\imgui\src\imgui.cpp">
+      <Filter>src\Addons\ofxImGui\libs\imgui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Addons\ofxImGui\libs\imgui\src\imgui_demo.cpp">
+      <Filter>src\Addons\ofxImGui\libs\imgui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Addons\ofxImGui\libs\imgui\src\imgui_draw.cpp">
+      <Filter>src\Addons\ofxImGui\libs\imgui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Addons\ofxImGui\libs\imgui\src\imgui_widgets.cpp">
+      <Filter>src\Addons\ofxImGui\libs\imgui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Addons\ofxImGui\src\BaseEngine.cpp">
+      <Filter>src\Addons\ofxImGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Addons\ofxImGui\src\DefaultTheme.cpp">
+      <Filter>src\Addons\ofxImGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Addons\ofxImGui\src\EngineGLFW.cpp">
+      <Filter>src\Addons\ofxImGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Addons\ofxImGui\src\EngineOpenGLES.cpp">
+      <Filter>src\Addons\ofxImGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Addons\ofxImGui\src\EngineVk.cpp">
+      <Filter>src\Addons\ofxImGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Addons\ofxImGui\src\Gui.cpp">
+      <Filter>src\Addons\ofxImGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Addons\ofxImGui\src\Helpers.cpp">
+      <Filter>src\Addons\ofxImGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Addons\ofxImGui\src\ofxImGuiLoggerChannel.cpp">
+      <Filter>src\Addons\ofxImGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Addons\ofxTextSuite\src\ofxTextBlock.cpp">
+      <Filter>src\Addons\ofxTextSuite\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\3D\CameraAnimations.cpp">
+      <Filter>src\Engine\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\3D\CameraAnimationsManager.cpp">
+      <Filter>src\Engine\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\3D\CameraManager.cpp">
+      <Filter>src\Engine\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\3D\LightManager.cpp">
+      <Filter>src\Engine\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Resources\ResourceManager.cpp">
+      <Filter>src\Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Visuals\ImageVisual.cpp">
+      <Filter>src\Engine\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Visuals\ImageVisual3D.cpp">
+      <Filter>src\Engine\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Visuals\RectangleVisual.cpp">
+      <Filter>src\Engine\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Visuals\TextVisual.cpp">
+      <Filter>src\Engine\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Visuals\VideoVisual.cpp">
+      <Filter>src\Engine\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Visuals\ViewManager.cpp">
+      <Filter>src\Engine\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Visuals\VisualEffects.cpp">
+      <Filter>src\Engine\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Visuals\VisualEffectsManager.cpp">
+      <Filter>src\Engine\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\I0\KeyboardManager.cpp">
+      <Filter>src\I0</Filter>
+    </ClCompile>
+    <ClCompile Include="src\I0\SerialManager.cpp">
+      <Filter>src\I0</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Layout\GuiManager.cpp">
+      <Filter>src\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Layout\GuiTheme.cpp">
+      <Filter>src\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Layout\LayoutManager.cpp">
+      <Filter>src\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main\AppManager.cpp">
+      <Filter>src\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main\main.cpp">
+      <Filter>src\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main\NormaRemoteApp.cpp">
+      <Filter>src\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main\SettingsManager.cpp">
+      <Filter>src\Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Addons">
+      <UniqueIdentifier>{44C2E31E-3A94-67F8-2669-D1C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Addons\ofxImGui">
+      <UniqueIdentifier>{A81B1EDC-1B0D-A833-E26D-3A40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Addons\ofxImGui\libs">
+      <UniqueIdentifier>{677EE04F-A195-3843-F707-8EF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Addons\ofxImGui\libs\imgui">
+      <UniqueIdentifier>{D5AB0486-4EEA-6DF5-B967-B478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Addons\ofxImGui\libs\imgui\src">
+      <UniqueIdentifier>{10FA5EC8-1271-2589-8DEB-5A4E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Addons\ofxImGui\src">
+      <UniqueIdentifier>{73744218-2D46-7462-275C-F64E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Addons\ofxTextSuite">
+      <UniqueIdentifier>{4C901EBD-3F7C-9A90-D6F3-9111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Addons\ofxTextSuite\src">
+      <UniqueIdentifier>{680B2582-57A0-7039-D0F7-5540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Addons\ofxTiming">
+      <UniqueIdentifier>{B438812C-132E-712E-DA71-5681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Addons\ofxTiming\src">
+      <UniqueIdentifier>{CAC7320C-62D9-974C-5BE1-EDC8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine">
+      <UniqueIdentifier>{33FA9329-3569-5A99-A4AF-D67C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\3D">
+      <UniqueIdentifier>{EFB4B634-3010-294F-63BC-3A8C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Resources">
+      <UniqueIdentifier>{2975D63A-2923-8592-710A-D9A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Visuals">
+      <UniqueIdentifier>{F737640D-9F42-AC92-7F50-BCBC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\I0">
+      <UniqueIdentifier>{2328543A-8C7A-E3DD-7D4D-BD0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Layout">
+      <UniqueIdentifier>{48DE4E4C-4D44-6A7D-6721-F29B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Main">
+      <UniqueIdentifier>{B604249B-4527-FF17-F2E4-84CF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Addons\ofxImGui\libs\imgui\src\imgui.h">
+      <Filter>src\Addons\ofxImGui\libs\imgui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxImGui\libs\imgui\src\imgui_internal.h">
+      <Filter>src\Addons\ofxImGui\libs\imgui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxImGui\libs\imgui\src\imstb_rectpack.h">
+      <Filter>src\Addons\ofxImGui\libs\imgui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxImGui\libs\imgui\src\imstb_textedit.h">
+      <Filter>src\Addons\ofxImGui\libs\imgui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxImGui\libs\imgui\src\imstb_truetype.h">
+      <Filter>src\Addons\ofxImGui\libs\imgui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxImGui\src\BaseEngine.h">
+      <Filter>src\Addons\ofxImGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxImGui\src\BaseTheme.h">
+      <Filter>src\Addons\ofxImGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxImGui\src\DefaultTheme.h">
+      <Filter>src\Addons\ofxImGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxImGui\src\EngineGLFW.h">
+      <Filter>src\Addons\ofxImGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxImGui\src\EngineOpenGLES.h">
+      <Filter>src\Addons\ofxImGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxImGui\src\EngineVk.h">
+      <Filter>src\Addons\ofxImGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxImGui\src\Gui.h">
+      <Filter>src\Addons\ofxImGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxImGui\src\Helpers.h">
+      <Filter>src\Addons\ofxImGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxImGui\src\imconfig.h">
+      <Filter>src\Addons\ofxImGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxImGui\src\ofxImGui.h">
+      <Filter>src\Addons\ofxImGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxImGui\src\ofxImGuiLoggerChannel.h">
+      <Filter>src\Addons\ofxImGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxTextSuite\src\ofxTextBlock.h">
+      <Filter>src\Addons\ofxTextSuite\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxTextSuite\src\ofxTextSuite.h">
+      <Filter>src\Addons\ofxTextSuite\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxTiming\src\DelayTimer.h">
+      <Filter>src\Addons\ofxTiming\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxTiming\src\FadeTimer.h">
+      <Filter>src\Addons\ofxTiming\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxTiming\src\Hysteresis.h">
+      <Filter>src\Addons\ofxTiming\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxTiming\src\LerpTimer.h">
+      <Filter>src\Addons\ofxTiming\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxTiming\src\ofxTiming.h">
+      <Filter>src\Addons\ofxTiming\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Addons\ofxTiming\src\RateTimer.h">
+      <Filter>src\Addons\ofxTiming\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\3D\CameraAnimations.h">
+      <Filter>src\Engine\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\3D\CameraAnimationsManager.h">
+      <Filter>src\Engine\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\3D\CameraManager.h">
+      <Filter>src\Engine\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\3D\LightManager.h">
+      <Filter>src\Engine\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Resources\ResourceManager.h">
+      <Filter>src\Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Visuals\BasicVisual.h">
+      <Filter>src\Engine\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Visuals\ImageVisual.h">
+      <Filter>src\Engine\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Visuals\ImageVisual3D.h">
+      <Filter>src\Engine\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Visuals\RectangleVisual.h">
+      <Filter>src\Engine\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Visuals\TextVisual.h">
+      <Filter>src\Engine\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Visuals\VideoVisual.h">
+      <Filter>src\Engine\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Visuals\ViewManager.h">
+      <Filter>src\Engine\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Visuals\VisualEffects.h">
+      <Filter>src\Engine\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Visuals\VisualEffectsManager.h">
+      <Filter>src\Engine\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="src\I0\KeyboardManager.h">
+      <Filter>src\I0</Filter>
+    </ClInclude>
+    <ClInclude Include="src\I0\SerialManager.h">
+      <Filter>src\I0</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Layout\GuiManager.h">
+      <Filter>src\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Layout\GuiTheme.h">
+      <Filter>src\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Layout\LayoutManager.h">
+      <Filter>src\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Main\AppManager.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Main\Manager.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Main\managers.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Main\NormaRemoteApp.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Main\SettingsManager.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bin\data\images\icons\icon.ico" />
+    <Image Include="icon.ico" />
+  </ItemGroup>
+</Project>
