@@ -11,14 +11,10 @@ width = size
 height =  size
 color = ofColor(255)
 elapsedTime = 0.0
-elapsedTimeLines = 0.0
 startColorIndex = 1
 endColorIndex = 2
 scaleFactor = 10.0
 lineScaleFactor = 10.0
-
-rows = [ 0.0069, 0.055, 0.102, 0.151, 0.234926, 0.284, 0.331, 0.38, 0.479, 0.528, 0.575, 0.625, 0.707, 0.756, 0.803, 0.899, 0.948, 0.994]
-cols = [ 0.026, 0.107, 0.186, 0.268089, 0.35, 0.428, 0.508, 0.591, 0.67, 0.751, 0.831, 0.912, 0.99]
 
 content = Content("MinimalLines")
 content.FBO_SIZE = (size,size) #optional: define size of FBO, default=(100,100)
@@ -30,94 +26,74 @@ content.add_parameter("change_hue", value=True)
 content.add_parameter("color_speed", min=0.00, max=1.0, value=0.1)
 content.add_parameter("speed", min=0.0, max=1.0, value=0.1)
 content.add_parameter("num_lines", min=0, max=10, value=1)
-content.add_parameter("stage_mode", value=False)
+content.add_parameter("num_rows", min=0, max=50, value=10)
 
 
 class Line:
 
-    size = 570
-    height = 0
-    width = 0
-    animationType = 0
-    animationTime = 1.0
-    elapsedTime = 0.0
-    xPos = 0
-    yPos = 0
-    endPos = 0
-    startPos = 0
+    def __init__(self, width, height, num_lines, start, speed):
+
+        self.width = width
+        self.height = height
+        self.num_lines = num_lines
+        self.start = start
+        self.speed = speed + ofRandomf()*(speed*0.2)
+        self.__initializeAttributes()
+    
+    def __initializeAttributes(self):
+        self.xPos = 0
+        self.yPos = 0
+        num = ofRandomf()
+        #print num
+        if(num>0):
+            self.directionX = 1.0
+        else:
+            self.directionX = -1.0
+
+        print self.directionX
+
+        num = ofRandomf()
+        if(num>0):
+            self.directionY = 1
+        else:
+            self.directionY = -1
+
+        self.rows = []
+        self.h = self.height/self.num_lines
+        self.w = 10
+
+        for i in range(self.num_lines):
+            y = i*self.h
+            self.rows.append(y)
+
+        self.index = int(self.start*(self.num_lines-1))
+        self.yPos = self.rows[self.index]
+        self.xPos = ofRandom(0.0,self.width)
+
+
 
     def update(self):
-        self.elapsedTime = self.elapsedTime + ofGetLastFrameTime()
 
-        if self.animationType == 0:
-            self.xPos = self.function(self.elapsedTime, self.startPos, self.endPos, self.animationTime)
-          
-        elif self.animationType == 1:
-            self.xPos = self.function(self.elapsedTime, self.startPos, self.endPos, self.animationTime)
-        
-        elif self.animationType == 2:
-            self.yPos = self.function(self.elapsedTime, self.startPos, self.endPos, self.animationTime)
-        
-        elif self.animationType == 3:
-            self.yPos = self.function(self.elapsedTime, self.startPos, self.endPos, self.animationTime)
+        self.xPos +=(self.directionX*self.speed)
+        self.yPos = self.rows[self.index]
+
+        if self.xPos>self.width or self.xPos < 0-self.w :
+            self.directionX = -self.directionX
+            self.index = self.index + self.directionY
+            if self.index >= self.num_lines or self.index < 0:
+                self.directionY = -self.directionY
+                self.index = self.index + 2*self.directionY
+
 
     def draw(self):
-        ofDrawRectangle(self.xPos, self.yPos, self.width, self.height)
+        ofDrawRectangle(self.xPos, self.yPos, self.w, self.h)
 
-    def start(self, _animationType, pos):
+    def setSpeed(self, value):
+        self.speed = value + ofRandomf()*(value*0.2)
 
-        global cols, rows
+num_lines = 2
+num_rows = 2
 
-        self.animationType = _animationType
-        self.elapsedTime = 0.0
-
-        if self.animationType == 0:
-            self.width = self.size/2
-            self.height = 10
-            self.xPos = - self.width + cols[0]*size
-            self.yPos = pos
-            self.startPos = self.xPos
-            self.endPos = cols[len(cols)-1]*size + self. width
-          
-        elif self.animationType == 1:
-            self.width = self.size/2
-            self.height = 10
-            self.xPos = cols[len(cols)-1]*size
-            self.yPos = pos
-            self.startPos = self.xPos
-            self.endPos = - self.width + cols[0]*size
-        
-        elif self.animationType == 2:
-            self.height = self.size/2
-            self.width = 10
-            self.yPos = - self.height + rows[0]*size
-            self.xPos = pos
-            self.startPos = self.yPos
-            self.endPos = rows[len(rows)-1]*size + self.height
-        
-        elif self.animationType == 3:
-            self.height = self.size/2
-            self.width = 10
-            self.yPos = rows[len(rows)-1]*size + self.height
-            self.xPos = pos
-            self.startPos = self.yPos
-            self.endPos = - self.height + rows[0]*size
-
-        desc_str = "posx = %f posy = %f type = %i." % (self.xPos, self.yPos, self.animationType)
-
-        #print desc_str
-
-    def function(self, t, from_, to, duration):
-        c = to - from_
-        return c*(t/duration) + from_
-
-    def setAnimationTime(self, animationTime):
-        self.animationTime = animationTime
-        #print self.animationTime
-
-
-
-num_lines = 50
 lines = []
 
 
@@ -144,14 +120,39 @@ def parameter_changed(value):
     We get the new value as an argument
     """
 
-    global lines, lineScaleFactor
-
-    time = ofMap(content['speed'], 0.0, 1.0, lineScaleFactor, lineScaleFactor/10.0)
+    global lines
 
     for line in lines:
-       line.setAnimationTime(time)
+       line.setSpeed(content['speed'])
 
-    elapsedTimeLines = 0
+@content.parameter_changed('num_lines')
+def parameter_changed(value):
+    """
+    This function is called every time a a_integer is changed.
+    We get the new value as an argument
+    """
+    
+    global lines 
+
+    diff = content['num_lines'] - len(lines)
+    print diff
+    if diff>0:
+        for i in range(0,diff):
+            l = Line(size,size,content['num_rows'], ofRandomuf(), content['speed'] )
+            lines.append(l)
+    elif diff<0:
+        first = len(lines) - abs(diff)
+        last = len(lines)
+        del lines[first:last]
+
+
+@content.parameter_changed('num_rows')
+def parameter_changed(value):
+    """
+    This function is called every time a a_integer is changed.
+    We get the new value as an argument
+    """
+    setupLines()
 
 @content.parameter_changed('color1')
 def parameter_changed(value):
@@ -167,34 +168,50 @@ def parameter_changed(value):
         color.g = content['color1'].g
         color.b = content['color1'].b
 
-@content.parameter_changed('stage_mode')
-def parameter_changed(value):
 
-    global size, cols, rows
+@content.OSC('/norma/num_lines')
+def oscNumLines(i):
+    print "/norma/num_lines" + str(i) 
 
-    if value == True:
-        rows = [ 0.899, 0.948, 0.994]
-        cols = [ 0.268089, 0.35, 0.428, 0.508, 0.591, 0.67, 0.751]
-    else:
-        rows = [ 0.0069, 0.055, 0.102, 0.151, 0.234926, 0.284, 0.331, 0.38, 0.479, 0.528, 0.575, 0.625, 0.707, 0.756, 0.803, 0.899, 0.948, 0.994]
-        cols = [ 0.026, 0.107, 0.186, 0.268089, 0.35, 0.428, 0.508, 0.591, 0.67, 0.751, 0.831, 0.912, 0.99]
+    global lines 
+
+    content['num_lines'] = i
+
+    diff = content['num_lines'] - len(lines)
+    print diff
+    if diff>0:
+        for i in range(0,diff):
+            l = Line(size,size,content['num_rows'], ofRandomuf(), content['speed'] )
+            lines.append(l)
+    elif diff<0:
+        first = len(lines) - abs(diff)
+        last = len(lines)
+        del lines[first:last]
+
+@content.OSC('/norma/num_rows')
+def oscNumRows(i):
+    print "/norma/num_rows" + str(i) 
+    content['num_rows'] = i
+    setupLines()
+
+@content.OSC('/norma/speed')
+def oscNumRows(x):
+    global lines
+    print "/norma/speed" + str(x) 
+    content['speed'] = x
+
+    for line in lines:
+       line.setSpeed(content['speed'])
 
 
-       
+def setupLines():
 
+    global lines 
 
-def startLines():
-
-    global size, cols, rows
-
+    lines = []
     for i in range(0, content['num_lines']):
-        type_ = randint(0, 1)
-        if type_>1:
-            n = randint(0, len(cols)-1)
-            lines[i].start(type_, cols[n]*size -1)
-        else: 
-            n = randint(0, len(rows)-1)
-            lines[i].start(type_, rows[n]*size - 1)
+        l = Line(size,size,content['num_rows'], ofRandomuf(), content['speed'] )
+        lines.append(l)
 
 def setup():
     """
@@ -204,15 +221,9 @@ def setup():
 
     global color, lines,lineScaleFactor
     color = ofColor(content['color1'].r,content['color1'].g,content['color1'].b)
-
     time = ofMap(content['speed'], 0.0, 1.0, lineScaleFactor, lineScaleFactor/10.0)
 
-    for i in range(0, 100):
-        line = Line()
-        line.setAnimationTime(time)
-        lines.append(line)
-
-    startLines()
+    setupLines()
         
        
 def update():
@@ -220,18 +231,12 @@ def update():
     For every frame, before drawing, we update stuff
     """
 
-    global elapsedTime, color, startColorIndex, endColorIndex, lines, elapsedTimeLines, scaleFactor,lineScaleFactor
+    global elapsedTime, color, startColorIndex, endColorIndex, lines, scaleFactor,lineScaleFactor
 
     for line in lines:
         line.update()
 
-    elapsedTimeLines+=ofGetLastFrameTime()
-
     time = ofMap(content['speed'], 0.0, 1.0, lineScaleFactor, lineScaleFactor/10.0)
-
-    if elapsedTimeLines>time:
-        elapsedTimeLines = 0
-        startLines()
 
     if content['change_hue'] == False:
         return

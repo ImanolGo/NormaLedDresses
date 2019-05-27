@@ -12,7 +12,6 @@
         <workspace>
             <name>root</name>
             <items>
-                <item>content:main.py</item>
                 <item>fixture:NormaCoverFront3</item>
                 <item>fixture:NormaCoverFront4</item>
                 <item>fixture:NormaCoverFront5</item>
@@ -105,6 +104,15 @@
                 <item>content:Channel 4</item>
                 <item>content:Channel 5</item>
                 <item>content:Slow Motion Fire Background Series 300fps Casio EX-F1 V13859a.mp4</item>
+                <item>content:MinimalLines.py</item>
+                <item>content:MinimalLines.py 1</item>
+                <item>content:MinimalLines.py 0</item>
+                <item>content:main.py 0</item>
+                <item>content:mainVideo.py</item>
+                <item>content:color 1</item>
+                <item>content:color</item>
+                <item>content:color 0</item>
+                <item>content:color 2</item>
             </items>
             <parameters>
                 <is_3D type="bool">0</is_3D>
@@ -2179,33 +2187,10 @@
     </fixtures>
     <contents>
         <content>
-            <name>main.py</name>
-            <type>PythonProgram</type>
-            <parameters>
-                <enabled type="bool">0</enabled>
-                <color_levels type="color">255, 255, 255, 255</color_levels>
-                <Zone type="string"></Zone>
-                <texture_filtering type="stringoption">linear</texture_filtering>
-                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
-                <texture_vertical_offset type="int">0</texture_vertical_offset>
-                <projection_type type="stringoption">flatsimple</projection_type>
-                <projection_parameters>
-                    <width type="float">1</width>
-                    <height type="float">1</height>
-                </projection_parameters>
-                <python_script type="filepath">$PROJECT_DIR/scripts/main.py</python_script>
-                <params>
-                    <gamma type="float">0.99</gamma>
-                    <Color type="color">102, 81, 255, 255</Color>
-                </params>
-            </parameters>
-            <transformation type="matrix4x4">0.649327,        0,        0,        0&#x0A;       0,  1.29059,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.129637,  0.97289,        0,        1</transformation>
-        </content>
-        <content>
             <name>Channel 1</name>
             <type>py:color</type>
             <parameters>
-                <enabled type="bool">1</enabled>
+                <enabled type="bool">0</enabled>
                 <color_levels type="color">255, 255, 255, 255</color_levels>
                 <Zone type="string"></Zone>
                 <texture_filtering type="stringoption">linear</texture_filtering>
@@ -2226,7 +2211,7 @@
             <name>Channel 2</name>
             <type>py:color</type>
             <parameters>
-                <enabled type="bool">1</enabled>
+                <enabled type="bool">0</enabled>
                 <color_levels type="color">255, 255, 255, 255</color_levels>
                 <Zone type="string"></Zone>
                 <texture_filtering type="stringoption">linear</texture_filtering>
@@ -2247,7 +2232,7 @@
             <name>Channel 3</name>
             <type>py:color</type>
             <parameters>
-                <enabled type="bool">1</enabled>
+                <enabled type="bool">0</enabled>
                 <color_levels type="color">255, 255, 255, 255</color_levels>
                 <Zone type="string"></Zone>
                 <texture_filtering type="stringoption">linear</texture_filtering>
@@ -2268,7 +2253,7 @@
             <name>Channel 4</name>
             <type>py:color</type>
             <parameters>
-                <enabled type="bool">1</enabled>
+                <enabled type="bool">0</enabled>
                 <color_levels type="color">255, 255, 255, 255</color_levels>
                 <Zone type="string"></Zone>
                 <texture_filtering type="stringoption">linear</texture_filtering>
@@ -2289,7 +2274,7 @@
             <name>Channel 5</name>
             <type>py:color</type>
             <parameters>
-                <enabled type="bool">1</enabled>
+                <enabled type="bool">0</enabled>
                 <color_levels type="color">255, 255, 255, 255</color_levels>
                 <Zone type="string"></Zone>
                 <texture_filtering type="stringoption">linear</texture_filtering>
@@ -2330,6 +2315,226 @@
                 </params>
             </parameters>
             <transformation type="matrix4x4">0.600543,        0,        0,        0&#x0A;       0,  1.25576,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.757944,  1.09481,        0,        1</transformation>
+        </content>
+        <content>
+            <name>color</name>
+            <type>py:color</type>
+            <parameters>
+                <enabled type="bool">1</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <params>
+                    <color type="color">0, 0, 0, 255</color>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.294681,        0,        0,        0&#x0A;       0, 0.0621817,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.749232,  1.67112,        0,        1</transformation>
+        </content>
+        <content>
+            <name>color 0</name>
+            <type>py:color</type>
+            <parameters>
+                <enabled type="bool">0</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <params>
+                    <color type="color">0, 0, 0, 255</color>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.349792,        0,        0,        0&#x0A;       0, 0.0912583,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.743584,  1.26472,        0,        1</transformation>
+        </content>
+        <content>
+            <name>color 1</name>
+            <type>py:color</type>
+            <parameters>
+                <enabled type="bool">0</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <params>
+                    <color type="color">255, 255, 255, 255</color>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.803272,        0,        0,        0&#x0A;       0,  1.53067,        0,        0&#x0A;       0,        0,        1,        0&#x0A; -0.7524,  1.17506,        0,        1</transformation>
+        </content>
+        <content>
+            <name>color 2</name>
+            <type>py:color</type>
+            <parameters>
+                <enabled type="bool">0</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <params>
+                    <color type="color">0, 0, 0, 255</color>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.349792,        0,        0,        0&#x0A;       0, 0.134801,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.751004,  0.54482,        0,        1</transformation>
+        </content>
+        <content>
+            <name>mainVideo.py</name>
+            <type>PythonProgram</type>
+            <parameters>
+                <enabled type="bool">1</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <python_script type="filepath">$PROJECT_DIR/scripts/mainVideo.py</python_script>
+                <params>
+                    <gamma type="float">0.99</gamma>
+                    <brightness type="float">1</brightness>
+                    <contrast type="float">1</contrast>
+                    <saturation type="float">1</saturation>
+                    <position type="float">0.124594</position>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.371967,        0,        0,        0&#x0A;       0,  1.19383,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.75108,  1.11408,        0,        1</transformation>
+        </content>
+        <content>
+            <name>main.py 0</name>
+            <type>PythonProgram</type>
+            <parameters>
+                <enabled type="bool">0</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <python_script type="filepath">$PROJECT_DIR/scripts/main.py</python_script>
+                <params>
+                    <gamma type="float">0.6</gamma>
+                    <Color type="color">5, 156, 255, 255</Color>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.341887,        0,        0,        0&#x0A;       0,  1.18617,        0,        0&#x0A;       0,        0,        1,        0&#x0A; -0.7458,  1.10616,        0,        1</transformation>
+        </content>
+        <content>
+            <name>MinimalLines.py</name>
+            <type>PythonProgram</type>
+            <parameters>
+                <enabled type="bool">0</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <python_script type="filepath">$PROJECT_DIR/scripts/MinimalLines.py</python_script>
+                <params>
+                    <color1 type="color">255, 255, 255, 255</color1>
+                    <color2 type="color">255, 255, 255, 255</color2>
+                    <color3 type="color">255, 255, 255, 255</color3>
+                    <change_hue type="bool">1</change_hue>
+                    <color_speed type="float">0.1</color_speed>
+                    <speed type="float">6.1</speed>
+                    <num_lines type="int">13</num_lines>
+                    <num_rows type="int">13</num_rows>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.325568,        0,        0,        0&#x0A;       0,  0.42648,        0,        0&#x0A;       0,        0,        1,        0&#x0A; -0.7524,  1.42164,        0,        1</transformation>
+        </content>
+        <content>
+            <name>MinimalLines.py 0</name>
+            <type>PythonProgram</type>
+            <parameters>
+                <enabled type="bool">0</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <python_script type="filepath">$PROJECT_DIR/scripts/MinimalLines.py</python_script>
+                <params>
+                    <color1 type="color">255, 255, 255, 255</color1>
+                    <color2 type="color">255, 255, 255, 255</color2>
+                    <color3 type="color">255, 255, 255, 255</color3>
+                    <change_hue type="bool">1</change_hue>
+                    <color_speed type="float">0.1</color_speed>
+                    <speed type="float">12</speed>
+                    <num_lines type="int">13</num_lines>
+                    <num_rows type="int">22</num_rows>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.156688,        0,        0,        0&#x0A;       0,   0.7324,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.84892,  0.85288,        0,        1</transformation>
+        </content>
+        <content>
+            <name>MinimalLines.py 1</name>
+            <type>PythonProgram</type>
+            <parameters>
+                <enabled type="bool">0</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <python_script type="filepath">$PROJECT_DIR/scripts/MinimalLines.py</python_script>
+                <params>
+                    <color1 type="color">255, 255, 255, 255</color1>
+                    <color2 type="color">255, 255, 255, 255</color2>
+                    <color3 type="color">255, 255, 255, 255</color3>
+                    <change_hue type="bool">1</change_hue>
+                    <color_speed type="float">0.1</color_speed>
+                    <speed type="float">12.1</speed>
+                    <num_lines type="int">13</num_lines>
+                    <num_rows type="int">22</num_rows>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.156688,        0,        0,        0&#x0A;       0,   0.7324,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.65768,   0.8504,        0,        1</transformation>
         </content>
     </contents>
     <groups></groups>

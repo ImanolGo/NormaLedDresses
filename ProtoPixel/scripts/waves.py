@@ -17,7 +17,7 @@ class Waves:
         self.targetAlpha = 1.0
         self.elapsedTime = 0.0
         self.one_day_in_seconds = 60*60*24
-        self.speed = 0.08
+        self.speed = 0.8
         self.setup()
 
 
@@ -66,7 +66,7 @@ class Waves:
             self.shader.setUniform4f('iColor', r,g,b,a)
             self.shader.setUniform1f('iGlobalTime', self.elapsedTime*self.speed)
             self.shader.setUniform3f('iResolution', float(self.width), float(self.height),0.0)
-            self.shader.setUniform1f('inoise_grain', 0.7)
+            self.shader.setUniform1f('inoise_grain', 2.7)
             ofDrawRectangle(-self.width/2 ,-self.height/2.,self.width,self.height)
             #self.fbo.draw(0,0)
        
