@@ -25,6 +25,7 @@ HH = 480
 content.FBO_SIZE = (WW,HH)
 shader = ofShader()
 
+content.add_parameter("hue", min=0.0, max=7.0, value=0.0)
 content.add_parameter("gamma", min=0.0, max=1.0, value=0.99)
 content.add_parameter("brightness", min=0.0, max=10.0, value=1.0)
 content.add_parameter("contrast", min=0.0, max=10.0, value=1.0)
@@ -77,6 +78,8 @@ def draw():
 
     if shader.isLoaded():
         shader.begin()
+        shader.setUniform3f("avgluma", 0.62,0.62,0.62)
+        shader.setUniform1f('hue', content["hue"])
         shader.setUniform1f('gamma', content["gamma"])
         shader.setUniform1f('contrast', content["contrast"])
         shader.setUniform1f('saturation', content["saturation"])
@@ -160,10 +163,16 @@ def setupShader():
     frag_contents_prefix = """
     #version 150    // <-- version my machine suports
 
+    const vec3 LumCoeff = vec3 (0.2125, 0.7154, 0.0721);
+    const mat3 rgb2yiq = mat3(0.299, 0.587, 0.114, 0.595716, -0.274453, -0.321263, 0.211456, -0.522591, 0.311135);
+    const mat3 yiq2rgb = mat3(1.0, 0.9563, 0.6210, 1.0, -0.2721, -0.6474, 1.0, -1.1070, 1.7046);
+
     uniform sampler2DRect texture0;
     uniform float contrast;
     uniform float saturation;
     uniform float brightness;
+    uniform vec3 avgluma;
+    uniform float hue;
 
     uniform float gamma;
     uniform float minInput = 0.0;
@@ -225,11 +234,19 @@ def setupShader():
         vec2 pos = texCoordVarying;
             
         vec4 colorIn = texture(texture0, pos);
+        vec3 texColor = colorIn.rgb;
         float alpha = colorIn.a;
 
-        vec4 colorOut;
+        vec3 yColor = rgb2yiq * texColor;
+        float originalHue = atan(yColor.b, yColor.g);
+        float finalHue = originalHue + hue;
+        float chroma = sqrt(yColor.b*yColor.b+yColor.g*yColor.g);
+        vec3 yFinalColor = vec3(yColor.r, chroma * cos(finalHue), chroma * sin(finalHue));
+        vec3 hueColor = yiq2rgb*yFinalColor;
+
+    
         // csb first
-        outputColor.rgb = ContrastSaturationBrightness(colorIn.rgb, brightness, saturation, contrast);
+        outputColor.rgb = ContrastSaturationBrightness(hueColor, brightness, saturation, contrast);
         // levels
         outputColor.rgb = LevelsControl(outputColor.rgb, minInput, gamma, maxInput, minOutput, maxOutput);
         outputColor.a = alpha;

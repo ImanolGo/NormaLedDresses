@@ -84,14 +84,9 @@
                 <item>content:color</item>
                 <item>content:Smoke_Dark_15_Videvo.mp4</item>
                 <item>content:perpetual_serenity_01_SD.mp4</item>
-                <item>content:Slow Motion Fire Background Series 300fps Casio EX-F1 V13859a.mp4</item>
-                <item>content:cloudUp2.mp4</item>
-                <item>content:cloudUp1.mp4</item>
-                <item>content:ColdPlayHeartBeat1.mp4</item>
                 <item>content:NormLove.mov</item>
                 <item>content:MinimalLines.py 0</item>
                 <item>content:MinimalLines.py</item>
-                <item>content:mainVideo.py</item>
                 <item>content:BlackMask</item>
                 <item>content:channel 1</item>
                 <item>content:channel 2</item>
@@ -99,6 +94,7 @@
                 <item>content:channel 4</item>
                 <item>content:MinimalLines.py 1</item>
                 <item>content:MinimalLines.py 2</item>
+                <item>content:mainVideo.py</item>
             </items>
             <parameters>
                 <is_3D type="bool">0</is_3D>
@@ -1744,7 +1740,7 @@
             <name>main.py</name>
             <type>PythonProgram</type>
             <parameters>
-                <enabled type="bool">0</enabled>
+                <enabled type="bool">1</enabled>
                 <color_levels type="color">255, 255, 255, 255</color_levels>
                 <Zone type="string"></Zone>
                 <texture_filtering type="stringoption">linear</texture_filtering>
@@ -1758,10 +1754,10 @@
                 <python_script type="filepath">$PROJECT_DIR/scripts/main.py</python_script>
                 <params>
                     <gamma type="float">0.99</gamma>
-                    <Color type="color">130, 54, 0, 255</Color>
+                    <Color type="color">255, 106, 0, 255</Color>
                 </params>
             </parameters>
-            <transformation type="matrix4x4">0.325224,        0,        0,        0&#x0A;       0,  1.73327,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.751621,  1.39221,        0,        1</transformation>
+            <transformation type="matrix4x4">0.325224,        0,        0,        0&#x0A;       0,  2.03111,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.751621,  1.45055,        0,        1</transformation>
         </content>
         <content>
             <name>color</name>
@@ -1833,106 +1829,6 @@
                 </params>
             </parameters>
             <transformation type="matrix4x4"> 0.38377,        0,        0,        0&#x0A;       0, 0.412867,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.761112,  1.49767,        0,        1</transformation>
-        </content>
-        <content>
-            <name>Slow Motion Fire Background Series 300fps Casio EX-F1 V13859a.mp4</name>
-            <type>py:video</type>
-            <parameters>
-                <enabled type="bool">0</enabled>
-                <color_levels type="color">255, 255, 255, 255</color_levels>
-                <Zone type="string"></Zone>
-                <texture_filtering type="stringoption">linear</texture_filtering>
-                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
-                <texture_vertical_offset type="int">0</texture_vertical_offset>
-                <projection_type type="stringoption">flatsimple</projection_type>
-                <projection_parameters>
-                    <width type="float">1</width>
-                    <height type="float">1</height>
-                </projection_parameters>
-                <params>
-                    <video_path type="filepath">/Users/imanolgo/MEGA/Video/ProtoPixelVideos/Slow Motion Fire Background Series 300fps Casio EX-F1 V13859a.mp4</video_path>
-                    <position type="float">0</position>
-                    <loop type="bool">1</loop>
-                    <autoplay type="bool">0</autoplay>
-                    <volume type="float">0</volume>
-                </params>
-            </parameters>
-            <transformation type="matrix4x4">0.412031,        0,        0,        0&#x0A;       0,  1.62259,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.756536,  1.44425,        0,        1</transformation>
-        </content>
-        <content>
-            <name>cloudUp2.mp4</name>
-            <type>py:video</type>
-            <parameters>
-                <enabled type="bool">0</enabled>
-                <color_levels type="color">255, 255, 255, 255</color_levels>
-                <Zone type="string"></Zone>
-                <texture_filtering type="stringoption">linear</texture_filtering>
-                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
-                <texture_vertical_offset type="int">0</texture_vertical_offset>
-                <projection_type type="stringoption">flatsimple</projection_type>
-                <projection_parameters>
-                    <width type="float">1</width>
-                    <height type="float">1</height>
-                </projection_parameters>
-                <params>
-                    <video_path type="filepath">/Users/imanolgo/MEGA/Video/JoannaHirr/cloudUp2.mp4</video_path>
-                    <position type="float">8.07141e-05</position>
-                    <loop type="bool">1</loop>
-                    <autoplay type="bool">0</autoplay>
-                    <volume type="float">1</volume>
-                </params>
-            </parameters>
-            <transformation type="matrix4x4">0.585672,        0,        0,        0&#x0A;       0,   1.7525,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.0223629,  1.79371,        0,        1</transformation>
-        </content>
-        <content>
-            <name>cloudUp1.mp4</name>
-            <type>py:video</type>
-            <parameters>
-                <enabled type="bool">0</enabled>
-                <color_levels type="color">255, 255, 255, 255</color_levels>
-                <Zone type="string"></Zone>
-                <texture_filtering type="stringoption">linear</texture_filtering>
-                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
-                <texture_vertical_offset type="int">0</texture_vertical_offset>
-                <projection_type type="stringoption">flatsimple</projection_type>
-                <projection_parameters>
-                    <width type="float">1</width>
-                    <height type="float">1</height>
-                </projection_parameters>
-                <params>
-                    <video_path type="filepath">/Users/imanolgo/MEGA/Video/JoannaHirr/cloudUp1.mp4</video_path>
-                    <position type="float">0</position>
-                    <loop type="bool">1</loop>
-                    <autoplay type="bool">0</autoplay>
-                    <volume type="float">1</volume>
-                </params>
-            </parameters>
-            <transformation type="matrix4x4"> 0.32921,        0,        0,        0&#x0A;       0, 0.445603,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.752928,  1.48403,        0,        1</transformation>
-        </content>
-        <content>
-            <name>ColdPlayHeartBeat1.mp4</name>
-            <type>py:video</type>
-            <parameters>
-                <enabled type="bool">0</enabled>
-                <color_levels type="color">255, 255, 255, 255</color_levels>
-                <Zone type="string"></Zone>
-                <texture_filtering type="stringoption">linear</texture_filtering>
-                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
-                <texture_vertical_offset type="int">0</texture_vertical_offset>
-                <projection_type type="stringoption">flatsimple</projection_type>
-                <projection_parameters>
-                    <width type="float">1</width>
-                    <height type="float">1</height>
-                </projection_parameters>
-                <params>
-                    <video_path type="filepath">/Users/imanolgo/MEGA/Video/VideoLoops/ColdPlayHeartBeat1.mp4</video_path>
-                    <position type="float">0.000374706</position>
-                    <loop type="bool">1</loop>
-                    <autoplay type="bool">0</autoplay>
-                    <volume type="float">1</volume>
-                </params>
-            </parameters>
-            <transformation type="matrix4x4"> 0.13187,        0,        0,        0&#x0A;       0, 0.159808,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.750332,  1.61893,        0,        1</transformation>
         </content>
         <content>
             <name>NormLove.mov</name>
@@ -2065,32 +1961,6 @@
             <transformation type="matrix4x4">0.352336,        0,        0,        0&#x0A;       0, 0.0420053,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.753104,  1.71917,        0,        1</transformation>
         </content>
         <content>
-            <name>mainVideo.py</name>
-            <type>PythonProgram</type>
-            <parameters>
-                <enabled type="bool">1</enabled>
-                <color_levels type="color">255, 255, 255, 255</color_levels>
-                <Zone type="string"></Zone>
-                <texture_filtering type="stringoption">linear</texture_filtering>
-                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
-                <texture_vertical_offset type="int">0</texture_vertical_offset>
-                <projection_type type="stringoption">flatsimple</projection_type>
-                <projection_parameters>
-                    <width type="float">1</width>
-                    <height type="float">1</height>
-                </projection_parameters>
-                <python_script type="filepath">$PROJECT_DIR/scripts/mainVideo.py</python_script>
-                <params>
-                    <gamma type="float">0.89</gamma>
-                    <brightness type="float">1</brightness>
-                    <contrast type="float">1</contrast>
-                    <saturation type="float">1.2</saturation>
-                    <position type="float">0</position>
-                </params>
-            </parameters>
-            <transformation type="matrix4x4">0.304866,        0,        0,        0&#x0A;       0,  1.64542,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.747296,  1.41328,        0,        1</transformation>
-        </content>
-        <content>
             <name>MinimalLines.py</name>
             <type>PythonProgram</type>
             <parameters>
@@ -2107,13 +1977,13 @@
                 </projection_parameters>
                 <python_script type="filepath">$PROJECT_DIR/scripts/MinimalLines.py</python_script>
                 <params>
-                    <color1 type="color">255, 255, 255, 255</color1>
+                    <color1 type="color">255, 167, 6, 255</color1>
                     <color2 type="color">255, 255, 255, 255</color2>
                     <color3 type="color">255, 255, 255, 255</color3>
-                    <change_hue type="bool">1</change_hue>
+                    <change_hue type="bool">0</change_hue>
                     <color_speed type="float">0.1</color_speed>
-                    <speed type="float">7.5</speed>
-                    <num_lines type="int">1</num_lines>
+                    <speed type="float">9</speed>
+                    <num_lines type="int">0</num_lines>
                     <num_rows type="int">14</num_rows>
                 </params>
             </parameters>
@@ -2136,13 +2006,13 @@
                 </projection_parameters>
                 <python_script type="filepath">$PROJECT_DIR/scripts/MinimalLines.py</python_script>
                 <params>
-                    <color1 type="color">255, 255, 255, 255</color1>
+                    <color1 type="color">255, 167, 6, 255</color1>
                     <color2 type="color">255, 255, 255, 255</color2>
                     <color3 type="color">255, 255, 255, 255</color3>
-                    <change_hue type="bool">1</change_hue>
+                    <change_hue type="bool">0</change_hue>
                     <color_speed type="float">0.1</color_speed>
-                    <speed type="float">7.5</speed>
-                    <num_lines type="int">1</num_lines>
+                    <speed type="float">9</speed>
+                    <num_lines type="int">0</num_lines>
                     <num_rows type="int">13</num_rows>
                 </params>
             </parameters>
@@ -2165,13 +2035,13 @@
                 </projection_parameters>
                 <python_script type="filepath">$PROJECT_DIR/scripts/MinimalLines.py</python_script>
                 <params>
-                    <color1 type="color">255, 255, 255, 255</color1>
+                    <color1 type="color">255, 167, 6, 255</color1>
                     <color2 type="color">255, 255, 255, 255</color2>
                     <color3 type="color">255, 255, 255, 255</color3>
-                    <change_hue type="bool">1</change_hue>
+                    <change_hue type="bool">0</change_hue>
                     <color_speed type="float">0.1</color_speed>
-                    <speed type="float">8.5</speed>
-                    <num_lines type="int">1</num_lines>
+                    <speed type="float">9</speed>
+                    <num_lines type="int">0</num_lines>
                     <num_rows type="int">21</num_rows>
                 </params>
             </parameters>
@@ -2194,17 +2064,44 @@
                 </projection_parameters>
                 <python_script type="filepath">$PROJECT_DIR/scripts/MinimalLines.py</python_script>
                 <params>
-                    <color1 type="color">255, 255, 255, 255</color1>
+                    <color1 type="color">255, 167, 6, 255</color1>
                     <color2 type="color">255, 255, 255, 255</color2>
                     <color3 type="color">255, 255, 255, 255</color3>
-                    <change_hue type="bool">1</change_hue>
+                    <change_hue type="bool">0</change_hue>
                     <color_speed type="float">0.1</color_speed>
-                    <speed type="float">8.5</speed>
-                    <num_lines type="int">1</num_lines>
+                    <speed type="float">9</speed>
+                    <num_lines type="int">0</num_lines>
                     <num_rows type="int">21</num_rows>
                 </params>
             </parameters>
             <transformation type="matrix4x4">0.121306,        0,        0,        0&#x0A;       0, 0.654529,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.668576, 0.937278,        0,        1</transformation>
+        </content>
+        <content>
+            <name>mainVideo.py</name>
+            <type>PythonProgram</type>
+            <parameters>
+                <enabled type="bool">1</enabled>
+                <color_levels type="color">255, 255, 255, 255</color_levels>
+                <Zone type="string"></Zone>
+                <texture_filtering type="stringoption">linear</texture_filtering>
+                <texture_horizontal_offset type="int">0</texture_horizontal_offset>
+                <texture_vertical_offset type="int">0</texture_vertical_offset>
+                <projection_type type="stringoption">flatsimple</projection_type>
+                <projection_parameters>
+                    <width type="float">1</width>
+                    <height type="float">1</height>
+                </projection_parameters>
+                <python_script type="filepath">$PROJECT_DIR/scripts/mainVideo.py</python_script>
+                <params>
+                    <hue type="float">3.6</hue>
+                    <gamma type="float">0.89</gamma>
+                    <brightness type="float">1</brightness>
+                    <contrast type="float">1</contrast>
+                    <saturation type="float">1.2</saturation>
+                    <position type="float">0.192532</position>
+                </params>
+            </parameters>
+            <transformation type="matrix4x4">0.304866,        0,        0,        0&#x0A;       0,  1.64542,        0,        0&#x0A;       0,        0,        1,        0&#x0A;-0.747296,  1.41328,        0,        1</transformation>
         </content>
     </contents>
     <groups></groups>

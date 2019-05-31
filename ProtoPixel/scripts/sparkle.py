@@ -17,7 +17,7 @@ class Sparkles:
         self.targetAlpha = 1.0
         self.elapsedTime = 0.0
         self.one_day_in_seconds = 60*60*24
-        self.speed = 0.02
+        self.speed = 0.2
         self.setup()
 
 
