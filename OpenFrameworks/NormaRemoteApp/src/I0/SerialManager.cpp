@@ -191,7 +191,7 @@ bool SerialManager::receivedConnected()
     }
     
     
-    unsigned char bytes[numBytes];
+    unsigned char bytes[1024];
     
     int result = m_serial.readBytes( bytes, numBytes );
     
