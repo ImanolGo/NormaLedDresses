@@ -267,7 +267,7 @@ void SerialManager::update()
 {
     
     if(m_firstConnect){
-        this->autoConnect();
+        this->setupSerial();
         m_firstConnect = false;
     }
     
