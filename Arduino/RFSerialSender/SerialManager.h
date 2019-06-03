@@ -47,7 +47,7 @@ class SerialManager
 
     bool _connected;
     bool newData;
-    char receivedBytes[BUFF_SIZE];
+    uint8_t receivedBytes[BUFF_SIZE];
     byte numReceived = 0;
   
 };
@@ -181,12 +181,12 @@ void SerialManager::recvBytesWithStartEndMarkers()
 void SerialManager::parseNewData() {
     if (newData == true) 
     {
-        Serial.print("This just in (HEX values)... ");
-        for (byte n = 0; n < numReceived; n++) {
-            Serial.print(receivedBytes[n], HEX);
-            Serial.print(' ');
-        }
-        Serial.println();
+//        Serial.print("This just in (HEX values)... ");
+//        for (byte n = 0; n < numReceived; n++) {
+//            Serial.print(receivedBytes[n], HEX);
+//            Serial.print(' ');
+//        }
+//        Serial.println();
         
         this->parseMessage(receivedBytes,numReceived);
         newData = false;
@@ -238,8 +238,8 @@ void SerialManager::sendCommand(uint8_t* buf, uint8_t len)
       data[0] = buf[HEADER_SIZE];
       data[1] = buf[HEADER_SIZE+1];
    
-      Serial.print("SerialManager::isMessage -> sendCommand: ");
-      Serial.print(data[0]); Serial.print(" "); Serial.print(data[1]);
+//      Serial.print("SerialManager::isMessage -> sendCommand: ");
+//      Serial.print(data[0]); Serial.print(" "); Serial.print(data[1]);
       this->rfManager->sendData(data[0], data[1]);
 }
 
@@ -251,10 +251,10 @@ bool SerialManager::isMessage(uint8_t* _buffer, uint8_t bufferSize)
     {   
      
         uint8_t data_size = _buffer[SIZE_INDEX];
-        Serial.print("SerialManager::isMessage -> data size "); Serial.println(data_size);
+        //Serial.print("SerialManager::isMessage -> data size "); Serial.println(data_size);
         if ( (bufferSize-HEADER_SIZE) == data_size ) 
         {
-          Serial.println("SerialManager::isMessage -> true");
+          //Serial.println("SerialManager::isMessage -> true");
    
           return true; 
         }
@@ -262,7 +262,7 @@ bool SerialManager::isMessage(uint8_t* _buffer, uint8_t bufferSize)
     }
 
    
-    Serial.println("SerialManager::isMessage -> false");
+    //Serial.println("SerialManager::isMessage -> false");
     return false;
 }
 
@@ -270,11 +270,11 @@ bool SerialManager::isMessage(uint8_t* _buffer, uint8_t bufferSize)
 bool SerialManager::isData(uint8_t* _buffer, uint8_t bufferSize)
 {
     if ( _buffer[COMMAND_INDEX] == 'd') { 
-      Serial.println("SerialManager::isData -> true");
+      //Serial.println("SerialManager::isData -> true");
       return true;
     }
 
-     Serial.println("SerialManager::isData -> false");
+     //Serial.println("SerialManager::isData -> false");
 
     return false;
    

@@ -48,13 +48,6 @@ content.add_parameter("enableRainbow", type="button")
 content.add_parameter("enableFade", type="button")
 content.add_parameter("enableWaves", type="button")
 content.add_parameter("enableCircles", type="button")
-
-
-content.add_parameter("enableSparkles", value=True)
-content.add_parameter("enableRainbow", value=True)
-content.add_parameter("enableFade", value=True)
-content.add_parameter("enableWaves", value=True)
-content.add_parameter("enableCircles", value=True)
 content.add_parameter("Color", type="color", value=ofColor(255,255,255))
 
 

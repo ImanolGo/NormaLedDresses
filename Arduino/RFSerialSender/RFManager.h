@@ -9,14 +9,17 @@
 
 #pragma once
 #include "Arduino.h"
-#include "FastLED.h"
+
 #include <SPI.h>
 #include <NRFLite.h>
 
+
 const static uint8_t RADIO_ID = 1;       // Our radio's id.  The transmitter will send to this id.
 const static uint8_t DESTINATION_RADIO_ID = 0; // Id of the radio we will transmit to.
-const static uint8_t PIN_RADIO_CE = 10;
-const static uint8_t PIN_RADIO_CSN = 9;
+//const static uint8_t PIN_RADIO_CE = 10;
+//const static uint8_t PIN_RADIO_CSN = 9;
+const static uint8_t PIN_RADIO_CE = 0;
+const static uint8_t PIN_RADIO_CSN = 1;
 
 struct RadioPacket // Any packet up to 32 bytes can be sent.
 {
@@ -64,7 +67,7 @@ void RFManager::setupRF()
         while (1); // Wait here forever.
     }
 
-   // Serial.println("RFManager::setupRF ->Successfully connected");
+   //Serial.println("RFManager::setupRF ->Successfully connected");
     
     /*
     By default, 'init' configures the radio to use a 2MBPS bitrate on channel 100 (channels 0-125 are valid).
